@@ -19,6 +19,17 @@ export default function Home() {
       <div className='img-fluid img-hero'>
         <Image src={arqonTopImg}/>
         <p className='page-title'>Contact Us</p>
+
+        <div className='container page-center'>
+          <span className='page-desc-black'>We value</span>&nbsp;<span className='page-desc-turquoise'>INTEGRITY</span>
+        </div>
+        <div className='container page-center'>
+          <br/><span>For our brand's personality -- cool, creative, modern, professional,</span>
+        </div>
+        <div className='container page-center'>
+          <br/><span>contemporary, strong, tasteful, with <b>integrity</b></span>
+        </div>
+
       </div>
      
       <footer>
