@@ -123,3 +123,40 @@ li{
   font-size: 20px;
   cursor: pointer;
 }
+
+.img-hero {
+  padding-top: 0px;
+  align-items: center;
+}
+
+.page-title {
+  font-size:6vw;
+  color: #76cbc1;
+  font-weight: bold;
+  letter-spacing: 8px;
+  padding: 0 1rem;
+  margin: 0;
+  transform: translateY(-8rem);
+  margin-bottom: -2rem;
+}
+
+.page-desc-black{
+  font-size:2vw;
+  color:black;
+  font-weight: bold;
+}
+
+.page-desc-turquoise{
+  font-size:2vw;
+  color: #76cbc1;
+  font-weight: bold;
+}
+
+.page-center {
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  width: 25%;
+  vertical-align: middle;
+  align-items: center;
+  }
