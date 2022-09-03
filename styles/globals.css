@@ -160,3 +160,25 @@ li{
   vertical-align: middle;
   align-items: center;
   }
+
+.page-desc_border-bottom{
+  border-bottom: 3px solid #76CBC1;
+}
+
+.page-desc-across{
+  font-size:30px;
+  font-family: 'DinLight', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.background-turquoise{
+  border: none;
+  background-color: #76CBC1;
+  height: 80px;
+  text-align: center;
+}
+
+.textarea-contact{
+  height: 100px;
+}
