@@ -117,6 +117,7 @@ export default function Home() {
                       <label for='floatingTextArea'>Hello, I am interested in...</label>
                   </div>
 
+                  <button type='button' className='btn btn-outline-dark mb-5'>Submit</button>
                 </form>
               </span>
             </div>
