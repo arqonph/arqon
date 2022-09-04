@@ -130,21 +130,32 @@ export default function Home() {
               <span className='contactUs-header'>Read our F.A.Q.</span><br/><br/>
 
               <div className='accordion' id='faqs'>
-                <div className='accordion-item'>
+                <div className='accordion-item mb-3'>
                   <h2 className='accordion-header' id='heading-1'>
                     <button className='accordion-button' type='button' data-bs-toggle='collapse' 
                     data-bs-target='#faq-1' aria-expanded='true'
-                    aria-controls='faq-1'>Chapter 1- Your First Web Page</button>
+                    aria-controls='faq-1'>What is ARQON?</button>
                   </h2>
                   <div id='faq-1' className='accordion-collapse collapse '
                   aria-labelledby='heading-1' data-bs-parent='#faqs'>
                     <div className='accordion-body'>
-                      <p>FAQ 1 Accordion body description</p>
+                      <p>ARQON is a full service architectural firm that specializes in streamlined design and build projects.Aside from the basic architectural services, we also provide building information modeling service.</p>
                     </div>
-
                   </div>
                 </div>
-
+                <div className='accordion-item mb-3'>
+                  <h2 className='accordion-header' id='heading-2'>
+                    <button className='accordion-button' type='button' data-bs-toggle='collapse' 
+                    data-bs-target='#faq-2' aria-expanded='true'
+                    aria-controls='faq-2'>What are the typeof projects do you make?</button>
+                  </h2>
+                  <div id='faq-2' className='accordion-collapse collapse '
+                  aria-labelledby='heading-2' data-bs-parent='#faqs'>
+                    <div className='accordion-body'>
+                      <p>We design all types of project from residential, office and com</p>
+                    </div>
+                  </div>
+                </div>
               </div>
 
             </div>
