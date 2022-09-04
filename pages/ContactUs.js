@@ -90,8 +90,9 @@ export default function Home() {
           </div>
         </div>
 
+
         <div className='container-fluid'>
-          <div className='row contactUs-faq-row pt-4'>
+          <div className='row contactUs-faq-row pt-4 pb-4'>
             <div className='col-md-4 '>
               <span className='contactUs-vision'>LET'S BRING YOUR VISION TO LIFE</span><br/>
               <span className='contactUs-header'>Contact us</span><br/><br/>
@@ -117,10 +118,13 @@ export default function Home() {
                       <label for='floatingTextArea'>Hello, I am interested in...</label>
                   </div>
 
-                  <button type='button' style={{width: 120}} className='btn btn-outline-dark text-white bg-secondary mb-5'>Send</button>
+                  <button type='button' style={{width: 120}} className='btn btn-outline-dark text-white bg-secondary'>Send</button>
                 </form>
               </span>
             </div>
+
+
+
             <div className='col-md-8'>
               <span className='contactUs-vision'>DO YOU HAVE QUESTIONS ?</span><br/>
               <span className='contactUs-header'>Read our F.A.Q.</span><br/><br/>
