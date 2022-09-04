@@ -91,10 +91,10 @@ export default function Home() {
         </div>
 
         <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-md-4'>
-              <span>LET'S BRING YOUR VISION TO LIFE</span><br/>
-              <span>Contact us</span><br/>
+          <div className='row contactUs-faq-row pt-4'>
+            <div className='col-md-4 '>
+              <span className='contactUs-vision'>LET'S BRING YOUR VISION TO LIFE</span><br/>
+              <span className='contactUs-header'>Contact us</span><br/><br/>
               <span>
                 <form>
                   <div className='form-floating mb-3'>
@@ -113,18 +113,42 @@ export default function Home() {
                   </div>
 
                   <div className='form-floating mb-3'>
-                    <textarea style={{height: 100}} className='form-control textarea-contact' id='floatingTextArea' placeholder='Hello, I am interested in...' ></textarea>
+                    <textarea style={{height: 150}} className='form-control textarea-contact' id='floatingTextArea' placeholder='Hello, I am interested in...' ></textarea>
                       <label for='floatingTextArea'>Hello, I am interested in...</label>
                   </div>
 
-                  <button type='button' className='btn btn-outline-dark mb-5'>Submit</button>
+                  <button type='button' style={{width: 120}} className='btn btn-outline-dark text-white bg-secondary mb-5'>Send</button>
                 </form>
               </span>
             </div>
             <div className='col-md-8'>
+              <span className='contactUs-vision'>DO YOU HAVE QUESTIONS ?</span><br/>
+              <span className='contactUs-header'>Read our F.A.Q.</span><br/><br/>
+
+              <div className='accordion' id='faqs'>
+                <div className='accordion-item'>
+                  <h2 className='accordion-header' id='heading-1'>
+                    <button className='accordion-button' type='button' data-bs-toggle='collapse' 
+                    data-bs-target='#faq-1' aria-expanded='true'
+                    aria-controls='faq-1'>Chapter 1- Your First Web Page</button>
+                  </h2>
+                  <div id='faq-1' className='accordion-collapse collapse '
+                  aria-labelledby='heading-1' data-bs-parent='#faqs'>
+                    <div className='accordion-body'>
+                      <p>FAQ 1 Accordion body description</p>
+                    </div>
+
+                  </div>
+                </div>
+
+              </div>
+
             </div>
           </div>
         </div>
+
+       
+
 
       <footer>
         <Footer />

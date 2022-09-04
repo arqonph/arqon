@@ -182,3 +182,25 @@ li{
 .textarea-contact{
   height: 100px;
 }
+
+.contactUs-faq-row {
+  background-color: #76CBC1;
+  padding-left: 50px;
+ 
+}
+
+.contactUs-vision {
+  font-size: 12px;;
+}
+
+.contactUs-header {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.contactUs-input-text{
+  height: 50px;
+ 
+}
