@@ -160,3 +160,48 @@ li{
   vertical-align: middle;
   align-items: center;
   }
+
+.page-desc_border-bottom{
+  border-bottom: 3px solid #76CBC1;
+}
+
+.page-desc-across{
+  font-size:30px;
+  font-family: 'DinLight', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+
+.background-turquoise{
+  border: none;
+  background-color: #76CBC1;
+  height: 80px;
+  text-align: center;
+}
+
+.textarea-contact{
+  height: 100px;
+}
+
+.contactUs-faq-row {
+  background-color: #76CBC1;
+  padding-left: 50px;
+  padding-right: 50px;
+ 
+}
+
+.contactUs-vision {
+  font-size: 12px;;
+}
+
+.contactUs-header {
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 3px;
+}
+
+.contactUs-input-text{
+  height: 50px;
+ 
+}
