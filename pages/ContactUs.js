@@ -118,7 +118,7 @@ export default function Home() {
                       <label for='floatingTextArea'>Hello, I am interested in...</label>
                   </div>
 
-                  <button type='button' style={{width: 120}} className='btn btn-outline-dark text-white bg-secondary'>Send</button>
+                  <a href="#" style={{width: 120}} className='btn btn-dark btn-sm active'>Send</a>
                 </form>
               </span>
             </div>
