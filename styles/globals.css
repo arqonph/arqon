@@ -205,3 +205,9 @@ li{
   height: 50px;
  
 }
+
+.google-maps {
+  width: 100vw;
+  height: 75vh;
+  position: relative;
+}
