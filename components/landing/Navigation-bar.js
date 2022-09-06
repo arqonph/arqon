@@ -47,7 +47,7 @@ function NavigationBar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link href='#PROJECTS'>
+                            <Link href='/Projects'>
                                 <a className='nav-link text-white'><span>PROJECTS</span></a>
                             </Link>
                         </li>
