@@ -13,6 +13,7 @@ html,
 body {
   padding: 0;
   margin: 0;
+  overflow-x: hidden;
 }
 
 a {
@@ -23,7 +24,7 @@ a {
 * {
   box-sizing: border-box;
 }
-
+/* =========== NAVIGATION BAR =========== */
 .navbar{
   background-color: #3E3D3F;
 }
@@ -77,6 +78,404 @@ li{
     border-bottom: 1px solid #a09e9e;
   }
 }
+
+/* =========== BODY =========== */
+.heroImage {
+  background-image: url('../assets/01_Arqon_Home page_01-01.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+}
+.heroImage2 {
+  position: relative;
+  background-image: url('../assets/01_Arqon_Home page_02.jpg');
+  font-family: 'Adamcg', sans-serif;
+  font-size: calc(1px + 1.5vw);
+  background-size: cover;
+  min-height: 100vh;
+  color: #3E3D3F;
+}
+.hero2Text{
+  position: absolute;
+  border-bottom: 3px solid #fff;
+  top: 100px;
+}
+.vission {
+  font-size: calc(3px + 3vw);
+  color: #fff;
+}
+
+.services {
+  padding: 0 50px;
+  margin-top: -30px;
+}
+.archiImage{
+  background-image: url('../assets/01_Arqon_Home page_03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 520px;
+}
+
+.designBuildImage{
+  background-image: url('../assets/01_Arqon_Home page_04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 520px;
+}
+.modelingImage {
+  background-image: url('../assets/01_Arqon_Home page_05.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 520px;
+}
+
+.offerFooter {
+  position: absolute;
+  padding: 10px 0px;
+  background-color: rgba(66, 66, 60, .8);
+  width: 100%;
+  font-family: 'DinLight',sans-serif;
+  color: #fff;
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.overlay {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  background-color: rgba(66, 66, 60, .5);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease;
+}
+
+.text{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: center;
+}
+.offerFooterOverlay{
+  position: absolute;
+  padding: 10px 0px;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100%;
+  font-weight: bold;
+  font-family: 'DinLight',sans-serif;
+  color: rgb(0, 0, 0);
+  bottom: 0px;
+  left: 0;
+  right: 0;
+}
+
+.container:hover .overlay{
+  opacity: 1;
+}
+
+.whatwedoDesc{
+  height: 300px;
+  border-top: 1px solid #76CBC1;
+}
+.whatwedoDesc h1{
+  color: #76CBC1;
+  margin-top: -30px;
+}
+.paragraph{
+  font-family: 'DinLight',sans-serif;
+  font-size: 16px;
+  line-height: 35px;
+  padding-top: 10px;
+}
+
+.btnServies{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 0px 0;
+  width: 50%;
+  height: 45px;
+  font-family: 'DinLight',sans-serif;
+  color: #fff;
+  bottom: 0px;
+  left: 20px;
+  right: 0;
+  background-color: #76CBC1;
+}
+.btnServies button{
+  border: none;
+  width: 100%;
+  height: 100%;
+  background-color: #76CBC1;
+}
+
+.flexVid {
+  background-color: #76CBC1;
+}
+.bodyPage {
+  padding: 70px 100px;
+}
+.bodyPage .header {
+  font-size: 30px;
+}
+.bodyPage .highlight{
+  font-family: 'Adamcg' , sans-serif;
+  color: #fff;
+  font-size: 40px;
+}
+.bodyPage span{
+  font-family: 'DinLight',sans-serif;
+  font-weight: bolder;
+}
+.sampleProject p,
+.bodyPage .sentence{
+  font-family: 'DinLight',sans-serif;
+  font-size: 20px;
+  line-height: 35px;
+}
+
+.sampleProject .sampleProjHead{
+  font-family: 'Adamcg' , sans-serif;
+  color: #76CBC1;
+  font-size: 50px;
+}
+.vResidence {
+  background-image: url('../assets/V_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.nResidence {
+  background-image: url('../assets/N_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.sResidence {
+  background-image: url('../assets/S_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.dResidence {
+  background-image: url('../assets/D_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.gResidence {
+  background-image: url('../assets/G_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.tResidence {
+  background-image: url('../assets/T_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 350px;
+}
+.residenceTitle {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(66, 66, 60, .8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.residenceTitle .head {
+  position: relative;
+  font-family: 'Adamcg' , sans-serif;
+  font-weight: bold;
+  font-size:12px;
+  margin-left: 10px;
+}
+.residenceTitle .address {
+  position: absolute;
+  font-family: 'DinLight',sans-serif;
+  font-size: 10px;
+  margin-left: 10px;
+}
+
+.projectContainer {
+  -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+.projectContainer:hover {
+  -webkit-transform: scale(1.2);
+	transform: scale(1.02);
+}
+
+.projectsOverlay {
+  position: absolute;
+  opacity: 0;
+  transition: opacity .25s ease-in-out;
+  -moz-transition: opacity .25s ease-in-out;
+  -webkit-transition: opacity .25s ease-in-out;
+  background-color: rgba(66, 66, 60, .5);
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  transition: .3s ease;
+}
+
+.text{
+  color: #fff;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  white-space: center;
+}
+
+.footerOverlay {
+  position: absolute;
+  color: #fff;
+  width: 100%;
+  background-color: rgba(49, 49, 44, 0.8);
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.projectContainer:hover .projectsOverlay{
+  opacity: 1;
+}
+
+.footerOverlay{
+  position: absolute;
+  background-color: rgba(49, 49, 44, 0.8);
+  overflow: hidden;
+  width: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: .5s ease;
+}
+.projectContainer:hover .footerOverlay{
+  width: 100%;
+}
+
+.clientReview {
+  border-bottom: 3px solid #76CBC1;
+}
+.clientReview .header {
+  /* font-family: 'Adamcg' , sans-serif; */
+  font-weight: 700;
+  font-size: 20px;
+  color: #76CBC1;
+}
+
+.controls span {
+  color: #76CBC1;
+}
+.slide-comment{
+  margin-top: 15px;
+  padding: 0 10px;
+  width: 100%;
+  height: 250px;
+  border-radius: 5px;
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact {
+  /* background-color: #76CBC1; */
+  background: linear-gradient(0deg, #76CBC1 50%, #fff 50%);
+}
+.contactUsForm {
+  width: 100%;
+}
+.contactUsLine {
+  font-weight: bolder;
+  font-family: 'Adamcg' , sans-serif;
+  text-align: center;
+}
+.contactUsLine span {
+  color: #fff;
+}
+/* .headLine {
+  border-top: .5px solid #3E3D3F;
+  width: 50%;
+} */
+.arqon {
+  background-image: url('../assets/05_Arqon_Contact Us_01.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  align-items: center;
+  height: 350px;
+}
+.contactUsForm span {
+  font-family: 'DinLight',sans-serif;
+  background-color: #76CBC1;
+}
+.contactusHead h1 {
+  color: #fff;
+}
+.contactUsImage  {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.textArea{
+  height: 100px;
+}
+.formFields span {
+  font-size: 12px;
+  color:#df6738;
+}
+.formFields input {
+  height: 25px;
+}
+.contactSubmitBtn {
+  font-family: 'DinLight',sans-serif;
+  border: none;
+  background-color: #424245;
+  color: #fff;
+  width: 140px;
+  height: 30px;
+}
+
+
+/* =========== FOOTER =========== */
 .line {
   display: block;
   width: 100px;
@@ -85,31 +484,55 @@ li{
 }
 .listType{
   font-family: sans-serif;
-  padding-right:20px ;
 }
 
+.followUs{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding: 0px 0px;
+  height: 45px;
+  font-family: 'DinLight',sans-serif;
+  color: #fff;
+  bottom: 0px;
+  left: 20px;
+  right: 0;
+  background-color: #76CBC1;
+}
+.footerButton{
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
 .footerHeader{
+  font-size: 20px;
   padding-bottom: 20px;
   font-family: 'Adamcg' , sans-serif;
   border-bottom: 3px solid #76CBC1;
 }
 
 .footerLink {
+  font-size: 15px;
   font-family: 'DinLight',sans-serif;
   border: none;
   background-color: #76CBC1;
 }
 
-.contactUs li {
+.footerDetails li {
+  font-size: 15px;
   padding-bottom: 20px;
   border-bottom: 2px solid #76CBC1;
 }
-
+.footer ul {
+  font-size: 15xp;
+  padding: 0;
+}
 .footerB{
   font-family: 'DinLight',sans-serif;
   width: 100%;
   background-color: #3E3D3F;
-  font-size: 10px;
+  font-size: 15px;
 }
 
 .buttonUp{
@@ -124,126 +547,151 @@ li{
   cursor: pointer;
 }
 
-.img-hero {
-  padding-top: 0px;
-  align-items: center;
-}
 
-.page-title {
-  font-size:6vw;
-  color: #76cbc1;
-  font-weight: bold;
-  letter-spacing: 8px;
-  padding: 0 1rem;
-  margin: 0;
-  transform: translateY(-8rem);
-  margin-bottom: -2rem;
+/* =========== RESPONSIVE ===========  */
+@media (max-width: 1400px) {
+  .archiImage,
+  .designBuildImage,
+  .modelingImage{
+    height: 350px;
+  }
+  .contactUsLine span,
+  .contactusHead h1 {
+    color: #76CBC1;
+  }
 }
-
-.page-desc-black{
-  font-family: 'DinBold', sans-serif;
-  font-size:35px;
-  color:black;
-  font-weight: bolder;
+@media(max-width: 1280px){
+  .heroImage2,
+  .heroImage {
+    min-height: 80vh;
+  }
+  .contactUsForm {
+    margin: auto;
+    width: 75%;
+    padding: 10px;
+    }
 }
-
-.page-desc-turquoise{
-  font-family: 'DinBold', sans-serif;
-  font-size:35px;
-  color: #76cbc1;
-  font-weight: bolder;
+@media (max-width: 1024px){
+  /* .arqon {
+    display: none;
+  } */
+  
+  .arqon,
+  .heroImage,
+  .heroImage2 {
+    min-height: 60vh;
+  }
+  .footerLink,
+  .footer ul ,
+  .hero2Text{
+    font-size: calc(1px + 1.5vw);
+    border-bottom: 2px solid #fff;
+    top: 70px;
+  }
+  .footerDetails li{
+    font-size: calc(1px + 1.5vw);
+  }
+  .contactusHead h1,
+  .footerHeader,
+  .sampleProject .sampleProjHead
+  .bodyPage .highlight,
+  .bodyPage span,
+  .vission {
+    font-size: calc(3px + 3vw);
+  }
+  /* .headLine span, */
+  .bodyPage .sentence,
+  .paragraph{
+    line-height: 35px;
+    font-size: calc(1.5px + 1.5vw);
+  }
 }
-
-.page-center {
-  border: 0px;
-  display: flex;
-  justify-content: center;
-  width: 25%;
-  vertical-align: middle;
-  align-items: center;
+@media(max-width: 912px){
+  .arqon,
+  .heroImage2,
+  .heroImage {
+    min-height: 30vh;
+  }
+}
+@media(max-width: 820px){
+  .arqon,
+  .heroImage2,
+  .heroImage {
+    min-height: 30vh;
+  }
+  /* .headLine span, */
+  .contactusHead h1,
+  .footerHeader,
+  .sampleProject h1,
+  .sampleProject .sampleProjHead{
+    font-size: calc(2px + 3vw);
+  }
+  /* .headLine span, */
+  .footerDetails li,
+  .footerLink,
+  .footer ul {
+    font-size: calc(1px + 2vw);
+  }
+}
+@media (max-width: 425px){
+  .arqon,
+  .heroImage2,
+  .heroImage {
+    min-height: 20vh;
+  }
+  .hero2Text{
+    font-size: calc(1px + 1.6vw);
+    border-bottom: 1px solid #fff;
+    top: 30px;
   }
 
-.page-desc_border-bottom{
-  border-bottom: 3px solid #76CBC1;
-}
+  .contactusHead h1,
+  .bodyPage .highlight{
+    font-size: calc(3px + 4.5vw);
+  }
+  
+  .sampleProject .sampleProjHead,
+  .bodyPage span,
+  .vission {
+    font-size: calc(3px + 3vw);
+  }
+  .vResidence, 
+  .nResidence,
+  .sResidence,
+  .dResidence,
+  .gResidence,
+  .tResidence,
+  .archiImage,
+  .designBuildImage,
+  .modelingImage{
+    height: 150px;
+  }
+  /* .headLine span, */
+  .footerDetails li,
+  .footerLink,
+  .footer ul ,
+  .footerHeader,
+  .sampleProject h1,
+  .sampleProject p,
+  .bodyPage .sentence,
+  .paragraph{
+    line-height: 25px;
+    font-size: calc(2px + 3vw);
+  }
+  
+  .offerFooter{
+    font-size: calc(1.5px + 3vw);
+    padding: 1px 0px;
+  }
+  .bodyPage {
+    padding: 20px 50px;
+  }
+  .residenceTitle {
+    padding: 0;
+  }
 
-.page-desc-across{
-  font-size:30px;
-  font-family: 'DinLight', sans-serif;
-  color: white;
-  font-weight: bold;
-}
-
-.faq-body {
-  font-family: 'DinLight', sans-serif;
-  color: white;
-  background-color: rgb(85, 83, 83);
-}
-
-.dinlight-black {
-  font-family: 'DinLight', sans-serif;
-  color: black;
-}
-
-.background-turquoise{
-  border: none;
-  background-color: #76CBC1;
-  height: 80px;
-  text-align: center;
-}
-
-.textarea-contact{
-  height: 100px;
-}
-
-.contactUs-faq-row {
-  background-color: #76CBC1;
-  padding-left: 50px;
-  padding-right: 50px;
-}
-
-.contactUs-vision {
-  font-size: 12px;
-}
-
-.contactUs-header {
-  font-size: 25px;
-  color: white;
-  font-weight: bold;
-  letter-spacing: 3px;
-}
-
-.contactUs-input-text{
-  height: 50px;
- 
-}
-
-.contact-label{
-  font-size: 14px;
-}
-
-.contactUs-icon{
-  color: #76CBC1;
-}
-
-.google-maps {
-  width: 100vw;
-  height: 75vh;
-  position: relative;
-}
-
-.phone-email-home {
-  font-weight: bolder;
-  font-family: 'DinBold', sans-serif;
-  font-size: 20px;
-}
-
-.phone-email-home-desc {
-  font-family: 'DinRegular', sans-serif;
-}
-
-.img-card {
-  border: 0px 0px 0px 0px;
-  height: 100%;
-  align-items: center;
+  .residenceTitle .head,
+  .residenceTitle .address{
+    font-size: calc(1px + 2vw);
+  }
 }
