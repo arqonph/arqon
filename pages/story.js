@@ -4,7 +4,6 @@ import Navbar from "../components/landing/Navigation-bar";
 import Footer from "../components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
 import arqonStoryImg from "/assets/04_Arqon_Our Story_00.jpg";
-import aprilImg from "/assets/04_Arqon_Our Story_April.jpg";
 import Team from "/pages/team.js";
 
 export default function story() {
@@ -26,7 +25,7 @@ export default function story() {
       </div>
       <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
-          <div classNAme="col">
+          <div className="col">
             <h1>
               <span className="text-black">
                 It all started with our passion for
@@ -52,7 +51,7 @@ export default function story() {
       </div>
       <div className="cover-container section-2">
         <div className="container text-center pt-5 pb-5 ">
-          <div classNAme="row">
+          <div className="row">
             <div className="col">
               <h1> This is our story</h1>
               <p>
@@ -75,7 +74,7 @@ export default function story() {
           <div className="row">
             <div className="col">
               <h3 className="text-white"> COLLEAGUE’S TESTIMONIALS</h3>
-              <hr class="bg-white border-4 border-top border-white"></hr>
+              <hr className="bg-white border-4 border-top border-white"></hr>
               For April:
               <p className="col-sm-6">
                 Over the years, aside from April’s expertise in leading the
@@ -107,4 +106,3 @@ export default function story() {
     </div>
   );
 }
-<Image src={aprilImg} height={187} width={140} className="image" />;
