@@ -147,11 +147,25 @@ li{
   font-weight: bolder;
 }
 
+.page-desc-black-sm{
+  font-family: 'DinBold', sans-serif;
+  font-size:22px;
+  color:black;
+  font-weight: bold;
+}
+
 .page-desc-turquoise{
   font-family: 'DinBold', sans-serif;
   font-size:35px;
   color: #76cbc1;
   font-weight: bolder;
+}
+
+.page-desc-turquoise-sm{
+  font-family: 'DinBold', sans-serif;
+  font-size:22px;
+  color: #76cbc1;
+  font-weight: bold;
 }
 
 .page-center {
@@ -246,4 +260,20 @@ li{
   border: 0px 0px 0px 0px;
   height: 100%;
   align-items: center;
+}
+
+.card-title{
+  font-family: 'DinRegular', sans-serif;
+  color: white;
+  height: 50px;
+}
+
+.card-text{
+  font-family: 'DinLight', sans-serif;
+  color: white;
+  height: 45px;
+}
+
+.card-bg {
+  background-color: #5f5e60;
 }

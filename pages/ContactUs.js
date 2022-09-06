@@ -87,22 +87,22 @@ export default function Home() {
         <p className='page-desc-across'>We can't wait to welcome you in our Headquarters!</p>
       </div>     
 
-      <div className='container-fluid bg-secondary'>
+      <div className='container-fluid'>
           <div className='row'>
-            <div className='col-md-6 bg-secondary'>
-              <div className='card bg-secondary'>
+            <div className='col-md-6'>
+              <div className='card'>
                 <Image className='card-img-top' src={contactUs1} />
-                <div className='card-body bg-secondary'>
-                  <p className='card-title bg-secondary'></p>
+                <div className='card-bg'>
+                  <span className='card-title'>&nbsp;</span>
                 </div>
               </div>
             </div>
 
-            <div className='col-md-6 bg-secondary'>
-              <div className='card img-card bg-secondary'>
+            <div className='col-md-6'>
+              <div className='card'>
                 <Image className='card-img-top' src={contactUs2} />
-                <div className='card-body'>
-                  <p className='card-title'></p>
+                <div className='card-bg'>
+                  <span className='card-title'>&nbsp;</span>
                 </div>
               </div>
             </div>
@@ -110,20 +110,20 @@ export default function Home() {
 
           <div className='row'>
 
-            <div className='col-md-6 bg-secondary'>
-              <div className='card img-card bg-secondary'>
+            <div className='col-md-6'>
+              <div className='card'>
                 <Image className='card-img-top' src={contactUs3} />
-                <div className='card-body bg-secondary'>
-                  <p className='card-title bg-secondary'></p>
+                <div className='card-bg'>
+                  <span className='card-title'>&nbsp;</span>
                 </div>
               </div>
             </div>
 
-            <div className='col-md-6 bg-secondary'>
-              <div className='card img-card bg-secondary'>
+            <div className='col-md-6'>
+              <div className='card'>
                 <Image className='card-img-top' src={contactUs4} />
-                <div className='card-body bg-secondary'>
-                  <p className='card-title bg-secondary'></p>
+                <div className='card-bg'>
+                  <span className='card-title'>&nbsp;</span>
                 </div>
               </div>
             </div>
