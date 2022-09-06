@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Image from 'next/image'
-import arqonLogo from '../../assets/Arqon-Logos-Word.jpg'
+import arqonLogo from '../../assets/headerArqonLogo.jpg'
 import arqonPrimary from '../../assets/Arqon-Primary.jpg'
 import Link from 'next/link'
 
@@ -9,7 +9,7 @@ function NavigationBar() {
     <div>
         <nav className='navbar navbar-expand-lg navbar-light px-5'>
             <a href='/' className='arqonLogo d-lg-flex d-none'>
-                <Image src={arqonLogo} height={75} width={200}/>
+                <Image src={arqonLogo} height={43} width={219}/>
             </a>
             <div
                 className='navbar-toggler collapsed'
@@ -31,7 +31,7 @@ function NavigationBar() {
             <div className='collapse navbar-collapse' id='toggleMobileMenu'>
                 <div className='mobileLogo text-center'>
                     <a href='/' className='arqonLogo d-lg-none '>
-                        <Image src={arqonLogo} height={75} width={150}/>
+                        <Image src={arqonLogo} height={43} width={219}/>
                     </a>
                     </div>
                 <div className='navMenu ms-auto text-start'>
