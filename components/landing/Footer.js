@@ -104,7 +104,7 @@ function Footer() {
                   </li>
                 </ul>
               </div>
-              <button className='text-center py-2 col-3 footerLink text-white col-4'>Contact us</button>
+              <a href='/ContactUs' className='text-center py-2 col-3 footerLink text-white col-4'>Contact us</a>
             </div>
           </div>
         </div>
