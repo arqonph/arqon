@@ -56,7 +56,7 @@ export default function Home() {
         <div class='container'>
           <div class='row'>
             <div className='col-md-4 text-center'>
-              <i className='fa-solid fa-phone fa-2xl contactUs-icon'></i><br/>
+              <p><i className='fa-solid fa-phone fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>+63 917 817 4612</span><br/>
               <span className='phone-email-home-desc'>Call us anytime from</span><br/>
               <span className='phone-email-home-desc'>Monday to Friday, 8am to 5pm.</span>
@@ -64,14 +64,14 @@ export default function Home() {
             </div>
             
             <div className='col-md-4 text-center'>
-              <i class='fa-regular fa-envelope fa-2xl contactUs-icon'></i><br/>
+              <p><i class='fa-regular fa-envelope fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>info@arqon.com.ph</span><br/>
               <span className='phone-email-home-desc'>Email us anytime,</span><br/>
               <span className='phone-email-home-desc'>we usually reply within 24 hours.</span>
               <br/>
             </div>
             <div className='col-md-4 text-center'>
-              <i class='fa-solid fa-house fa-2xl contactUs-icon'></i><br/>
+              <p><i class='fa-solid fa-house fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>Arqon Headquarters</span><br/>
               <span className='phone-email-home-desc'>Suite 1706 Atlanta Centre Building,</span><br/>
               <span className='phone-email-home-desc'>31 Annapolis St., Greenhills, San Juan City,</span><br/>
