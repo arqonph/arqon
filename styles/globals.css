@@ -194,6 +194,14 @@ li{
 .card-bg {
   background-color: #5f5e60;
 }
+
+.map-black-white{
+  -webkit-filter: grayscale(100%);
+  -moz-filter: grayscale(100%);
+  -ms-filter: grayscale(100%);
+  -o-filter: grayscale(100%);
+   filter: grayscale(100%);
+}
 /* ============ Main Contact Us / Projects ========== */
 
 
