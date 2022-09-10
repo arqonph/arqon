@@ -119,8 +119,9 @@ li{
 .background-turquoise{
   border: none;
   background-color: #76CBC1;
-  height: 80px;
+  height: 100px;
   text-align: center;
+  padding: 30px 0;
 }
 
 .textarea-contact{
