@@ -56,7 +56,7 @@ export default function Home() {
         <div class='container'>
           <div class='row'>
             <div className='col-md-4 text-center'>
-              <i className='fa-solid fa-phone fa-2xl contactUs-icon'></i><br/>
+              <p><i className='fa-solid fa-phone fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>+63 917 817 4612</span><br/>
               <span className='phone-email-home-desc'>Call us anytime from</span><br/>
               <span className='phone-email-home-desc'>Monday to Friday, 8am to 5pm.</span>
@@ -64,14 +64,14 @@ export default function Home() {
             </div>
             
             <div className='col-md-4 text-center'>
-              <i class='fa-regular fa-envelope fa-2xl contactUs-icon'></i><br/>
+              <p><i class='fa-regular fa-envelope fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>info@arqon.com.ph</span><br/>
               <span className='phone-email-home-desc'>Email us anytime,</span><br/>
               <span className='phone-email-home-desc'>we usually reply within 24 hours.</span>
               <br/>
             </div>
             <div className='col-md-4 text-center'>
-              <i class='fa-solid fa-house fa-2xl contactUs-icon'></i><br/>
+              <p><i class='fa-solid fa-house fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>Arqon Headquarters</span><br/>
               <span className='phone-email-home-desc'>Suite 1706 Atlanta Centre Building,</span><br/>
               <span className='phone-email-home-desc'>31 Annapolis St., Greenhills, San Juan City,</span><br/>
@@ -268,7 +268,7 @@ export default function Home() {
           <div className='col-xs-12 col-sm-12 col-md-12 pl-0'>
             <div className='embed-responsive '>
               <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.4502173590397!2d121.05235936406027!3d14.604747298883428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c81649c1ba6d%3A0xd4e7b11d4a94bd7c!2sARQON%20Design%20and%20Build!5e0!3m2!1sen!2sus!4v1662405465656!5m2!1sen!2sus' 
-                  className='google-maps' allowFullScreen loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
+                  className='google-maps map-black-white' allowFullScreen loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
             </div>
           </div>
         </div>
