@@ -29,21 +29,23 @@ function Footer() {
               </div>
               <div className='footerButton position-absolute'>
                 <div className=' row d-flex align-items-center justify-content-between'>
-                  <button className=' text-center py-2 col-3 footerLink text-white col-4'>Follow Us</button>
+                  <a href='https://linktr.ee/arqondesign' className='text-center py-2 col-3 footerLink text-white col-4'>
+                    <button className='followText text-white'>Follow Us</button>
+                  </a>
                   <div className='pt-1 col-8 d-flex align-items-center justify-content-xxl-between'>
-                    <a href='/' className='mx-1'>
+                    <a href='https://www.facebook.com/ARQONdesignandbuild' className='mx-1'>
                       <Image src={fb} height={40} width={40} />
                     </a>
-                    <a href='/'className='mx-1'>
+                    <a href='https://www.instagram.com/arqondesign/'className='mx-1'>
                       <Image src={ig} height={40} width={40}/>
                     </a>
-                    <a href='/'className='mx-1'>
+                    <a href='https://linktr.ee/arqondesign'className='mx-1'>
                       <Image src={linkedin} height={40} width={40}/>
                     </a>
-                    <a href='/'className='mx-1'>
+                    <a href='https://www.tiktok.com/@arqondesign'className='mx-1'>
                       <Image src={tiktok} height={40} width={40}/>
                     </a>
-                    <a href='/'className='mx-1'>
+                    <a href='https://www.youtube.com/channel/UCF9eCrL6sMOxFYVTztVtaJg'className='mx-1'>
                       <Image src={yt} height={40} width={40}/>
                     </a>
                   </div>
@@ -58,9 +60,21 @@ function Footer() {
               </div>
               <div className='pt-3'>
                 <ul>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Style Rules This Modern Minimalist Industrial Home by Real Living</li>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>10 Most Beautiful Real Homes in 2017</li>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>BluePrint</li>
+                  <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
+                    <a href='https://bluprint.onemega.com/arqon-design-conveys-modern-industrial-architecture-through-casa-penafrancia/'>
+                      <span className='listType'>&#62; </span>BluePrint
+                    </a>
+                  </li>
+                  <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
+                    <a href='/'>
+                      <span className='listType'>&#62; </span>10 Most Beautiful Real Homes in 2017
+                    </a>
+                  </li>
+                  <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
+                    <a href='/'>
+                      <span className='listType'>&#62; </span>Style Rules This Modern Minimalist Industrial Home by Real Living
+                    </a>
+                  </li>
                 </ul>
               </div >
             </div>
@@ -77,7 +91,7 @@ function Footer() {
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Building Information Modelling (BIM)</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Architectural Interiors</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Project Management</li>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62;</span>Design Consultancy</li>
+                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Design Consultancy</li>
                 </ul>
               </div>
             </div>
@@ -108,7 +122,7 @@ function Footer() {
         </div>
       </div>
       <div className='footerB d-flex justify-content-between align-items-center text-white px-lg-5 px-3'>
-        <Image src={footerLogo} height={ 70} width={210}/>
+        <Image src={footerLogo} height={64.85} width={220}/>
           <span className='d-lg-block d-none'>Copyright &copy; 2022 All Rights Reserved</span>
         <div className='d-flex' onClick={scrollUp}>
           <button className='buttonUp text-white' > Back on top </button>
