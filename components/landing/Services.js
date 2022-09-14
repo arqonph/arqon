@@ -11,7 +11,12 @@ function Services() {
               <span className=''>Architectural Design</span>
             </div>
             <div className='overlay'>
-              <div className='text'>Some text here....</div>
+              <div className='text'>
+                <span>
+                Meeting the need to create functional and aesthetically please and harmonious living spaces.
+                Arqon has the expertise from client-tested experiences and almost a decade of training from the best Architectural firms of our country.
+                </span>
+              </div>
               <div className='offerFooterOverlay'>
                 <span className=''>Architectural Design</span>
               </div>
@@ -25,7 +30,12 @@ function Services() {
               <span>Design and Build</span>
             </div>
             <div className='overlay'>
-              <div className='text'>Some text here....</div>
+              <div className='text'>
+                <span>
+                It is the balance between the architectural design, time, quality, and cost - the clients’ most important considerations. 
+                Design and Build service simplifies the process of project delivery while providing creative solutions.
+                </span>
+              </div>
               <div className='offerFooterOverlay'>
                 <span className=''>Design and Build</span>
               </div>
@@ -39,7 +49,13 @@ function Services() {
               <span>Build Information Modeling</span>
             </div>
             <div className='overlay'>
-              <div className='text'>Some text here....</div>
+              <div className='text'>
+                <span>
+                Is a tool that we use to create visual space simulations.
+                It reduces conflicts and resolves problems ahead of time, especially in multi-disciplinary projects.
+                In Arqon, we are equipped with skills and knowledge to be at par not only with world-class architecture but also with the emerging technology available to date.
+                </span>
+              </div>
               <div className='offerFooterOverlay'>
                 <span className=''>Build Information Modeling</span>
               </div>

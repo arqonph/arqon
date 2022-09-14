@@ -9,7 +9,7 @@ function NavigationBar() {
     <div>
         <nav className='navbar navbar-expand-lg navbar-light px-5'>
             <a href='/' className='arqonLogo d-lg-flex d-none'>
-                <Image src={arqonLogo} height={43} width={219}/>
+                <Image src={arqonLogo} height={40.83} width={242}/>
             </a>
             <div
                 className='navbar-toggler collapsed'

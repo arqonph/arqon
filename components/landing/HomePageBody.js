@@ -18,7 +18,7 @@ function HomePageBody() {
                 we are able to create visual space simulations to make more informed decisions and reduce errors that cost time and money.
               </p>
             </div>
-            <div className='obj3d col-xxl-7 text-center border border-warning bg-primary'>
+            <div className='obj3d col-xxl-6 text-center border border-warning bg-primary'>
               3D OBJECT HERE
             </div>
           </div>

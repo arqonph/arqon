@@ -319,25 +319,27 @@ li{
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
-  background-color: rgba(66, 66, 60, .5);
+  background-color: rgba(44, 44, 39, 0.5);
   overflow: hidden;
   width: 100%;
   height: 100%;
   transition: .3s ease;
 }
 
-.text{
+.text span{
+  font-family: 'DinLight', sans-serif;
   color: #fff;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
+  font-size: 15px;
+  /* position: absolute; */
+  top: 100%;
+  left: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  white-space: center;
+  /* white-space: center; */
 }
 .offerFooterOverlay{
+  font-family: 'DinLight', sans-serif;
   position: absolute;
   padding: 10px 0px;
   background-color: rgba(255, 255, 255, 1);
@@ -421,13 +423,14 @@ li{
   color: #76CBC1;
   font-size: 50px;
 }
+
 .vResidence {
   background-image: url('../assets/V_Residence.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .nResidence {
   background-image: url('../assets/N_Residence.jpg');
@@ -435,7 +438,7 @@ li{
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .sResidence {
   background-image: url('../assets/S_Residence.jpg');
@@ -443,7 +446,7 @@ li{
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .dResidence {
   background-image: url('../assets/D_Residence.jpg');
@@ -451,7 +454,7 @@ li{
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .gResidence {
   background-image: url('../assets/G_Residence.jpg');
@@ -459,7 +462,7 @@ li{
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .tResidence {
   background-image: url('../assets/T_Residence.jpg');
@@ -467,7 +470,7 @@ li{
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 350px;
+  height: 500px;
 }
 .residenceTitle {
   position: absolute;
@@ -497,11 +500,13 @@ li{
 	transform: scale(1);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+  
 }
 
 .projectContainer:hover {
   -webkit-transform: scale(1.2);
 	transform: scale(1.02);
+  z-index: 1;
 }
 
 .projectsOverlay {
@@ -510,7 +515,6 @@ li{
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
-  background-color: rgba(66, 66, 60, .5);
   overflow: hidden;
   width: 100%;
   height: 100%;
@@ -560,13 +564,17 @@ li{
 .clientReview {
   border-bottom: 3px solid #76CBC1;
 }
+
 .clientReview .header {
   /* font-family: 'Adamcg' , sans-serif; */
   font-weight: 700;
   font-size: 20px;
   color: #76CBC1;
 }
-
+.clientName{
+  font-family: 'DinBold', sans-serif;
+  font-weight: bold;
+}
 .controls span {
   color: #76CBC1;
 }
@@ -582,10 +590,31 @@ li{
   display: flex;
   justify-content: center;
   align-items: center;
+  overflow: auto;
+}
+.slide-comment::-webkit-scrollbar-track
+{
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.slide-comment::-webkit-scrollbar
+{
+	width: 5px;
+	background-color: #F5F5F5;
+}
+
+.slide-comment::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	background-color: #76CBC1;
 }
 .contact {
   /* background-color: #76CBC1; */
   background: linear-gradient(0deg, #76CBC1 50%, #fff 50%);
+}
+.contactField input{
+  border: #000505;
 }
 .contactUsForm {
   width: 100%;
@@ -622,7 +651,7 @@ li{
   align-items: center;
 }
 .textArea{
-  height: 100px;
+  height: 200px;
 }
 .formFields span {
   font-size: 12px;
@@ -650,6 +679,10 @@ li{
 }
 .listType{
   font-family: sans-serif;
+}
+.featuresLink a{
+  color: inherit;
+  text-decoration: none;
 }
 
 .followUs{
@@ -684,7 +717,10 @@ li{
   border: none;
   background-color: #76CBC1;
 }
-
+.followText {
+  border: none;
+  background-color: #76CBC1;
+}
 .footerDetails li {
   font-size: 15px;
   padding-bottom: 20px;
