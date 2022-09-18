@@ -58,53 +58,141 @@ export default function Projects() {
         <br></br>
       </div>
 
-      <div className='container-fluid'>
-        <div className='row'>
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={project1} />
-                <div className='card-bg'>
-                    <span className='card-title'>&nbsp;&nbsp;V Residence</span><br/>
-                    <span className='card-text'>&nbsp;&nbsp;Ayala Alabang Village, Muntinlupa</span>
+
+{/* */}
+
+<div className='row gx-0 residence pt-3 d-flex justify-content-center align-items-center'>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative vResidence'>
+              {/* <Image src={vResidence} alt='V Residence' width={920} height={455} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>V Residence</span>
+                    <span className='address'> Ayala Alabang Village, Muntinlupa </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>V Residence</span>
+                        <span className='address'> Ayala Alabang Village, Muntinlupa </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={project2} />
-                <div className='card-bg'>
-                    <span className='card-title'>&nbsp;&nbsp;N Residence</span><br/>
-                    <span className='card-text'>&nbsp;&nbsp;Angono, Rizal</span>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative nResidence'>
+              {/* <Image src={nResidence} alt='N Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>N Residence</span>
+                    <span className='address'> Angono, Rizal </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>N Residence</span>
+                        <span className='address'> Angono, Rizal </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-        </div>
-
-        <div className='row'>
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={project3} />
-                <div className='card-bg'>
-                    <span className='card-title'>&nbsp;&nbsp;S Residence</span><br/>
-                    <span className='card-text'>&nbsp;&nbsp;Parkridge Estate, Antipolo, Rizal</span>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative sResidence'>
+              {/* <Image src={sResidence} alt='S Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>S Residence</span>
+                    <span className='address'> Park Estate, Antipolo, Rizal </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>S Residence</span>
+                        <span className='address'> Park Estate, Antipolo, Rizal </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={project4} />
-                <div className='card-bg'>
-                    <span className='card-title'>&nbsp;&nbsp;D Residence</span><br/>
-                    <span className='card-text'>&nbsp;&nbsp;BF Homes, Quezon City</span>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative dResidence'>
+              {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>D Residence</span>
+                    <span className='address'> BF Homes, Quezon City </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>D Residence</span>
+                        <span className='address'> BF Homes, Quezon City </span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-        </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative gResidence'>
+              {/* <Image src={gResidence} alt='G Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>G Residence</span>
+                    <span className='address'> Limay, Bataan </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>G Residence</span>
+                        <span className='address'> Limay, Bataan </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative tResidence'>
+              {/* <Image src={tResidence} alt='T Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>T Residence</span>
+                    <span className='address'> Navotas </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>T Residence</span>
+                        <span className='address'> Navotas </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
 
-        </div>
 
+
+{/* */}
       <footer>
         <Footer />
       </footer>
