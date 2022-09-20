@@ -4,10 +4,6 @@ import Head from 'next/head'
 import Navbar from '/components/landing/Navigation-bar'
 import Footer from '/components/landing/Footer'
 import arqonTopImg from '/assets/01_Arqon_top_image.jpg'
-import project1 from '/assets/01_Arqon_Projects_01.jpg'
-import project2 from '/assets/01_Arqon_Projects_02.jpg'
-import project3 from '/assets/01_Arqon_Projects_03.jpg'
-import project4 from '/assets/01_Arqon_Projects_04.jpg'
 
 export default function Projects() {
   return (
@@ -61,7 +57,7 @@ export default function Projects() {
 
 {/* */}
 
-<div className='row gx-0 residence pt-3 d-flex justify-content-center align-items-center'>
+          <div className='row gx-0 residence pt-3 d-flex justify-content-center align-items-center'>
             <div className='col-lg-6 projectContainer'>
               <div className='position-relative vResidence'>
               {/* <Image src={vResidence} alt='V Residence' width={920} height={455} /> */}
@@ -147,20 +143,20 @@ export default function Projects() {
               </div>
             </div>
             <div className='col-lg-6 projectContainer'>
-              <div className='position-relative gResidence'>
-              {/* <Image src={gResidence} alt='G Residence' width={920} height={450} /> */}
+              <div className='position-relative vResidenceTagaytay'>
+              {/* <Image src={vResidenceTagaytay} alt='V Residence' width={920} height={450} /> */}
                 <div className='residenceTitle py-0 py-md-1'>
                   <p>
-                    <span className='head d-block'>G Residence</span>
-                    <span className='address'> Limay, Bataan </span>
+                    <span className='head d-block'>V Residence</span>
+                    <span className='address'> Royale Tagaytay Estates, Alfonso, Cavite </span>
                   </p>
                 </div>
                 <div className='projectsOverlay'>
                   <div className='projectFooterOverlay'>
                     <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
                       <p>
-                        <span className='head d-block'>G Residence</span>
-                        <span className='address'> Limay, Bataan </span>
+                        <span className='head d-block'>V Residence</span>
+                        <span className='address'> Royale Tagaytay Estates, Alfonso, Cavite </span>
                       </p>
                     </div>
                   </div>
@@ -182,6 +178,90 @@ export default function Projects() {
                       <p>
                         <span className='head d-block'>T Residence</span>
                         <span className='address'> Navotas </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative sResidenceLimay'>
+              {/* <Image src={sResidenceLimay} alt='S Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>S Residence</span>
+                    <span className='address'> Limay, Bataan </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>S Residence</span>
+                        <span className='address'> Limay, Bataan </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative dResidenceAveia'>
+              {/* <Image src={dResidenceAveia} alt='D Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>D Residence</span>
+                    <span className='address'> Aveia by Alveo Ayala Land, Laguna </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>D Residence</span>
+                        <span className='address'> Aveia by Alveo Ayala Land, Laguna </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative mResidence'>
+              {/* <Image src={mResidence} alt='M Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>M Residence</span>
+                    <span className='address'> Hagonoy, Bulacan </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>M Residence</span>
+                        <span className='address'> Hagonoy, Bulacan </span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className='col-lg-6 projectContainer'>
+              <div className='position-relative santosResidence'>
+              {/* <Image src={santosResidence} alt='Santos Residence' width={920} height={450} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>Santos Residence</span>
+                    <span className='address'> Kingville Court, Antipolo, Rizal </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>Santos Residence</span>
+                        <span className='address'> Kingville Court, Antipolo, Rizal </span>
                       </p>
                     </div>
                   </div>

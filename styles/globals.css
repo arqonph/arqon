@@ -432,6 +432,14 @@ li{
   box-shadow: 0 0 5px #707070;
   height: 500px;
 }
+.vResidenceTagaytay {
+  background-image: url('../assets/V_Residence_Tagaytay.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
 .nResidence {
   background-image: url('../assets/N_Residence.jpg');
   background-repeat: no-repeat;
@@ -448,8 +456,24 @@ li{
   box-shadow: 0 0 5px #707070;
   height: 500px;
 }
+.sResidenceLimay {
+  background-image: url('../assets/S_Residence_Limay.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
 .dResidence {
   background-image: url('../assets/D_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.dResidenceAveia {
+  background-image: url('../assets/D_Residence_Aveia.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -466,6 +490,22 @@ li{
 }
 .tResidence {
   background-image: url('../assets/T_Residence.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.mResidence {
+  background-image: url('../assets/M_Residence_Bulacan.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.santosResidence {
+  background-image: url('../assets/Santos_Residence.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
