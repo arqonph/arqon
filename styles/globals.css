@@ -936,4 +936,20 @@ li{
   .residenceTitle .address{
     font-size: calc(1px + 2vw);
   }
+
+  .projectsClientSays{
+    background-color: #76CBC1;
+    color: #76CBC1;
+  }
+
+  .projectsClientReview {
+    border-bottom: 3px solid white;
+  }
+  
+  .projectsClientReview .header {
+    /* font-family: 'Adamcg' , sans-serif; */
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+  }
 }
