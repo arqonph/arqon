@@ -3,7 +3,7 @@ import Head from "next/head";
 import Navbar from "../components/landing/Navigation-bar";
 import Footer from "../components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
-import arqonStoryImg from "/assets/04_Arqon_Our Story_00.jpg";
+import arqonStoryImage from "../assets/Arqon_Our Story Group.jpg";
 import Team from "/pages/team.js";
 
 export default function story() {
@@ -34,35 +34,37 @@ export default function story() {
               <span className="text-black">and</span>&nbsp;
               <span className="text-turquoise">DESIGN.</span>
             </h1>
+            <hr className="hr-story"></hr>
             <p>
               Somewhere between touring the centuries-old building in Quebec,
               and driving through the plains of Arizona and steel sky scrapers
               of New York City, three architects on the trip of their lifetime
               found themselves enthralled by the structural marvels and
-              innovative structures of the modern world. ARQON, proudly Filipino
-              company with a global perspective on design and build, was
-              established not long after.
+              innovative structures of the modern world.
+              <br></br>
+              <br></br>ARQON, proudly Filipino company with a global perspective
+              on design and build, was established not long after.
             </p>
           </div>
         </div>
       </div>
       <div className="cover-container d-flex flex-column position-relative display-box">
-        <Image src={arqonStoryImg} />
+        <Image src={arqonStoryImage} />
       </div>
       <div className="cover-container section-2">
         <div className="container text-center pt-5 pb-5 ">
           <div className="row">
             <div className="col">
-              <h1> This is our story</h1>
+              <h1 className="story-heading"> This is our story</h1>
               <p>
-                <span className="text-black">
+                <span className="text-story">
                   Real frienships and honest relationships build the strong
-                  foundation of our company. We’re motivated to be
+                  foundation of our company. <br></br> We’re motivated to be
                 </span>
                 &nbsp;
                 <span className="text-white">rock stars</span>
                 &nbsp;
-                <span className="text-black">of the built environment.</span>
+                <span className="text-story">of the built environment.</span>
               </p>
             </div>
           </div>
