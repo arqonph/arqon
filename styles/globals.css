@@ -24,6 +24,34 @@ a {
 * {
   box-sizing: border-box;
 }
+/* =========== SCROLL BAR ===========*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #3E3D3F; /*#76CBC1*/
+  border-radius: 10px;
+}
+
+/* ::-webkit-input-placeholder {
+  color:red;
+}
+
+::-moz-placeholder {
+  color:red;
+}
+
+::-ms-placeholder {
+  color:red;
+} */
+
+::placeholder {
+  color:red;
+}
+
 /* =========== NAVIGATION BAR =========== */
 .navbar{
   background-color: #3E3D3F;
@@ -45,7 +73,6 @@ li{
   padding-top: 0px;
   align-items: center;
 }
-
 .page-title {
   font-size:6vw;
   color: #76cbc1;
@@ -125,7 +152,7 @@ li{
 }
 
 .textarea-contact{
-  height: 100px;
+  height: 100%;
 }
 
 .contactUs-faq-row {
@@ -270,7 +297,9 @@ li{
   font-size: calc(3px + 3vw);
   color: #fff;
 }
-
+.arqonReels{
+  width: 100%;
+}
 .services {
   padding: 0 50px;
   margin-top: -30px;
@@ -613,9 +642,6 @@ li{
   /* background-color: #76CBC1; */
   background: linear-gradient(0deg, #76CBC1 50%, #fff 50%);
 }
-.contactField input{
-  border: #000505;
-}
 .contactUsForm {
   width: 100%;
 }
@@ -634,9 +660,9 @@ li{
 .arqon {
   background-image: url('../assets/05_Arqon_Contact Us_01.jpg');
   background-size: cover;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   align-items: center;
-  height: 350px;
+  height: 800px;
 }
 .contactUsForm span {
   font-family: 'DinLight',sans-serif;
@@ -651,7 +677,7 @@ li{
   align-items: center;
 }
 .textArea{
-  height: 200px;
+  height: 250px;
 }
 .formFields span {
   font-size: 12px;
@@ -659,6 +685,7 @@ li{
 }
 .formFields input {
   height: 25px;
+  color: #fff;
 }
 .contactSubmitBtn {
   font-family: 'DinLight',sans-serif;
@@ -773,11 +800,29 @@ li{
     padding: 10px;
     }
 }
+@media(max-width: 1200px){
+  .contact {
+    /* background-color: #76CBC1; */
+    background: linear-gradient(0deg, #76CBC1 75%, #fff 25%);
+  }
+  .contactusHead h1 {
+    color: #fff;
+  }
+  .contactUsLine span {
+    color: #fff;
+  }
+}
 @media (max-width: 1024px){
-  /* .arqon {
-    display: none;
-  } */
-  
+   .contactusHead h1 {
+    color: #fff;
+  }
+  .contactUsLine span {
+    color: #fff;
+  }
+  .contact {
+    /* background-color: #76CBC1; */
+    background: linear-gradient(0deg, #76CBC1 77%, #fff 23%);
+  }
   .arqon,
   .heroImage,
   .heroImage2 {
@@ -802,8 +847,8 @@ li{
     font-size: calc(3px + 3vw);
   }
   /* .headLine span, */
-  .bodyPage .sentence,
-  .paragraph{
+  /* .paragraph, */
+  .bodyPage .sentence{
     line-height: 35px;
     font-size: calc(1.5px + 1.5vw);
   }
@@ -813,6 +858,9 @@ li{
   .heroImage2,
   .heroImage {
     min-height: 30vh;
+  }
+  .contactUsLine span{
+    color: #fff;
   }
 }
 @media(max-width: 820px){

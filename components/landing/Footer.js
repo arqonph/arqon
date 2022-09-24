@@ -6,9 +6,52 @@ import linkedin from '../../assets/Icon_in.png'
 import tiktok from '../../assets/Icon_tiktok.png'
 import yt from '../../assets/Icon_youtube.png'
 import footerLogo from '../../assets/footerArqonLogo.jpg'
-import socialMedia from '../../assets/ArqonFooter.png'
+import Link from 'next/link'
 
-function Footer() {
+import Slider from 'react-slick'
+import vResidence from '../../assets/V_Residence.jpg'
+import nResidence from '../../assets/N_Residence.jpg'
+import sResidence from '../../assets/S_Residence.jpg'
+import dResidence from '../../assets/D_Residence.jpg'
+import gResidence from '../../assets/G_Residence.jpg'
+import tResidence from '../../assets/T_Residence.jpg'
+
+export default function Footer() {
+  let settings = {
+      dots: false,
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      autoplay: true,
+      speed: 3000,
+      autoplaySpeed: 5000,
+      cssEase: "linear",
+      responsive: [
+        {
+          breakpoint: 1200,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            infinite: true,
+          }
+        },
+        {
+          breakpoint: 800,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            initialSlide: 2
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1
+          }
+        }
+      ]
+}
   const scrollUp = () => {
       window.scrollTo({
           top: 0, //can add the height of the nav bar
@@ -24,28 +67,49 @@ function Footer() {
               <div className='footerHeader col-12'>
                 <span className=''>Instagram</span>
               </div>
-              <div className='pb-5 pt-3 mb-xxl-5 mb-0'>
-                <Image src={socialMedia} height={300} width={450}/>
+              <div className='mb-xl-5 mb-lg-5 mb-5 p-0 text-center'>
+                <a href='https://www.instagram.com/arqondesign/'className='mx-1' target='_blank'>
+                  <Slider {...settings}>
+                      <div className='igPost comment1'>
+                          <Image src={vResidence} height={260} width={450}/>
+                      </div>
+                      <div className='igPost comment2'>
+                          <Image src={nResidence} height={260} width={450}/>
+                      </div>
+                      <div className='igPost comment3'>
+                          <Image src={sResidence} height={260} width={450}/>
+                      </div>
+                      <div className='igPost comment4'>
+                          <Image src={dResidence} height={260} width={450}/>
+                      </div>
+                      <div className='igPost comment5'>
+                          <Image src={gResidence} height={260} width={450}/>
+                      </div>
+                      <div className='igPost comment5'>
+                          <Image src={tResidence} height={260} width={450}/>
+                      </div>
+                  </Slider>
+                </a>
               </div>
               <div className='footerButton position-absolute'>
                 <div className=' row d-flex align-items-center justify-content-between'>
-                  <a href='https://linktr.ee/arqondesign' className='text-center py-2 col-3 footerLink text-white col-4'>
+                  <a href='https://linktr.ee/arqondesign' className='text-center py-2 col-3 footerLink text-white col-4' target='_blank'>
                     <button className='followText text-white'>Follow Us</button>
                   </a>
                   <div className='pt-1 col-8 d-flex align-items-center justify-content-xxl-between'>
-                    <a href='https://www.facebook.com/ARQONdesignandbuild' className='mx-1'>
+                    <a href='https://www.facebook.com/ARQONdesignandbuild' className='mx-1'  target='_blank'>
                       <Image src={fb} height={40} width={40} />
                     </a>
-                    <a href='https://www.instagram.com/arqondesign/'className='mx-1'>
+                    <a href='https://www.instagram.com/arqondesign/'className='mx-1'  target='_blank'>
                       <Image src={ig} height={40} width={40}/>
                     </a>
-                    <a href='https://linktr.ee/arqondesign'className='mx-1'>
+                    <a href='https://linktr.ee/arqondesign'className='mx-1'  target='_blank'>
                       <Image src={linkedin} height={40} width={40}/>
                     </a>
-                    <a href='https://www.tiktok.com/@arqondesign'className='mx-1'>
+                    <a href='https://www.tiktok.com/@arqondesign'className='mx-1'  target='_blank'>
                       <Image src={tiktok} height={40} width={40}/>
                     </a>
-                    <a href='https://www.youtube.com/channel/UCF9eCrL6sMOxFYVTztVtaJg'className='mx-1'>
+                    <a href='https://www.youtube.com/channel/UCF9eCrL6sMOxFYVTztVtaJg'className='mx-1'  target='_blank'>
                       <Image src={yt} height={40} width={40}/>
                     </a>
                   </div>
@@ -115,7 +179,9 @@ function Footer() {
                 </ul>
               </div>
               <div className='position-absolute footerButton'>
+              <Link href='/ContactUs'>
                 <button className='text-center py-2 col-3 footerLink text-white col-4'>Contact us</button>
+                </Link>
               </div>
             </div>
           </div>
@@ -139,4 +205,3 @@ function Footer() {
     </div>
   )
 }
-export default Footer

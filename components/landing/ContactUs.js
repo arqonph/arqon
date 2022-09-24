@@ -72,11 +72,11 @@ function ContactUs() {
    <section>
     <div>
       <div className='contact d-flex align-items-center justify-content-between row py-5 px-xxl-5 px-md-3 px-2'>
-        <div className='contactUsdiv col-xl-12 col-xxl-7 row gx-3 text-xxl-start text-center'>
+        <div className='contactUsdiv col-xl-12 col-xxl-7 row gx-3 text-xxl-start'>
           <div className='clientSlide pb-5 col-xxl-12 col-xl-6'>
               <div className=' clientReview d-flex justify-content-between align-items-center'>
                   <div className='ps-xxl-2'>
-                      <span className='header'>what our client say</span>
+                      <span className='header'>what our clients say</span>
                   </div>
                   <div className='controls pe-xxl-5'>
                       <button className='previous border-0 bg-white' onClick={previous}><span className='fs-1'>&#8249;</span></button>
@@ -285,7 +285,7 @@ function ContactUs() {
                     ></textarea>
                     <span>{errors.message?.message}</span>
                   </div>
-                  <div className=''>
+                  <div className='pb-xxl-0 pb-xl-3'>
                     <button className='contactSubmitBtn' type='submit' id='submit'> Send </button>
                   </div>
                 </div>
