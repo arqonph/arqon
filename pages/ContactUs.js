@@ -4,8 +4,8 @@ import Head from 'next/head'
 import Navbar from '/components/landing/Navigation-bar'
 import Footer from '/components/landing/Footer'
 import arqonTopImg from '/assets/01_Arqon_top_image.jpg'
-import contactUs1 from '/assets/05_Arqon_Contact Us_01.jpg'
-import contactUs2 from '/assets/05_Arqon_Contact Us_02.jpg'
+import contactUs1 from '/assets/05_Arqon_Contact_Us_01.jpg'
+import contactUs2 from '/assets/05_Arqon_Contact_Us_02.jpg'
 import contactUs3 from '/assets/05_Arqon_Contact Us_03.jpg'
 import contactUs4 from '/assets/05_Arqon_Contact Us_04.jpg'
 
@@ -87,49 +87,97 @@ export default function Home() {
         <p className='page-desc-across'>We can't wait to welcome you in our Headquarters!</p>
       </div>     
 
-      <div className='container-fluid'>
-          <div className='row'>
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={contactUs1} />
-                <div className='card-bg'>
-                  <span className='card-title'>&nbsp;</span>
+
+    <div className='row gx-0 residence pt-0 d-flex justify-content-center align-items-center'>
+        <div className='col-lg-6 projectContainer'>
+              <div className='position-relative contactUs-img1'>
+              {/* <Image src={contactUs-img1} alt='' width={920} height={455} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>&nbsp;</span>
+                    <span className='address'> &nbsp; </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>&nbsp;</span>
+                        <span className='address'>&nbsp;</span>
+                      </p>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
-
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={contactUs2} />
-                <div className='card-bg'>
-                  <span className='card-title'>&nbsp;</span>
+        <div className='col-lg-6 projectContainer'>
+          <div className='position-relative contactUs-img2'>
+          {/* <Image src={contactUs-img2} alt='' width={920} height={450} /> */}
+            <div className='residenceTitle py-0 py-md-1'>
+              <p>
+                <span className='head d-block'>&nbsp;</span>
+                <span className='address'> &nbsp;</span>
+              </p>
+            </div>
+            <div className='projectsOverlay'>
+              <div className='projectFooterOverlay'>
+                <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                  <p>
+                    <span className='head d-block'>&nbsp;</span>
+                    <span className='address'> &nbsp;</span>
+                  </p>
                 </div>
               </div>
             </div>
-          </div>
-
-          <div className='row'>
-
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={contactUs3} />
-                <div className='card-bg'>
-                  <span className='card-title'>&nbsp;</span>
-                </div>
-              </div>
-            </div>
-
-            <div className='col-md-6'>
-              <div className='card'>
-                <Image className='card-img-top' src={contactUs4} />
-                <div className='card-bg'>
-                  <span className='card-title'>&nbsp;</span>
-                </div>
-              </div>
-            </div>
-
           </div>
         </div>
+
+        <div className='col-lg-6 projectContainer'>
+              <div className='position-relative contactUs-img3'>
+              {/* <Image src={contactUs-img3} alt='' width={920} height={455} /> */}
+                <div className='residenceTitle py-0 py-md-1'>
+                  <p>
+                    <span className='head d-block'>&nbsp;</span>
+                    <span className='address'> &nbsp; </span>
+                  </p>
+                </div>
+                <div className='projectsOverlay'>
+                  <div className='projectFooterOverlay'>
+                    <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                      <p>
+                        <span className='head d-block'>&nbsp;</span>
+                        <span className='address'>&nbsp;</span>
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div className='col-lg-6 projectContainer'>
+          <div className='position-relative contactUs-img4'>
+          {/* <Image src={contactUs-img4} alt='' width={920} height={450} /> */}
+            <div className='residenceTitle py-0 py-md-1'>
+              <p>
+                <span className='head d-block'>&nbsp;</span>
+                <span className='address'> &nbsp;</span>
+              </p>
+            </div>
+            <div className='projectsOverlay'>
+              <div className='projectFooterOverlay'>
+                <div className=' residenceTitle py-0 py-md-1 footerOverlay'>
+                  <p>
+                    <span className='head d-block'>&nbsp;</span>
+                    <span className='address'> &nbsp;</span>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      
 
 
         <div className='container-fluid'>
