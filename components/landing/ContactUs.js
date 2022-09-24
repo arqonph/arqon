@@ -76,7 +76,7 @@ function ContactUs() {
           <div className='clientSlide pb-5 col-xxl-12 col-xl-6'>
               <div className=' clientReview d-flex justify-content-between align-items-center'>
                   <div className='ps-xxl-2'>
-                      <span className='header'>what our client say</span>
+                      <span className='header'>what our clients say</span>
                   </div>
                   <div className='controls pe-xxl-5'>
                       <button className='previous border-0 bg-white' onClick={previous}><span className='fs-1'>&#8249;</span></button>

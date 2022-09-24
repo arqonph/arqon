@@ -316,15 +316,16 @@ import Slider from 'react-slick'
           </div>
 {/* End Projects */}
 {/* Start Clients Say */}
-<div className='container' style={{backgroundColor: '#76CBC1'}}>
+<div className='container-fluid' style={{backgroundColor: '#76CBC1', paddingLeft: 50, paddingRight: 50}}>
           <div className='clientSlide pb-5 col-xxl-12 col-xl-6'>
-              <div className=' projectsClientReview d-flex justify-content-between align-items-center'>
+              <div className='d-flex justify-content-between align-items-center' style={{color: 'white', borderBlock: 'solid', borderTop: 0 }}>
                   <div className='ps-xxl-2'>
-                      <span className='header'>what our clients say</span>
+                    <br/>
+                      <span style={{color: 'white', fontSize: 25 }} >what our clients say</span>
                   </div>
                   <div className='controls pe-xxl-5'>
-                      <button className='previous border-0 bg-white' onClick={previous}><span className='fs-1'>&#8249;</span></button>
-                      <button className='next border-0 bg-white' onClick={next}><span className='fs-1'>&#8250;</span></button>
+                      <button className='previous border-0' style={{backgroundColor: '#76CBC1' }} onClick={previous}><span style={{color: 'white', fontSize: 25 }} className='fs-1'>&#8249;</span></button>
+                      <button className='next border-0 ' style={{backgroundColor: '#76CBC1' }} onClick={next}><span style={{color: 'white', fontSize: 25 }} className='fs-1'>&#8250;</span></button>
                   </div>
               </div>
               <div className='my-slider '>
@@ -332,7 +333,7 @@ import Slider from 'react-slick'
                   <Slider ref={slideRef} {...settings}>
                       <div className='slide-comment comment1'>
                         <p>
-                          <span>
+                          <span >
                           We appoint ARQON because of their aesthetic taste.
                           But we were surprised because they delivered more than what we expected.
                           It was such a smooth process that building our dream home was so chill.
