@@ -119,9 +119,9 @@ li{
 .background-turquoise{
   border: none;
   background-color: #76CBC1;
-  height: 100px;
+  height: 120px;
   text-align: center;
-  padding: 30px 0;
+  padding: 32px 0;
 }
 
 .textarea-contact{
@@ -165,13 +165,12 @@ li{
 }
 
 .phone-email-home {
-  font-weight: bolder;
   font-family: 'DinBold', sans-serif;
   font-size: 20px;
 }
 
 .phone-email-home-desc {
-  font-family: 'DinRegular', sans-serif;
+  font-family: 'DinLight',sans-serif;
 }
 
 .img-card {
@@ -512,6 +511,38 @@ li{
   box-shadow: 0 0 5px #707070;
   height: 500px;
 }
+.contactUs-img1 {
+  background-image: url('../assets/05_Arqon_Contact_Us_01.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.contactUs-img2 {
+  background-image: url('../assets/05_Arqon_Contact_Us_02.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.contactUs-img3 {
+  background-image: url('../assets/05_Arqon_Contact Us_03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
+.contactUs-img4 {
+  background-image: url('../assets/05_Arqon_Contact Us_04.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  box-shadow: 0 0 5px #707070;
+  height: 500px;
+}
 .residenceTitle {
   position: absolute;
   color: #fff;
@@ -619,6 +650,7 @@ li{
   color: #76CBC1;
 }
 .slide-comment{
+  font-family: 'DinLight',sans-serif;
   margin-top: 15px;
   padding: 0 10px;
   width: 100%;
@@ -672,7 +704,7 @@ li{
   width: 50%;
 } */
 .arqon {
-  background-image: url('../assets/05_Arqon_Contact Us_01.jpg');
+  background-image: url('../assets/05_Arqon_Contact_Us_01.jpg');
   background-size: cover;
   min-height: 100vh;
   align-items: center;
@@ -905,6 +937,8 @@ li{
   .tResidence,
   .archiImage,
   .designBuildImage,
+  .contactUs-img1,
+  .contactUs-img2,
   .modelingImage{
     height: 150px;
   }
@@ -937,37 +971,7 @@ li{
     font-size: calc(1px + 2vw);
   }
 
-  .slide-comment-projects{
-    margin-top: 15px;
-    padding: 0 10px;
-    width: 100%;
-    height: 250px;
-    border-radius: 5px;
-    background-position: center;
-    background-size: cover;
-    cursor: pointer;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: auto;
-  }
-  .slide-comment-projects::-webkit-scrollbar-track
-  {
-    border-radius: 10px;
-    background-color: #76CBC1;
-  }
-  
-  .slide-comment-projects::-webkit-scrollbar
-  {
-    width: 5px;
-    background-color: #76CBC1;
-  }
-  
-  .slide-comment-projects::-webkit-scrollbar-thumb
-  {
-    border-radius: 10px;
-    background-color: #76CBC1;
-  }
+
   
 
 }
