@@ -721,6 +721,7 @@ li{
   font-weight: bolder;
   font-family: 'Adamcg' , sans-serif;
   text-align: center;
+  letter-spacing: 2px;
 }
 .contactUsLine span {
   color: #fff;
@@ -734,7 +735,7 @@ li{
   background-size: cover;
   /* min-height: 100vh; */
   align-items: center;
-  height: 800px;
+  height: 900px;
 }
 .contactUsForm span {
   font-family: 'DinLight',sans-serif;
@@ -869,13 +870,12 @@ li{
   .contactUsForm {
     margin: auto;
     width: 75%;
-    padding: 10px;
     }
 }
 @media(max-width: 1200px){
   .contact {
     /* background-color: #76CBC1; */
-    background: linear-gradient(0deg, #76CBC1 75%, #fff 25%);
+    background: linear-gradient(0deg, #76CBC1 79%, #fff 21%);
   }
   .contactusHead h1 {
     color: #fff;
@@ -926,6 +926,10 @@ li{
   }
 }
 @media(max-width: 912px){
+  .contact {
+    /* background-color: #76CBC1; */
+    background: linear-gradient(0deg, #76CBC1 79%, #fff 21%);
+  }
   .arqon,
   .heroImage2,
   .heroImage {
