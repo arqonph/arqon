@@ -213,12 +213,12 @@ function ContactUs() {
               {/* </div> */}
               </div>
           </div>
-          <div className='col-xxl-12 col-xl-6 col-12 row d-flex align-items-center justify-content-between'>
-            <div className='col-xxl-5 col-xl-6 contactUsLine px-5'>
-              <h1>"WE BRING <span>YOUR</span> VISION TO LIFE."</h1>
+          <div className='col-xxl-12 col-xl-6 col-12 row d-flex align-items-center justify-content-center'>
+            <div className='col-xxl-5 col-xl-6 contactUsLine px-5 '>
+              <h1 className='border-top border-bottom border-3 py-xl-5 py-3 py-xxl-5'>"WE BRING <span>YOUR</span> VISION TO LIFE."</h1>
             </div>
             <div className='col-xxl-6 col-xl-6'>
-              <form className='contactUsForm pt-5' onSubmit={handleSubmit(sendMessage)}>
+              <form className='contactUsForm pt-xxl-5 pt-2' onSubmit={handleSubmit(sendMessage)}>
                 {/* <div className='headLine'>
                   <span>Let's bring your vission to life.</span>
                 </div> */}
@@ -285,7 +285,7 @@ function ContactUs() {
                     ></textarea>
                     <span>{errors.message?.message}</span>
                   </div>
-                  <div className='pb-xxl-0 pb-xl-3'>
+                  <div className='pb-xxl-0 pb-xl-3 pb-3'>
                     <button className='contactSubmitBtn' type='submit' id='submit'> Send </button>
                   </div>
                 </div>
