@@ -108,7 +108,7 @@ function ContactUs() {
 
       
       <div className='background-turquoise'>
-        <p className='page-desc-across'>We can't wait to welcome you in our Headquarters!</p>
+        <p className='page-desc-across'>We can't wait to welcome you in our headquarters!</p>
       </div>     
 
 
