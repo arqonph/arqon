@@ -26,7 +26,7 @@ function NavigationBar() {
             <a href='/' className='arqonLogo d-lg-none d-flex'>
                 <Image src={arqonPrimary} height={60} width={50}/>
             </a>
-            <a className='nav-link text-white d-lg-none d-flex ps-5' href='#'><span className='letterQ'>Q</span></a>
+            <a className='nav-link text-white d-lg-none d-flex ps-5' href='#'><span className='letterQ'></span></a>
 
             <div className='collapse navbar-collapse' id='toggleMobileMenu'>
                 <div className='mobileLogo text-center'>
@@ -37,7 +37,7 @@ function NavigationBar() {
                 <div className='navMenu ms-auto text-start'>
                     <ul className='navbar-nav ms-auto'>
                         <li className='nav-item'>
-                            <Link href='#'>
+                            <Link href='/'>
                                 <a className='nav-link text-white'><span>HOME</span></a>
                             </Link>
                         </li>
@@ -57,17 +57,9 @@ function NavigationBar() {
                             </Link>
                         </li>
                         <li className='nav-item'>
-                            <Link href='#FEATURES'>
-                                <a className='nav-link text-white'><span>FEATURES</span></a>
-                            </Link>
-                        </li>
-                        <li className='nav-item'>
                             <Link href='/ContactUs'>
                                 <a className='nav-link text-white'><span>CONTACT US</span></a>
                             </Link>
-                        </li>
-                        <li className='nav-item d-lg-flex d-none'>
-                            <a className='nav-link text-white' href='#'><span>Q</span></a>
                         </li>
                     </ul>                
                 </div>
