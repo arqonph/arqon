@@ -757,7 +757,7 @@ li{
 }
 .formFields input {
   height: 25px;
-  color: #fff;
+  color: black;
 }
 .contactSubmitBtn {
   font-family: 'DinLight',sans-serif;
