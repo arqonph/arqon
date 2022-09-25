@@ -6,47 +6,65 @@ export default function services_page() {
     <div className="services_page">
       <div className="container pt-5 pb-5">
         <div className="row">
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 aprilMD">
-            <div className="aprilImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 aprilMD">
+            <div className="arDImg position-relative">
               <div className="contentBox">
                 <span className="">Architectural Design</span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    Meeting the need to create functional and aesthetically
+                    please and harmonious living spaces. Arqon has the expertise
+                    from client-tested experiences and almost a decade of
+                    training from the best Architectural firms of our country.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
                   <span className="">Architectural Design</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 mannyBIM">
-            <div className="mannyImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 mannyBIM">
+            <div className="dbImg position-relative">
               <div className="contentBox">
-                <span className="">Arch. Manny Pulido</span>
+                <span className="">Design and Build</span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    It is the balance between the architectural design, time,
+                    quality, and cost - the clients’ most important
+                    considerations. Design and Build service simplifies the
+                    process of project delivery while providing creative
+                    solutions.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
-                  <span className="">Arch. Manny Pulido</span>
+                  <span className="">Design and Build</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 chinoPM">
-            <div className="chinoImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 chinoPM">
+            <div className="bimImg position-relative">
               <div className="contentBox">
-                <span className="">Arch. Chino Buitizon</span>
+                <span className="">Building Information Modeling (BIM)</span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    Is a tool that we use to create visual space simulations. It
+                    reduces conflicts and resolves problems ahead of time,
+                    especially in multi-disciplinary projects. In Arqon, we are
+                    equipped with skills and knowledge to be at par not only
+                    with world-class architecture but also with the emerging
+                    technology available to date.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
-                  <span className="">Arch. Chino Buitizon</span>
+                  <span className="">Building Information Modeling (BIM)</span>
                 </div>
               </div>
             </div>
@@ -55,47 +73,63 @@ export default function services_page() {
       </div>
       <div className="container pt-5 pb-5">
         <div className="row">
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 aprilMD">
-            <div className="paoloImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 aprilMD">
+            <div className="ariImg position-relative">
               <div className="contentBox">
-                <span className="">Engr. Paolo Manlapaz</span>
+                <span className="">Architectural Interiors</span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    Is the detailed planning and design of the indoor areas of
+                    the project. It is where functionality comes into play and
+                    that it should fit for human use. Interiors are where we
+                    interact and experience the vision we have.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
-                  <span className="">Engr. Paolo Manlapaz</span>
+                  <span className="">Architectural Interiors</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 mannyBIM">
-            <div className="joshImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 mannyBIM">
+            <div className="pmImg position-relative">
               <div className="contentBox">
-                <span className="">Arch. Joshua Aquino</span>
+                <span className="">Project Management</span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    Meeting the need to create functional and aesthetically
+                    please and harmonious living spaces. Arqon has the expertise
+                    from client-tested experiences and almost a decade of
+                    training from the best Architectural firms of our country.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
-                  <span className="">Arch. Joshua Aquino</span>
+                  <span className="">Project Management</span>
                 </div>
               </div>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 chinoPM">
-            <div className="koebeeImg position-relative">
+          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 chinoPM">
+            <div className="dcImg position-relative">
               <div className="contentBox">
-                <span className="">Koebee Cabigao</span>
+                <span className="">Design Consultancy </span>
               </div>
               <div className="descriptionOverlay">
-                <a href="#" class="icon" title="User Profile">
-                  <i class="fa fa-user"></i>
-                </a>
+                <div className="info">
+                  <span>
+                    We cater to all types of projects - residential, commercial,
+                    office and hospitality projects. With over 16 years of
+                    valuable experience we have under our belt, our credentials
+                    include leading the architectural teams responsible for some
+                    of the most distinguished developments in the country.
+                  </span>
+                </div>
                 <div className="contentBoxOverlay">
-                  <span className="">Koebee Cabigao</span>
+                  <span className="">Design Consultancy </span>
                 </div>
               </div>
             </div>

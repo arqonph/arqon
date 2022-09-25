@@ -981,14 +981,16 @@ li{
   height: 100%;
 }
 
-.hr-story {
+.hr-services {
   border: 1px solid #76CBC1;
   opacity: 100%;
+  width: 65%;
+  margin: auto;
 }
 
 .story-heading {
-  font-family: "dinbook", sans-serif;
-  color: #424245;
+  font-family: 'Adamcg', sans-serif;
+  color: #fff;
 }
 
 .text-story {
@@ -1073,58 +1075,58 @@ li{
   color: white;
 }
 
-.aprilImg {
+.arDImg {
   background-image: url('../assets/01_Arqon_Home page_03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
-.mannyImg {
+.dbImg {
   background-image: url('../assets/01_Arqon_Home page_04.jpg');
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: left;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
-.chinoImg {
-  background-image: url('../assets/01_Arqon_Home page_05.jpg');
+.bimImg {
+  background-image: url('../assets/02_Arqon_Services_03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
-.paoloImg {
+.ariImg {
   background-image: url('../assets/Project Management.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
-.joshImg {
+.pmImg {
   background-image: url('../assets/01_Arqon_Home page_05.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
-.koebeeImg {
+.dcImg {
   background-image: url('../assets/Design.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 450px;
 }
 
 .contentBox {
@@ -1162,10 +1164,10 @@ li{
 .info span {
   font-family: 'DinLight', sans-serif;
   color: white;
-  font-size: 12px;
+  font-size: 20px;
   position: relative;
   top: 50%;
-  left: 45%;
+  left: 38%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
@@ -1211,7 +1213,6 @@ li{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
-  line-height: 15px;
   width: 80%;
 }
 

@@ -32,7 +32,7 @@ export default function services() {
               &nbsp;<span className="text-turquoise"> END-to-END</span>&nbsp;
               <span className="text-black">solutions</span>
             </h1>
-            <hr className="hr-story"></hr>
+            <hr className="hr-services"></hr>
             <p>
               ARQON provides END-TO-END solutions with quality of service from
               architectural design, project management and design and build
@@ -47,7 +47,7 @@ export default function services() {
         <div className="container text-center pt-5 pb-5 ">
           <div className="row">
             <div className="col">
-              <h1 className="story-heading"> NEED TO GET IN TOUCH</h1>
+              <h1 className="story-heading"> NEED TO GET IN TOUCH?</h1>
               <p>
                 <span className="text-story">
                   No matter what your question, we're here to help.<br></br>{" "}
