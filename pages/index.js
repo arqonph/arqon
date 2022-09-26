@@ -6,10 +6,13 @@ import Hero from "../components/landing/Hero";
 import Services from "../components/landing/Services";
 import Projects from "../components/landing/Projects";
 import ContactUs from "../components/landing/ContactUs";
-import Viewer from "../components/landing/Viewer.js";
 import Clientreview from "../components/landing/Clientreview";
+import dynamic from "next/dynamic";
 
 export default function Home() {
+  const Model = dynamic(() => import("../components/landing/Model"), {
+    ssr: true,
+  });
   return (
     <>
       <Head>
@@ -46,9 +49,37 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
-      <HomePageBody />
+      {/* <HomePageBody /> */}
+      <div>
+        <section className="flexVid">
+          <div className="bodyPage">
+            <div className="row d-flex justify-content-between">
+              <div className="col-xxl-5 bodyHeader">
+                <p className="header">
+                  <span className="highlight">Excellence</span>
+                  <span> is our culture.</span>
+                  <br />
+                  <span>Our</span>
+                  <span className="highlight"> Commitment.</span>
+                  <br />
+                </p>
+                <p className="sentence">
+                  You’ll see it in the way we exchange ideas with you. We find
+                  out what makes your eyes light up, then leverage the best
+                  tools in our arsenal to enhance it. Using cutting edge virtual
+                  design and Building Information Modeling (BIM), we are able to
+                  create visual space simulations to make more informed
+                  decisions and reduce errors that cost time and money.
+                </p>
+              </div>
+              <div className="obj3d col-xxl-6 text-center">
+                <Model />
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
       <Projects />
-      <Viewer />
       {/* <Clientreview /> */}
       <ContactUs />
       <footer>
