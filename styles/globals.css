@@ -816,7 +816,7 @@ li{
 
 /* Bottom right text */
 
-.text-block {
+/* .text-block {
   position: absolute;
   bottom: 0px;
   right: 0;
@@ -824,7 +824,7 @@ li{
   color: white;
   padding-left: 20px;
   padding-right: 20px;
-}
+} */
 
 .text-black {
   font-family: "dinbold", sans-serif;
@@ -978,7 +978,7 @@ li{
 .info span {
   font-family: 'DinLight', sans-serif;
   color: white;
-  font-size: 20px;
+  font-size: 18px;
   position: relative;
   top: 50%;
   left: 38%;
@@ -1023,7 +1023,7 @@ li{
   position: absolute;
   top: 45%;
   left: 20%;
-  -webkit-transform: translate(-40%, -50%);
+  -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;

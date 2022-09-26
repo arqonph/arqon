@@ -3,10 +3,10 @@ import Link from "next/link";
 
 export default function services_page() {
   return (
-    <div className="services_page">
+    <div className="services_page align-content-center">
       <div className="container pt-5 pb-5">
         <div className="row">
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 aprilMD">
+          <div className="container col-md-4 mb-5 aprilMD">
             <div className="arDImg position-relative">
               <div className="contentBox">
                 <span className="">Architectural Design</span>
@@ -26,7 +26,7 @@ export default function services_page() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 mannyBIM">
+          <div className="container col-md-4 mb-5 mannyBIM">
             <div className="dbImg position-relative">
               <div className="contentBox">
                 <span className="">Design and Build</span>
@@ -47,7 +47,7 @@ export default function services_page() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 chinoPM">
+          <div className="container col-md-4 mb-5 chinoPM">
             <div className="bimImg position-relative">
               <div className="contentBox">
                 <span className="">Building Information Modeling (BIM)</span>
@@ -71,9 +71,9 @@ export default function services_page() {
           </div>
         </div>
       </div>
-      <div className="container pt-5 pb-5">
+      <div className="container">
         <div className="row">
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 aprilMD">
+          <div className="container col-md-4 mb-5 aprilMD">
             <div className="ariImg position-relative">
               <div className="contentBox">
                 <span className="">Architectural Interiors</span>
@@ -93,7 +93,7 @@ export default function services_page() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 mannyBIM">
+          <div className="container col-md-4 mb-5 mannyBIM">
             <div className="pmImg position-relative">
               <div className="contentBox">
                 <span className="">Project Management</span>
@@ -113,7 +113,7 @@ export default function services_page() {
               </div>
             </div>
           </div>
-          <div className="col-xxl-3 col-lg-4 col-md-6 mb-5 chinoPM">
+          <div className="container col-md-4 mb-5 chinoPM">
             <div className="dcImg position-relative">
               <div className="contentBox">
                 <span className="">Design Consultancy </span>
