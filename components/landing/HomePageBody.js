@@ -6,7 +6,7 @@ function HomePageBody() {
       <section className='flexVid'>
         <div className='bodyPage'> 
           <div className='row d-flex justify-content-between'>
-            <div className='col-xxl-4 bodyHeader'>
+            <div className='col-xxl-5 bodyHeader'>
               <p className='header'>
                 <span className='highlight'>Excellence</span><span> is our culture.</span><br/>
                 <span>Our</span><span className='highlight'> Commitment.</span><br/>

@@ -22,11 +22,12 @@ export default async function handler(req, res ) {
             from: email,
             to: 'marjay.g.flores@gmail.com',
             subject: 'Sample message enquiry',
-            html: `<p>You have a new messsage<p><br>
-            <p><strong>Name: <strong> ${name} <p><br>
-            <p><strong>Email: <strong> ${email} <p><br>
-            <p><strong>Number: <strong> ${number} <p><br>
-            <p><strong>Message: <strong> ${message} <p><br>`,
+            html: `<p>Hi ARQON Team <br><br>
+            ${message}<br><br>
+            <strong>Thank you! </strong><br><br>
+                Name: ${name}<br>
+                Email: ${email}<br>
+                Phone Number: ${number}<br>`,
         })
         return res.status(200).json('Succesfully send your message')
     }catch(error){

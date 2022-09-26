@@ -72,11 +72,11 @@ function ContactUs() {
    <section>
     <div>
       <div className='contact d-flex align-items-center justify-content-between row py-5 px-xxl-5 px-md-3 px-2'>
-        <div className='contactUsdiv col-xl-12 col-xxl-7 row gx-3 text-xxl-start text-center'>
+        <div className='contactUsdiv col-xl-12 col-xxl-7 row gx-3 text-xxl-start'>
           <div className='clientSlide pb-5 col-xxl-12 col-xl-6'>
               <div className=' clientReview d-flex justify-content-between align-items-center'>
                   <div className='ps-xxl-2'>
-                      <span className='header'>what our client say</span>
+                      <span className='header'>what our clients say</span>
                   </div>
                   <div className='controls pe-xxl-5'>
                       <button className='previous border-0 bg-white' onClick={previous}><span className='fs-1'>&#8249;</span></button>
@@ -213,12 +213,12 @@ function ContactUs() {
               {/* </div> */}
               </div>
           </div>
-          <div className='col-xxl-12 col-xl-6 col-12 row d-flex align-items-center justify-content-between'>
-            <div className='col-xxl-5 col-xl-6 contactUsLine px-5'>
-              <h1>"WE BRING <span>YOUR</span> VISION TO LIFE."</h1>
+          <div className='col-xxl-12 col-xl-6 col-12 row d-flex align-items-center justify-content-center'>
+            <div className='col-xxl-5 col-xl-6 contactUsLine px-5 '>
+              <h1 className='border-top border-bottom border-3 py-xl-5 py-3 py-xxl-5'>"WE BRING <span>YOUR</span> VISION TO LIFE."</h1>
             </div>
             <div className='col-xxl-6 col-xl-6'>
-              <form className='contactUsForm pt-5' onSubmit={handleSubmit(sendMessage)}>
+              <form className='contactUsForm pt-xxl-5 pt-2' onSubmit={handleSubmit(sendMessage)}>
                 {/* <div className='headLine'>
                   <span>Let's bring your vission to life.</span>
                 </div> */}
@@ -285,7 +285,7 @@ function ContactUs() {
                     ></textarea>
                     <span>{errors.message?.message}</span>
                   </div>
-                  <div className=''>
+                  <div className='pb-xxl-0 pb-xl-3 pb-3'>
                     <button className='contactSubmitBtn' type='submit' id='submit'> Send </button>
                   </div>
                 </div>
