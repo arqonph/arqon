@@ -11,7 +11,7 @@ import dynamic from "next/dynamic";
 
 export default function Home() {
   const Model = dynamic(() => import("../components/landing/Model"), {
-    ssr: true,
+    ssr: false,
   });
   return (
     <>
