@@ -4,7 +4,8 @@ import Navbar from "../components/landing/Navigation-bar";
 import Footer from "../components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
 import arqonStoryImage from "../assets/Arqon_Our Story Group.jpg";
-import Team from "/pages/team.js";
+import Team from "../components/landing/Team.js";
+import Heads from "../components/landing/Heads.js";
 
 export default function story() {
   return (
@@ -70,6 +71,7 @@ export default function story() {
           </div>
         </div>
       </div>
+      <Heads />
       <Team />
       <div className="cover-container section-3">
         <div className="container text-left pt-5 pb-5 ">

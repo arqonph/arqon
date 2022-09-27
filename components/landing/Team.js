@@ -11,195 +11,7 @@ export default function team() {
     <div className="story">
       {/* <div className="container pt-5 pb-5">
         <div className="row">
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={aprilImg} alt="Ms. April" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">Managing Director</span>
-                    </div>
-                    <div className="member-details col-sm-4">
-                      <hr></hr>
-                      <span className="member-info col-sm-4">
-                        Thanks to his extensive international experience, April
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Arch. April Pulido</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={mannyImg} alt="Manny Pulido" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">
-                        Director | Designer | BIM Manager
-                      </span>
-                    </div>
-                    <div className="member-details">
-                      <hr></hr>
-                      <span className="member-info">
-                        Thanks to his extensive international experience, Manny
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Arch. Manny Pulido</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={chinoImg} alt="Chino Buitizon" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">
-                        Director | Designer | Project Manager
-                      </span>
-                    </div>
-                    <div className="member-details">
-                      <hr></hr>
-                      <span className="member-info">
-                        Thanks to his extensive international experience, Chino
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Arch. Chino Buitizon</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div className="container pt-5 pb-5">
-        <div className="row">
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={paoloImg} alt="Paolo Manlapaz" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">Site Engineer</span>
-                    </div>
-                    <div className="member-details">
-                      <hr></hr>
-                      <span className="member-info">
-                        Thanks to his extensive international experience, Paolo
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Engr. Paolo Manlapaz</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={joshuaImg} alt="Joshua Aquino" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">Junior Architect</span>
-                    </div>
-                    <div className="member-details">
-                      <hr></hr>
-                      <span className="member-info">
-                        Thanks to his extensive international experience, Joshua
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Arch. Joshua Aquino</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div className="col-sm-4">
-            <div className="vc_column-inner">
-              <div className="team-member dark">
-                <div className="content-box">
-                  <div className="image-container">
-                    <Image src={koebeeImg} alt="Koebee Cabigao" />
-                    <div className="side-overlay"></div>
-                    <div className="vertical-number-box">
-                      <span className="vertical-number">
-                        Admin and Accounting
-                      </span>
-                    </div>
-                    <div className="member-details">
-                      <hr></hr>
-                      <span className="member-info">
-                        Thanks to his extensive international experience, Koebee
-                        has gathered a community of creativity and innovation
-                        experts, always providing insights and advice on getting
-                        better ideas, how to implement them and provide greater
-                        value in complete interior or exterior design and decor.
-                      </span>
-                      <hr></hr>
-                    </div>
-                  </div>
-                  <div className="content-box-info">
-                    <h4>Koebee Cabigao</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> */}
-      <div className="container pt-5 pb-5">
-        <div className="row">
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 aprilMD">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 aprilMD">
             <div className="aprilImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. April Pulido</span>
@@ -243,7 +55,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 mannyBIM">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 mannyBIM">
             <div className="mannyImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Manny Pulido</span>
@@ -290,7 +102,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 chinoPM">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 chinoPM">
             <div className="chinoImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Chino Buitizon</span>
@@ -336,10 +148,10 @@ export default function team() {
             </div>
           </div>
         </div>
-      </div>
-      <div className="container pt-5 pb-5">
+      </div> */}
+      <div className="container pb-5">
         <div className="row">
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 aprilMD">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 paoEng">
             <div className="paoloImg position-relative">
               <div className="contentBox">
                 <span className="">Engr. Paolo Manlapaz</span>
@@ -367,7 +179,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 mannyBIM">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 joshArc">
             <div className="joshImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Joshua Aquino</span>
@@ -395,7 +207,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="teamHead col-xxl-3 col-lg-4 col-md-6 chinoPM">
+          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 koeAc">
             <div className="koebeeImg position-relative">
               <div className="contentBox">
                 <span className="">Koebee Cabigao</span>
