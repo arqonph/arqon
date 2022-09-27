@@ -173,7 +173,7 @@ export default function Footer() {
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Phone: +632 966 210 2307</span></li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Email: info@arqon.com.ph </span></li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Suite 1706 Atlanta Centre Building,
-                    31 Annpolis St., Greenhills, San Juan City,
+                    31 Annapolis St., Greenhills, San Juan City,
                     Metro Manila, Philippines 1552</span> 
                   </li>
                 </ul>

@@ -269,7 +269,7 @@ function ContactUs() {
                     <span>{errors.number?.message}</span>
                   </div>
                   <div className='py-1 contactField'>
-                    <textarea id='message' type='field area' className='textArea form-control rounded-0' placeholder='Hello, I am interest in...'
+                    <textarea id='message' type='field area' className='textArea form-control rounded-0' placeholder='Hello, I am interested in...'
                     {...register('message',
                       { required: 'You need to enter your message.' , 
                         minLength: {
