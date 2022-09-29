@@ -8,6 +8,9 @@ import Projects from "../components/landing/Projects";
 import ContactUs from "../components/landing/ContactUs";
 import Clientreview from "../components/landing/Clientreview";
 import dynamic from "next/dynamic";
+import Popup from "../components/landing/Popup";
+import Image from "next/image";
+import ArqonScene from "../assets/arqon scene.gif";
 
 export default function Home() {
   const Model = dynamic(() => import("../components/landing/Model"), {
@@ -49,6 +52,7 @@ export default function Home() {
       <Navbar />
       <Hero />
       <Services />
+      {/* <Popup /> */}
       {/* <HomePageBody /> */}
       <div>
         <section className="flexVid">
@@ -73,7 +77,39 @@ export default function Home() {
                 </p>
               </div>
               <div className="obj3d col-xxl-6 text-center">
-                <Model />
+                <div class="container">
+                  <Image
+                    src={ArqonScene}
+                    type="button"
+                    class="btn btn-primary"
+                    data-bs-toggle="modal"
+                    data-bs-target="#staticBackdrop"
+                  />
+
+                  <div
+                    className="modal fade"
+                    id="staticBackdrop"
+                    data-bs-backdrop="static"
+                    data-bs-keyboard="false"
+                    tabindex="-1"
+                    aria-labelledby="staticBackdropLabel"
+                    aria-hidden="true"
+                  >
+                    <div className="modal-dialog modal-xl modal-dialog-centered ">
+                      <div className="modal-content">
+                        <div class="modal-header ">
+                          <Model />
+                          <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                          ></button>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
