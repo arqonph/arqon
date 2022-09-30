@@ -60,7 +60,7 @@ function NavigationBar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#OUR STORY">
+                <Link href="/OurStory">
                   <a className="nav-link text-white">
                     <span>OUR STORY</span>
                   </a>
