@@ -8,7 +8,6 @@ import Projects from "../components/landing/Projects";
 import ContactUs from "../components/landing/ContactUs";
 import Clientreview from "../components/landing/Clientreview";
 import dynamic from "next/dynamic";
-import Popup from "../components/landing/Popup";
 import Image from "next/image";
 import ArqonScene from "../assets/arqon scene.gif";
 
