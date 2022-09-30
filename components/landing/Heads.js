@@ -3,7 +3,7 @@ export default function team() {
     <div className="story">
       <div className="container pt-5">
         <div className="row">
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 aprilMD">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 aprilMD">
             <div className="aprilImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. April Pulido</span>
@@ -49,7 +49,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 mannyBIM">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 mannyBIM">
             <div className="mannyImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Manny Pulido</span>
@@ -99,7 +99,7 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 chinoPM">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 chinoPM">
             <div className="chinoImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Chino Buitizon</span>

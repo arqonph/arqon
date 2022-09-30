@@ -21,7 +21,7 @@ export default function story() {
       <div className="cover-container d-flex flex-column position-relative display-box">
         <Image src={arqonTopImg} />
         <div className="card-img-overlay">
-          <h1 className="card-title hero-text">Our Story</h1>
+          <h1 className="card-title storyH1">Our Story</h1>
         </div>
       </div>
       <div className="container section-1 text-center pt-5 pb-5 ">
