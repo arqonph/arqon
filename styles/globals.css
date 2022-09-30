@@ -792,7 +792,7 @@ model-viewer {
 
 /* ============ Services Page =========== */
 
-.hero-text {
+.SRHero-text {
   font-family: 'DinBold', sans-serif;
   text-align: left;
   position: absolute;
@@ -804,48 +804,12 @@ model-viewer {
   color: #76CBC1;
 }
 
-/* .introduction {
-  padding-top: 2rem;
-  text-align: center;
-  position: center;
-  color: black;
-} */
-
-.container-fluid {
-  position: relative;
-  height: 100%;
-}
-
 .hr-services {
   border: 1px solid #76CBC1;
   opacity: 100%;
   width: 65%;
   margin: auto;
 }
-
-.story-heading {
-  font-family: 'Adamcg', sans-serif;
-  color: #fff;
-}
-
-.text-story {
-  font-family: "dinbook", sans-serif;
-  font-size: 22px;
-  color: #424245;
-  font-weight: lighter;
-}
-
-/* Bottom right text */
-
-/* .text-block {
-  position: absolute;
-  bottom: 0px;
-  right: 0;
-  background-color: #C4C4C4E5;
-  color: white;
-  padding-left: 20px;
-  padding-right: 20px;
-} */
 
 .text-black {
   font-family: "dinbold", sans-serif;
@@ -873,41 +837,6 @@ model-viewer {
   color: #fff;
   font-size: 25px;
   font-weight: bold;
-}
-
-
-.section-3 {
-  font-family: 'DinRegular', sans-serif;
-  background-color: #76CBC1;
-  text-align: left;
-  margin-bottom: 0px;
-}
-
-.vertical-box {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  width: 478px;
-  transform: rotate(-90deg);
-  background-color: #f1f1f1;
-  position: relative;
-  right: 217px;
-  top: 215px;
-}
-
-.verticl-text .designation {
-  display: block;
-  color: #000;
-  padding: 10px 30px;
-  text-decoration: none;
-  text-align: left;
-}
-
-
-/* Change the link color on hover */
-.verticl-text .designation:hover {
-  background-color: #555;
-  color: white;
 }
 
 .arDImg {
@@ -1026,15 +955,15 @@ model-viewer {
   text-align: center;
 }
 
-.aprilMD:hover .descriptionOverlay {
+.archD:hover .descriptionOverlay {
   opacity: 1;
 }
 
-.mannyBIM:hover .descriptionOverlay {
+.DandB:hover .descriptionOverlay {
   opacity: 1;
 }
 
-.chinoPM:hover .descriptionOverlay {
+.DandC:hover .descriptionOverlay {
   opacity: 1;
 }
 
