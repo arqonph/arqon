@@ -46,7 +46,7 @@ function NavigationBar() {
                 </Link>
               </li>
               <li className="nav-item">
-                <Link href="#SERVICES">
+                <Link href="/Services_Main">
                   <a className="nav-link text-white">
                     <span>SERVICES</span>
                   </a>
