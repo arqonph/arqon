@@ -5,10 +5,6 @@ import Head from 'next/head'
 import Navbar from '/components/landing/Navigation-bar'
 import Footer from '/components/landing/Footer'
 import arqonTopImg from '/assets/01_Arqon_top_image.jpg'
-import contactUs1 from '/assets/05_Arqon_Contact_Us_01.jpg'
-import contactUs2 from '/assets/05_Arqon_Contact_Us_02.jpg'
-import contactUs3 from '/assets/05_Arqon_Contact Us_03.jpg'
-import contactUs4 from '/assets/05_Arqon_Contact Us_04.jpg'
 
 function ContactUs() {
   const { register, handleSubmit, formState : {errors}, reset } = useForm()
@@ -51,7 +47,7 @@ function ContactUs() {
       </div>
 
       <div>
-        <div class='row'>
+        <div className='row'>
           <div className='col-md-3'>
             <span>&nbsp;</span>
           </div>
@@ -64,12 +60,12 @@ function ContactUs() {
             <span>&nbsp;</span>
           </div>
         </div>
-        <div class='row'>
+        <div className='row'>
           <div className='page-center'>
             <br/><span>For our brand's personality -- cool, creative, modern, professional,</span>
           </div>
         </div>
-        <div class='row'>
+        <div className='row'>
           <div className='page-center'>
             <br/><span>contemporary, strong, tasteful, with <b>integrity</b></span>
           </div>
@@ -77,8 +73,8 @@ function ContactUs() {
         </div>
       </div>
         <br/>
-        <div class='container'>
-          <div class='row'>
+        <div className='container'>
+          <div className='row'>
             <div className='col-md-4 text-center'>
               <p><i className='fa-solid fa-phone fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>+63 917 817 4612</span><br/>
@@ -88,14 +84,14 @@ function ContactUs() {
             </div>
             
             <div className='col-md-4 text-center'>
-              <p><i class='fa-regular fa-envelope fa-2xl contactUs-icon'></i></p>
+              <p><i className='fa-regular fa-envelope fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>info@arqon.com.ph</span><br/>
               <span className='phone-email-home-desc'>Email us anytime,</span><br/>
               <span className='phone-email-home-desc'>we usually reply within 24 hours.</span>
               <br/>
             </div>
             <div className='col-md-4 text-center'>
-              <p><i class='fa-solid fa-house fa-2xl contactUs-icon'></i></p>
+              <p><i className='fa-solid fa-house fa-2xl contactUs-icon'></i></p>
               <span className='phone-email-home'>Arqon Headquarters</span><br/>
               <span className='phone-email-home-desc'>Suite 1706 Atlanta Centre Building,</span><br/>
               <span className='phone-email-home-desc'>31 Annapolis St., Greenhills, San Juan City,</span><br/>
@@ -385,7 +381,7 @@ function ContactUs() {
           <div className='col-xs-12 col-sm-12 col-md-12 pl-0'>
             <div className='embed-responsive '>
               <iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.4502173590397!2d121.05235936406027!3d14.604747298883428!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c81649c1ba6d%3A0xd4e7b11d4a94bd7c!2sARQON%20Design%20and%20Build!5e0!3m2!1sen!2sus!4v1662405465656!5m2!1sen!2sus' 
-                  className='google-maps map-black-white' allowFullScreen loading='lazy' referrerpolicy='no-referrer-when-downgrade'></iframe>
+                  className='google-maps map-black-white' allowFullScreen loading='lazy' referrerPolicy='no-referrer-when-downgrade'></iframe>
             </div>
           </div>
         </div>

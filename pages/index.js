@@ -76,11 +76,11 @@ export default function Home() {
                 </p>
               </div>
               <div className="obj3d col-xxl-6 text-center">
-                <div class="container">
+                <div className="container">
                   <Image
                     src={ArqonScene}
                     type="button"
-                    class="btn btn-primary"
+                    className="btn btn-primary"
                     data-bs-toggle="modal"
                     data-bs-target="#staticBackdrop"
                   />
@@ -96,11 +96,11 @@ export default function Home() {
                   >
                     <div className="modal-dialog modal-xl modal-dialog-centered ">
                       <div className="modal-content">
-                        <div class="modal-header ">
+                        <div className="modal-header ">
                           <Model />
                           <button
                             type="button"
-                            class="btn-close"
+                            className="btn-close"
                             data-bs-dismiss="modal"
                             aria-label="Close"
                           ></button>

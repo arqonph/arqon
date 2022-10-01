@@ -65,9 +65,8 @@ import Slider from 'react-slick'
         <Image src={arqonTopImg}/>
         <p className='page-title'>Projects</p>
       </div>
-
       <div className='container'>
-        <div class='row'>
+        <div className='row'>
           <div className='col-md-2'>
             <span>&nbsp;</span>
           </div>
@@ -80,13 +79,13 @@ import Slider from 'react-slick'
             <span>&nbsp;</span>
           </div>
         </div>
-        <div class='row'>
+        <div className='row'>
             <div className='col-md-2'>
                 <span>&nbsp;</span>
             </div>
             <div className='col-md-8 text-center'>           
-                <div className=''>
-                    <br/><p>It's not just about our more than<span className='page-desc-turquoise-sm'>16 years</span>  
+                <div className='mt-2'>
+                    <p className='small-m'>It's not just about our more than<span className='page-desc-turquoise-sm'>16 years</span>  
                     &nbsp;of design and project management experience we have under our belt. Our credentials 
                         include leading the architectural teams responsible for some of the most distinguished
                         <span className='page-desc-black-sm'>&nbsp; residential, office and commercial &nbsp;</span>developments in the country.</p>
