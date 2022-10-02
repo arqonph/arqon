@@ -90,7 +90,7 @@ export default function Home() {
                     id="staticBackdrop"
                     data-bs-backdrop="static"
                     data-bs-keyboard="false"
-                    tabindex="-1"
+                    tabIndex="-1"
                     aria-labelledby="staticBackdropLabel"
                     aria-hidden="true"
                   >
@@ -101,7 +101,7 @@ export default function Home() {
                           <button
                             type="button"
                             className="btn-close"
-                            data-bs-dismiss="modal"
+                              data-bs-dismiss="modal"
                             aria-label="Close"
                           ></button>
                         </div>
