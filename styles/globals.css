@@ -107,6 +107,7 @@ li {
   font-weight: lighter;
 }
 
+
 /* Bottom right text */
 
 .text-block {
@@ -1226,11 +1227,22 @@ model-viewer {
 }
 
 .hr-services {
+  display: inline-block;
+}
+
+.hr-services:after {
+  content: '';
+  display: block;
+  border: 1px solid #76CBC1;
+  margin-top: 0.5em;
+}
+
+/* .hr-services {
   border: 1px solid #76CBC1;
   opacity: 100%;
-  width: 65%;
+  width: calc(75%);
   margin: auto;
-}
+} */
 
 .text-black {
   font-family: "dinbold", sans-serif;
@@ -1260,13 +1272,23 @@ model-viewer {
   font-weight: bold;
 }
 
+.text-service {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bolder;
+  max-width: 100px;
+}
+
 .arDImg {
   background-image: url('../assets/01_Arqon_Home page_03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .dbImg {
@@ -1275,7 +1297,9 @@ model-viewer {
   background-size: cover;
   background-position: left;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .bimImg {
@@ -1284,7 +1308,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .ariImg {
@@ -1293,7 +1319,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .pmImg {
@@ -1302,7 +1330,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .dcImg {
@@ -1311,7 +1341,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .contentBox {
@@ -1341,7 +1373,7 @@ model-viewer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(44, 44, 39, 0.5);
+  background-color: rgba(44, 44, 39, 0.8);
   overflow: hidden;
   transition: .3s ease;
 }
@@ -1387,6 +1419,7 @@ model-viewer {
 
 .DandC:hover .descriptionOverlay {
   opacity: 1;
+
 }
 
 .info {
@@ -1400,6 +1433,8 @@ model-viewer {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 80%;
+  line-height: 25px;
+
 }
 
 .btn-contact {
@@ -1668,6 +1703,22 @@ model-viewer {
     width: 80% !important;
   }
 
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 300px;
+    margin: auto;
+  }
+
+  .info {
+    line-height: 25px;
+
+  }
+
 }
 
 @media(max-width: 912px) {
@@ -1826,5 +1877,25 @@ model-viewer {
 
 
 }
+
+@media (max-width: 526px) {
+  .hr-services:after {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 389px;
+    margin: auto;
+  }
+}
+
+
 
 /* popup */
