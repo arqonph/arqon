@@ -27,25 +27,16 @@ export default function story() {
       <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
           <div className="col">
-            <h1>
-              <span className="text-black">
-                It all started with our passion for
+            <h1 className="hr-story">
+              <span className="text-grey">
+                IT ALL STARTED WITH OUR PASSION FOR TRAVEL AND DESIGN
               </span>
-              &nbsp;<span className="text-turquoise">TRAVEL</span>&nbsp;
-              <span className="text-black">and</span>&nbsp;
-              <span className="text-turquoise">DESIGN.</span>
             </h1>
-            <hr className="hr-story"></hr>
             <p>
-              Somewhere between touring the centuries-old building in Quebec,
-              and driving through the plains of Arizona and steel sky scrapers
-              of New York City, three architects on the trip of their lifetime
-              found themselves enthralled by the structural marvels and
-              innovative structures of the modern world.
-              <br></br>
-              <br></br>ARQON, proudly Filipino company with a global perspective
-              on design and build, was established not long after.
+              Somewhere between touring the centuries-old building in Quebec and driving through the plains of Arizona and steel skyscrapers of New York City, three architects on the trip of their lifetime found themselves enthralled by the structural marvels and innovative structures of the modern world.
             </p>
+            <p className="mt-2">ARQON, proudly Filipino company with a global perspective on design and build, was established not long after. 
+</p>
           </div>
         </div>
       </div>
@@ -59,13 +50,10 @@ export default function story() {
               <h1 className="story-heading"> This is our story</h1>
               <p>
                 <span className="text-story">
-                  Real frienships and honest relationships build the strong
-                  foundation of our company. <br></br> We’re motivated to be
+                  Real friendships and honest relationships, along with the collection of skills from individual experiences, build the strong foundation of our company.
+                  <br></br>
+                  We’re motivated to be rock stars of the built environment. 
                 </span>
-                &nbsp;
-                <span className="text-white">rock stars</span>
-                &nbsp;
-                <span className="text-story">of the built environment.</span>
               </p>
             </div>
           </div>
