@@ -6,7 +6,7 @@ export default function team() {
           <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 aprilMD">
             <div className="aprilImg position-relative">
               <div className="contentBox">
-                <span className="">Arch. April Pulido</span>
+                <span className="arch">Arch. April Pulido</span>
               </div>
               <div className="descriptionOverlayHrzApril">
                 <div className="infoHorizontal">

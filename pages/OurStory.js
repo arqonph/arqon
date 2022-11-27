@@ -33,10 +33,16 @@ export default function story() {
               </span>
             </h1>
             <p>
-              Somewhere between touring the centuries-old building in Quebec and driving through the plains of Arizona and steel skyscrapers of New York City, three architects on the trip of their lifetime found themselves enthralled by the structural marvels and innovative structures of the modern world.
+              Somewhere between touring the centuries-old building in Quebec and
+              driving through the plains of Arizona and steel skyscrapers of New
+              York City, three architects on the trip of their lifetime found
+              themselves enthralled by the structural marvels and innovative
+              structures of the modern world.
             </p>
-            <p className="mt-2">ARQON, proudly Filipino company with a global perspective on design and build, was established not long after. 
-</p>
+            <p className="mt-2">
+              ARQON, proudly Filipino company with a global perspective on
+              design and build, was established not long after.
+            </p>
           </div>
         </div>
       </div>
@@ -50,9 +56,11 @@ export default function story() {
               <h1 className="story-heading"> This is our story</h1>
               <p>
                 <span className="text-story">
-                  Real friendships and honest relationships, along with the collection of skills from individual experiences, build the strong foundation of our company.
+                  Real friendships and honest relationships, along with the
+                  collection of skills from individual experiences, build the
+                  strong foundation of our company.
                   <br></br>
-                  We’re motivated to be rock stars of the built environment. 
+                  We’re motivated to be rock stars of the built environment.
                 </span>
               </p>
             </div>
@@ -63,31 +71,72 @@ export default function story() {
       <Team />
       <div className="cover-container section-3">
         <div className="container text-left pt-5 pb-5 ">
+          <h3 className="text-white"> COLLEAGUE’S TESTIMONIALS</h3>
+          <hr className="bg-white border-4 border-top border-white"></hr>
           <div className="row">
-            <div className="col">
-              <h3 className="text-white"> COLLEAGUE’S TESTIMONIALS</h3>
-              <hr className="bg-white border-4 border-top border-white"></hr>
-              For April:
-              <p className="col-sm-6">
-                Over the years, aside from April’s expertise in leading the
-                project team that has been instrumental to the growth of the
-                firm. April overcame many challenges through her hard work,
-                dedication and incredible work ethics. She is teachable,
-                coachable, resourceful and adapts well on the ever changing
-                demand of every project. April is also an effective
-                communicator. This skill set coupled with her insatiable
-                appetite for knowledge make her a brilliant and well-rounded
-                professional.
-              </p>
-              <p>
-                Arch. Teofilo “Boyet” Santiago, <br></br>
-                Jr. Senior Partner (Retired) <br></br>
-                GF & Partners Architects
-              </p>
-              <p>
-                For Chino: <br></br>
-                Request from Sir Arlie
-              </p>
+            <div className="col-lg-4 col-md-6 col-sm-3">
+              <div className="testimonials">
+                <p>
+                  Over the years, aside from April’s expertise in leading the
+                  project team that has been instrumental to the growth of the
+                  firm. April overcame many challenges through her hard work,
+                  dedication and incredible work ethics. She is teachable,
+                  coachable, resourceful and adapts well on the ever changing
+                  demand of every project. April is also an effective
+                  communicator. This skill set coupled with her insatiable
+                  appetite for knowledge make her a brilliant and well-rounded
+                  professional.
+                </p>
+                <p className="testimonials-head mb-0">
+                  Arch. Teofilo “Boyet” Santiago,
+                </p>
+                <p>
+                  Senior Partner (Retired) <br></br>
+                  GF & Partners Architects
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-3">
+              <div className="testimonials">
+                <p>
+                  Over the years, aside from April’s expertise in leading the
+                  project team that has been instrumental to the growth of the
+                  firm. April overcame many challenges through her hard work,
+                  dedication and incredible work ethics. She is teachable,
+                  coachable, resourceful and adapts well on the ever changing
+                  demand of every project. April is also an effective
+                  communicator. This skill set coupled with her insatiable
+                  appetite for knowledge make her a brilliant and well-rounded
+                  professional.
+                </p>
+                <p className="testimonials-head mb-0">
+                  Arch. Annette Gaddi-Liganor,
+                </p>
+                <p>
+                  Managing Partner<br></br>
+                  GF & Partners Architects
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-4 col-md-6 col-sm-3">
+              <div className="testimonials">
+                <p>
+                  Over the years, aside from April’s expertise in leading the
+                  project team that has been instrumental to the growth of the
+                  firm. April overcame many challenges through her hard work,
+                  dedication and incredible work ethics. She is teachable,
+                  coachable, resourceful and adapts well on the ever changing
+                  demand of every project. April is also an effective
+                  communicator. This skill set coupled with her insatiable
+                  appetite for knowledge make her a brilliant and well-rounded
+                  professional.
+                </p>
+                <p className="testimonials-head mb-0">Arch. Arlie Cruz</p>
+                <p>
+                  Junior Partner <br></br>
+                  Aidea Philippines Inc.
+                </p>
+              </div>
             </div>
           </div>
         </div>

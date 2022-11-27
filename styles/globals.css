@@ -203,7 +203,7 @@ li {
 }
 
 .aprilImg {
-  background-image: url('../assets/04_Arqon_Our Story_April.jpg');
+  background-image: url('../assets/04_Arqon_Our Story_01 April.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -259,7 +259,7 @@ li {
 .contentBox {
   position: absolute;
   padding: 10px 0px;
-  background-color: rgba(66, 66, 60, .8);
+  background-color: rgba(66, 66, 60, 1);
   width: 100%;
   font-family: 'DinLight', sans-serif;
   color: #fff;
@@ -270,7 +270,7 @@ li {
 }
 
 .linkedin {
-  color: #fff;
+  color: rgb(85, 83, 83);
   /* background-color: #000;
   position: absolute;
   width: 200px;
@@ -295,7 +295,7 @@ li {
   width: 311.5%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
 }
@@ -308,7 +308,7 @@ li {
   width: 311.5%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
 }
@@ -321,14 +321,14 @@ li {
   width: 311.5%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
 }
 
 .info span {
   font-family: 'DinLight', sans-serif;
-  color: white;
+  color: rgb(85, 83, 83);
   font-size: 12px;
   position: relative;
   top: 50%;
@@ -342,7 +342,7 @@ li {
 
 .infoHorizontal span {
   font-family: 'DinLight', sans-serif;
-  color: white;
+  color:rgb(0, 0, 0);
   font-size: 15px;
   position: relative;
   top: 50%;
@@ -358,11 +358,10 @@ li {
   font-family: 'DinLight', sans-serif;
   position: absolute;
   padding: 10px 0px;
-  background-color: #76CBC1;
   width: 100%;
   font-weight: bold;
   font-family: 'DinLight', sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0);
   bottom: 0px;
   left: 0;
   right: 0;
@@ -381,7 +380,7 @@ li {
 }
 
 .info {
-  color: white;
+  color: rgb(85, 83, 83);
   font-size: 20px;
   position: absolute;
   top: 45%;
@@ -389,20 +388,21 @@ li {
   -webkit-transform: translate(-40%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: center; 
   line-height: 15px;
   width: 80%;
 }
 
+
 .infoHorizontal {
-  color: white;
+  color: rgb(85, 83, 83);
   position: absolute;
   top: 50%;
   left: 7%;
   -webkit-transform: translate(-40%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: left;
+  text-align: center;
   line-height: 20px;
   width: 95%;
   margin-bottom: auto;
@@ -435,6 +435,17 @@ li {
 
 .contentboxOverlayHidden:hover {
   opacity: 1;
+}
+
+.testimonials {
+  color: #fff;
+  font-size: 12px;
+  font-weight: lighter;
+}
+
+.testimonials-head {
+  font-weight: bold;
+  color: #fff;
 }
 
 
@@ -1421,7 +1432,7 @@ model-viewer {
   width: 100%;
   font-weight: bold;
   font-family: 'DinLight', sans-serif;
-  color: rgb(0, 0, 0);
+  color: rgba(0, 0, 0, 1);
   bottom: 0px;
   left: 0;
   right: 0;
