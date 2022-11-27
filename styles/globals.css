@@ -80,7 +80,7 @@ li {
   left: 2%;
   font-size: 4.2vw;
   font-weight: bold;
-  letter-spacing: 7px;
+  letter-spacing: 3px;
   color: #76CBC1 !important;
 
 }
@@ -90,22 +90,35 @@ li {
   height: 100%;
 }
 
-.hr-story {
+/* .hr-story {
   border: 1px solid #76CBC1;
   opacity: 100%;
+} */
+
+.hr-story {
+  display: inline-block;
+}
+
+.hr-story:after {
+  content: '';
+  display: block;
+  border: 1px solid #76CBC1;
+  margin-top: 0.5em;
 }
 
 .story-heading {
   font-family: "dinbook", sans-serif;
-  color: #424245;
+  color: #ffff;
+  font-weight: bolder;
 }
 
 .text-story {
   font-family: "dinbook", sans-serif;
   font-size: 22px;
-  color: #424245;
+  color: #ffff;
   font-weight: lighter;
 }
+
 
 /* Bottom right text */
 
@@ -119,9 +132,16 @@ li {
   padding-right: 20px;
 }
 
+.text-grey {
+  font-family: "dinbold", sans-serif;
+  font-weight: bolder;
+  color: #2B2B32;
+}
+
 .text-black {
   font-family: "dinbold", sans-serif;
   font-weight: bolder;
+  color: #2B2B32;
 }
 
 .text-turquoise {
@@ -1221,16 +1241,27 @@ model-viewer {
   left: 2%;
   font-size: 4.2vw;
   font-weight: bold;
-  letter-spacing: 7px;
+  letter-spacing: 3px;
   color: #76CBC1;
 }
 
 .hr-services {
+  display: inline-block;
+}
+
+.hr-services:after {
+  content: '';
+  display: block;
+  border: 1px solid #76CBC1;
+  margin-top: 0.5em;
+}
+
+/* .hr-services {
   border: 1px solid #76CBC1;
   opacity: 100%;
-  width: 65%;
+  width: calc(75%);
   margin: auto;
-}
+} */
 
 .text-black {
   font-family: "dinbold", sans-serif;
@@ -1260,13 +1291,23 @@ model-viewer {
   font-weight: bold;
 }
 
+.text-service {
+  font-family: "Inter", sans-serif;
+  font-size: 22px;
+  color: #fff;
+  font-weight: bolder;
+  max-width: 100px;
+}
+
 .arDImg {
   background-image: url('../assets/01_Arqon_Home page_03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .dbImg {
@@ -1275,7 +1316,9 @@ model-viewer {
   background-size: cover;
   background-position: left;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .bimImg {
@@ -1284,7 +1327,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .ariImg {
@@ -1293,7 +1338,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .pmImg {
@@ -1302,7 +1349,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .dcImg {
@@ -1311,7 +1360,9 @@ model-viewer {
   background-size: cover;
   background-position: center;
   box-shadow: 0 0 5px #707070;
-  height: 450px;
+  height: 485px;
+  width: 389px;
+  margin: auto;
 }
 
 .contentBox {
@@ -1341,7 +1392,7 @@ model-viewer {
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(44, 44, 39, 0.5);
+  background-color: rgba(44, 44, 39, 0.8);
   overflow: hidden;
   transition: .3s ease;
 }
@@ -1387,6 +1438,7 @@ model-viewer {
 
 .DandC:hover .descriptionOverlay {
   opacity: 1;
+
 }
 
 .info {
@@ -1400,6 +1452,8 @@ model-viewer {
   transform: translate(-50%, -50%);
   text-align: center;
   width: 80%;
+  line-height: 25px;
+
 }
 
 .btn-contact {
@@ -1521,7 +1575,7 @@ model-viewer {
     top: 0% !important;
     height: 100% !important;
     width: 100% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
   }
 
   .descriptionOverlayHrzChino,
@@ -1530,7 +1584,7 @@ model-viewer {
     height: 100% !important;
     width: 100% !important;
     left: 0% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
 
   }
 
@@ -1549,6 +1603,20 @@ model-viewer {
     text-align: center !important;
     line-height: 20px !important;
     width: 80% !important;
+  }
+}
+
+@media(max-width: 1399px) {
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 350px;
+    margin: auto;
   }
 }
 
@@ -1577,6 +1645,17 @@ model-viewer {
 
   .contactUsLine span {
     color: #fff;
+  }
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 300px;
+    margin: auto;
   }
 }
 
@@ -1632,7 +1711,7 @@ model-viewer {
     top: 0% !important;
     height: 100% !important;
     width: 100% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
   }
 
   .descriptionOverlayHrzChino {
@@ -1640,7 +1719,7 @@ model-viewer {
     height: 100% !important;
     width: 100% !important;
     left: 0% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
 
   }
 
@@ -1649,7 +1728,7 @@ model-viewer {
     height: 100% !important;
     width: 100% !important;
     left: 0% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
   }
 
   .infoHorizontal span {
@@ -1666,6 +1745,22 @@ model-viewer {
     text-align: center !important;
     line-height: 15px !important;
     width: 80% !important;
+  }
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 300px;
+    margin: auto;
+  }
+
+  .info {
+    line-height: 25px;
+
   }
 
 }
@@ -1692,7 +1787,7 @@ model-viewer {
     top: 0% !important;
     height: 100% !important;
     width: 100% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
   }
 
   .descriptionOverlayHrzChino,
@@ -1701,7 +1796,7 @@ model-viewer {
     height: 100% !important;
     width: 100% !important;
     left: 0% !important;
-    background-color: rgba(44, 44, 39, 0.5) !important;
+    background-color: rgba(44, 44, 39, 0.8) !important;
 
   }
 
@@ -1826,5 +1921,30 @@ model-viewer {
 
 
 }
+
+@media (max-width: 526px) {
+  .hr-services:after {
+    width: 80%;
+    margin-left: 50px;
+  }
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 389px;
+    margin: auto;
+  }
+
+  .hr-story:after {
+    width: 85%;
+    margin-left: 35px;
+  }
+}
+
+
 
 /* popup */

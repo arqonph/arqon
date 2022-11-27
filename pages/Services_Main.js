@@ -27,17 +27,13 @@ export default function services() {
       <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
           <div className="col">
-            <h1>
-              <span className="text-black">We provide</span>
-              &nbsp;<span className="text-turquoise"> END-to-END</span>&nbsp;
-              <span className="text-black">solutions</span>
+            <h1 className="hr-services">
+              <span className="text-black">WE PROVIDE END-TO-END SOLUTIONS</span>
             </h1>
-            <hr className="hr-services"></hr>
             <p>
-              ARQON provides END-TO-END solutions with quality of service from
-              architectural design, project management and design and build
-              needs. We are equipped with knowledge and skills that would help
-              you in every step of the project’s full life cycle.
+              ARQON is a full-service architectural firm that specializes in streamlined design and build projects.<br></br>
+              We will help you through every step of the project’s full life cycle by providing the following services to fulfill your needs:
+
             </p>
           </div>
         </div>
@@ -47,21 +43,14 @@ export default function services() {
         <div className="container text-center pt-5 pb-5 ">
           <div className="row">
             <div className="col">
-              <h1 className="story-heading"> NEED TO GET IN TOUCH?</h1>
               <p>
-                <span className="text-story">
-                  No matter what your question, we're here to help.<br></br>{" "}
-                  Give us a call or send an email.
+                <span className="text-service">
+                  At ARQON, we keep our word and do what we say. We are a collaborative one-stop shop—with emphasis on client collaboration.
+                  <br></br>
+                  <br></br>
+                  Tell us your vision.  Let’s see how we can make it come to life.
                 </span>
               </p>
-              <Link href="ContactUs">
-                <button
-                  type="button"
-                  className="btn btn-contact btn-dark rounded-0 background-color:#707070 !important"
-                >
-                  Contact Us
-                </button>
-              </Link>
             </div>
           </div>
         </div>
