@@ -1587,6 +1587,20 @@ model-viewer {
   }
 }
 
+@media(max-width: 1399px) {
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 350px;
+    margin: auto;
+  }
+}
+
 @media(max-width: 1280px) {
 
   .heroImage2,
@@ -1612,6 +1626,17 @@ model-viewer {
 
   .contactUsLine span {
     color: #fff;
+  }
+
+  .arDImg,
+  .dbImg,
+  .bimImg,
+  .ariImg,
+  .pmImg,
+  .dcImg {
+    height: 485px;
+    width: 300px;
+    margin: auto;
   }
 }
 
