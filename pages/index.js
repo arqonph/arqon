@@ -24,7 +24,7 @@ export default function Home() {
           name="description"
           content="We are a full service architectural firm that specializes in streamlined design and build projects"
         />
-        <link rel="icon" href="/Arqon-Logos-A-White.jpg" />
+        <link rel="icon" href="/Arqon-Logos-A-White.png" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
 
         {/* <!-- Facebook Meta Tags --> */}
@@ -101,7 +101,7 @@ export default function Home() {
                           <button
                             type="button"
                             className="btn-close"
-                              data-bs-dismiss="modal"
+                            data-bs-dismiss="modal"
                             aria-label="Close"
                           ></button>
                         </div>
