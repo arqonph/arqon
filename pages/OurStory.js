@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Head from "next/head";
+import Title from "../components/landing/Title";
 import Navbar from "../components/landing/Navigation-bar";
 import Footer from "../components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
@@ -10,13 +10,7 @@ import Heads from "../components/landing/Heads.js";
 export default function story() {
   return (
     <div className="story">
-      <Head>
-        <title>ARQON</title>
-        <meta charSet="utf-8" />
-        <meta name="description" content="Website for ARQON" />
-        <link rel="icon" href="/Arqon-Logos-A-White.jpg" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-      </Head>
+      <Title />
       <Navbar />
       <div className="cover-container d-flex flex-column position-relative display-box">
         <Image src={arqonTopImg} />
