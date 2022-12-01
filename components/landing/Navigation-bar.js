@@ -7,9 +7,9 @@ import Link from "next/link";
 function NavigationBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light px-5">
+      <nav className="navbar navbar-expand-lg navbar-light px-5 py-3">
         <a href="/" className="arqonLogo d-lg-flex d-none">
-          <Image src={arqonLogo} height={40.83} width={242} />
+          <Image src={arqonLogo} width={300} height={59} />
         </a>
         <div
           className="navbar-toggler collapsed"
@@ -33,7 +33,7 @@ function NavigationBar() {
         <div className="collapse navbar-collapse" id="toggleMobileMenu">
           <div className="mobileLogo text-center">
             <a href="/" className="arqonLogo d-lg-none ">
-              <Image src={arqonLogo} height={43} width={219} />
+              <Image src={arqonLogo} width={300} height={59} />
             </a>
           </div>
           <div className="navMenu ms-auto text-start">

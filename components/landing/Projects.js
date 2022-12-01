@@ -7,9 +7,9 @@ function Projects() {
         <div className='pt-5'>
           <div className='sampleProject text-center'>
             <div className='container px-5 pb-3'>
-              <h1><span className='sampleProjHead'> Discover</span> some of our <span className='sampleProjHead'>Projects. </span></h1>
-              <div>
-                <p>We provide END-TO-END solution with quality service from architectural services, project management and design and build needs.  Collaborative One-stop shop.</p>
+              <h1><span className='sampleProjHead px-3'> DISCOVER SOME OF OUR PROJECTS </span></h1>
+              <div className='d-flex justify-content-center text-center'>
+                <p>We provide end-to-end solutions with quality service to meet architectural, project management, and design and build needs. ARQON is a collaborative one-stop shop.</p>
               </div>
             </div>
           </div>
