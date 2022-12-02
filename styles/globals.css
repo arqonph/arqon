@@ -160,12 +160,12 @@ li {
   background-color: #76CBC1;
 }
 
-.text-white {
+/* .text-white {
   font-family: 'Dinbold', sans-serif;
   color: #fff;
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 
 .section-3 {
@@ -732,7 +732,7 @@ model-viewer {
 
 .services {
   padding: 0 50px;
-  margin-top: -30px;
+  margin-top: 30px;
 }
 
 .archiImage {
@@ -740,8 +740,7 @@ model-viewer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 539px;
 }
 
 .designBuildImage {
@@ -749,25 +748,25 @@ model-viewer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 539px;
 }
 
 .modelingImage {
-  background-image: url('../assets/01_Arqon_Home page_05.jpg');
+  background-image: url('../assets/02_Arqon_Services_03.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  box-shadow: 0 0 5px #707070;
-  height: 520px;
+  height: 539px;
 }
 
 .offerFooter {
+  font-family: 'Dinbold', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
   position: absolute;
   padding: 10px 0px;
-  background-color: rgba(66, 66, 60, .8);
+  background-color: rgb(66, 66, 60);
   width: 100%;
-  font-family: 'DinLight', sans-serif;
   color: #fff;
   bottom: 0px;
   left: 0;
@@ -780,74 +779,91 @@ model-viewer {
   transition: opacity .25s ease-in-out;
   -moz-transition: opacity .25s ease-in-out;
   -webkit-transition: opacity .25s ease-in-out;
-  background-color: rgba(44, 44, 39, 0.5);
+  background-color: rgba(44, 44, 39, 0.8);
   overflow: hidden;
   width: 100%;
   height: 100%;
   transition: .3s ease;
 }
-
+.text {
+  width: 90%;
+}
 .text span {
   font-family: 'DinLight', sans-serif;
   color: #fff;
-  font-size: 15px;
-  /* position: absolute; */
+  font-size: 20px;
   top: 100%;
   left: 100%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  /* white-space: center; */
 }
 
 .offerFooterOverlay {
   font-family: 'DinLight', sans-serif;
+  
   position: absolute;
   padding: 10px 0px;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: #76CBC1;
   width: 100%;
-  font-weight: bold;
   font-family: 'DinLight', sans-serif;
   color: rgb(0, 0, 0);
   bottom: 0px;
   left: 0;
   right: 0;
 }
+.offerFooterOverlay span {
+  font-family: 'Dinbold', sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
 
 .container:hover .overlay {
   opacity: 1;
 }
-
+.whatWedo {
+  font-family: 'DinLight', sans-serif;
+  padding-left: 20px;
+}
 .whatwedoDesc {
-  height: 300px;
+  height: 100px;
   border-top: 1px solid #76CBC1;
+  line-height: 30px;
+  letter-spacing: 1.3px;
 }
 
-.whatwedoDesc h1 {
+.whatwedoDesc .header {
   color: #76CBC1;
-  margin-top: -30px;
+  position: absolute;
+  font-size: 24px;
+  line-height: 35px;
+  margin-top: -20px;
 }
 
 .paragraph {
-  font-family: 'DinLight', sans-serif;
-  font-size: 16px;
-  line-height: 35px;
-  padding-top: 10px;
+  padding-top: 60px;
 }
 
+.end2end {
+  font-family: 'Dinbold', sans-serif;
+  position: absolute;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.end2end_dbserv {
+  font-size: 29px;
+}
+ 
 .btnServies {
+  font-family: 'DinLight', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  padding: 0px 0;
-  width: 50%;
+  width: 45%;
   height: 45px;
-  font-family: 'DinLight', sans-serif;
   color: #fff;
-  bottom: 0px;
-  left: 20px;
-  right: 0;
+  /* left: 20px; */
   background-color: #76CBC1;
 }
 
@@ -870,7 +886,7 @@ model-viewer {
   font-size: 30px;
 }
 
-.bodyPage .highlight {
+.bodyPage {
   font-family: 'Adamcg', sans-serif;
   color: #fff;
   font-size: 40px;
@@ -878,22 +894,28 @@ model-viewer {
 
 .bodyPage span {
   font-family: 'DinLight', sans-serif;
-  font-weight: bolder;
+  font-weight: bolder; 
 }
-
 .sampleProject p,
 .bodyPage .sentence {
   font-family: 'DinLight', sans-serif;
+  font-weight: 400;
   font-size: 20px;
   line-height: 35px;
+  letter-spacing: 1.3px;
 }
-
-.sampleProject .sampleProjHead {
-  font-family: 'Adamcg', sans-serif;
-  color: #76CBC1;
-  font-size: 50px;
+ .sampleProjHead {
+  font-family: 'Dinbold', sans-serif;
+  font-weight: 700;
+  /* color: #76CBC1; */
+  font-size: 40px;
+  line-height: 45px;
+  border-bottom: 2px solid #76CBC1;
+  
 }
-
+.sampleProject p{
+  width: 70%;
+}
 .vResidence {
   background-image: url('../assets/V_Residence.jpg');
   background-repeat: no-repeat;
@@ -1295,12 +1317,12 @@ model-viewer {
   background-color: #76CBC1;
 }
 
-.text-white {
+/* .text-white {
   font-family: 'Dinbold', sans-serif;
   color: #fff;
   font-size: 25px;
   font-weight: bold;
-}
+} */
 
 .text-service {
   font-family: "Inter", sans-serif;
@@ -1704,7 +1726,7 @@ model-viewer {
 
   .contactusHead h1,
   .footerHeader,
-  .sampleProject .sampleProjHead .bodyPage .highlight,
+  .sampleProject .sampleProjHead .bodyPage,
   .bodyPage span,
   .vission {
     font-size: calc(3px + 3vw);
@@ -1868,7 +1890,7 @@ model-viewer {
   }
 
   .contactusHead h1,
-  .bodyPage .highlight {
+  .bodyPage {
     font-size: calc(3px + 4.5vw);
   }
 

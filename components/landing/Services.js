@@ -3,7 +3,7 @@ import React from 'react'
 function Services() {
   return (
     <div className='services'>
-      <section className='d-flex row mb-5 justify-content-center gy-3 gy-md-0 text-wrap'>
+      <section className='d-flex row mb-5 justify-content-center gy-3 gx-3 gy-md-0 text-wrap'>
         <div className='archiDesign col-xxl-3 col-lg-4 col-md-6 text-center container'>
           <div className='archiImage position-relative'>
             {/* <Image src={archiDesign} className='image'/> */}
@@ -46,7 +46,7 @@ function Services() {
           <div className='modelingImage position-relative'>
             {/* <Image src={modeling} height={520} width={482}/> */}
             <div className='offerFooter'>
-              <span>Build Information Modeling</span>
+              <span>Architectural Interiors</span>
             </div>
             <div className='overlay'>
               <div className='text'>
@@ -57,25 +57,26 @@ function Services() {
                 </span>
               </div>
               <div className='offerFooterOverlay'>
-                <span className=''>Build Information Modeling</span>
+                <span className=''>Architectural Interiors</span>
               </div>
             </div>
           </div>
         </div>
-        <div className='col-xxl-3 col-md-6 d-flex align-items-center position-relative gy-xxl-0 gy-5 '>
-          <div className='whatWedo '>
-            <div className='whatwedoDesc '>
-              <h1><span className='bg-white pe-3'>what we do</span></h1>
-              <div className='paragraph me-xxl-5'>
-                <p className=''>
-                  We are a full service architectural firm that specializes in streamlined design and build projects.
+        <div className='col-xxl-3 col-md-6 d-flex position-relative pt-5 gy-xxl-0 gy-5'>
+          <div className='whatWedo pe-5'>
+            <div className='whatwedoDesc'>
+              <span className='header bg-white pe-5'>WHAT WE DO</span>
+              <div className='paragraph'>
+                <p>
+                  <span className='end2end'>End-to-end</span><br/>
+                  <span className='end2end_dbserv'>design and build service.</span>
                 </p>
                 <p className=''>
-                  Through our collaborative partnerships and top-shelf technological advancements, enabling clients to achieve their vision drives us to be the best in what we do.
+                  ARQON is a full-service architectural firm that specializes in streamlined design and build projects. The firm envisions bringing your dreams of having quality and timeless houses to reality. 
                 </p>
               </div>
-              <div className='btnServies'>
-                <button className='text-center text-white'>View services</button>
+              <div className='btnServies mt-4'>
+                <button className='text-center text-white'>View Services</button>
               </div>
             </div>            
           </div>
