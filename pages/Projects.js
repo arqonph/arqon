@@ -52,55 +52,29 @@ function Projects() {
   };
 
   return (
-    <>
+    <div className="projects">
       <Title />
       <Navbar />
-      <div className="img-fluid img-hero">
+      <div className="cover-container d-flex flex-column position-relative display-box">
         <Image src={arqonTopImg} />
-        <p className="page-title">Projects</p>
+        <div className="card-img-overlay">
+          <h1 className="card-title SRHero-text">Projects</h1>
+        </div>
       </div>
-      <div className="container">
+      <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-          <div className="col-md-8 text-center">
-            <div className="page-desc_border-bottom">
-              <span className="page-desc-black">Our</span>&nbsp;&nbsp;
-              <span className="page-desc-turquoise">EXPERTISE</span>
-              <span className="page-desc-black">&nbsp;from client-tested</span>
-              &nbsp;&nbsp;
-              <span className="page-desc-turquoise">EXPERIENCE.</span>
-            </div>
-          </div>
-          <div className="col-md-2">
-            <span>&nbsp;</span>
+          <div className="col">
+            <h1 className="hr-services">
+              <span className="text-black">
+                OUR EXPERTISE FROM CLIENT TESTED EXPERIENCE
+              </span>
+            </h1>
+            <p>
+            ARQON provides quality service that meets architectural, project management, and design and build needs.<br></br>
+            For more than 16 years, the team has been designing and managing projects for distinguished residential, office, and commercial developments in the country. We value our clients’ vision and the projects they entrust to us.
+            </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-          <div className="col-md-8 text-center">
-            <div className="mt-2">
-              <p className="small-m">
-                It's not just about our more than
-                <span className="page-desc-turquoise-sm">16 years</span>
-                &nbsp;of design and project management experience we have under
-                our belt. Our credentials include leading the architectural
-                teams responsible for some of the most distinguished
-                <span className="page-desc-black-sm">
-                  &nbsp; residential, office and commercial &nbsp;
-                </span>
-                developments in the country.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-        </div>
-        <br></br>
       </div>
 
       {/* */}
@@ -578,7 +552,7 @@ function Projects() {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 
