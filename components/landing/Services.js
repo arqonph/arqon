@@ -4,8 +4,8 @@ function Services() {
   return (
     <div className='services'>
       <section className='d-flex row mb-5 justify-content-center gy-3 gx-3 gy-md-0 text-wrap'>
-        <div className='archiDesign col-xxl-3 col-lg-4 col-md-6 text-center container'>
-          <div className='archiImage position-relative'>
+        <div className='archiDesign col-xxl-3 col-md-6 text-center containerServices'>
+          <div className='archiImage servicesImg position-relative'>
             {/* <Image src={archiDesign} className='image'/> */}
             <div className='offerFooter'>
               <span className=''>Architectural Design</span>
@@ -23,8 +23,8 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className='designAndBuild col-xxl-3 col-lg-4 col-md-6 text-center container'>
-          <div className='designBuildImage position-relative'>
+        <div className='designAndBuild col-xxl-3 col-md-6 text-center containerServices pt-sm-0 pt-lg-0'>
+          <div className='designBuildImage servicesImg position-relative'>
             {/* <Image src={designAndBuild} height={520} width={482}/> */}
             <div className='offerFooter'>
               <span>Design and Build</span>
@@ -42,8 +42,8 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className='modeling col-xxl-3 col-lg-4 col-md-6 text-center gy-md-3 gy-lg-0 container'>
-          <div className='modelingImage position-relative'>
+        <div className='modeling col-xxl-3 col-md-6 text-center containerServices pt-sm-0 pt-md-3 pt-lg-3 pt-xxl-0'>
+          <div className='modelingImage servicesImg position-relative'>
             {/* <Image src={modeling} height={520} width={482}/> */}
             <div className='offerFooter'>
               <span>Architectural Interiors</span>
@@ -62,10 +62,10 @@ function Services() {
             </div>
           </div>
         </div>
-        <div className='col-xxl-3 col-md-6 d-flex position-relative pt-5 gy-xxl-0 gy-5'>
-          <div className='whatWedo pe-5'>
-            <div className='whatwedoDesc'>
-              <span className='header bg-white pe-5'>WHAT WE DO</span>
+        <div className='whatWedoParent col-xxl-3 col-md-6 d-flex servicesImg position-relative pt-5 pt-sm-5 pt-lg-5 mt-lg-5 pt-xxl-5 mt-xxl-0'>
+          <div className='whatWedo '>
+            <div className='whatwedoDesc justify-content-center'>
+              <span className='header bg-white pe-3'>WHAT WE DO</span>
               <div className='paragraph'>
                 <p>
                   <span className='end2end'>End-to-end</span><br/>

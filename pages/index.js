@@ -8,7 +8,9 @@ import Projects from "../components/landing/Projects";
 import ContactUs from "../components/landing/ContactUs";
 import Clientreview from "../components/landing/Clientreview";
 
-export default function Home() {
+export default function Home({ feed }) {
+  const images = feed.data
+ 
   return (
     <>
       <Head>
@@ -51,8 +53,27 @@ export default function Home() {
       {/* <Clientreview /> */}
       <ContactUs />
       <footer>
-        <Footer />
+        <Footer data={images}/>
       </footer>
     </>
   );
+}
+
+
+export const getStaticProps = async (context) => {
+
+  const longLiveToken = `https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=${process.env.IG_APP_SECRET}&access_token=${process.env.INSTAGRAM_KEY}`
+  const longLiveData = await fetch(longLiveToken)
+  const longLiveAttr = await longLiveData.json()
+  // console.log(longLiveAttr)
+
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${process.env.INSTAGRAM_KEY}`
+  const data = await fetch(url)
+  const feed = await data.json()
+  // console.log(feed)
+  return {
+    props: {
+      feed
+    }
+  }
 }

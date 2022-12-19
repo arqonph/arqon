@@ -7,51 +7,16 @@ import tiktok from '../../assets/Icon_tiktok.png'
 import yt from '../../assets/Icon_youtube.png'
 import footerLogo from '../../assets/footerArqonLogo.jpg'
 import Link from 'next/link'
-
-import Slider from 'react-slick'
 import vResidence from '../../assets/V_Residence.jpg'
 import nResidence from '../../assets/N_Residence.jpg'
-import sResidence from '../../assets/S_Residence.jpg'
-import dResidence from '../../assets/D_Residence.jpg'
-import gResidence from '../../assets/G_Residence.jpg'
-import tResidence from '../../assets/T_Residence.jpg'
 
-export default function Footer() {
-  let settings = {
-      dots: false,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      autoplay: true,
-      speed: 3000,
-      autoplaySpeed: 5000,
-      cssEase: "linear",
-      responsive: [
-        {
-          breakpoint: 1200,
-          settings: {
-            slidesToShow: 2,
-            slidesToScroll: 1,
-            infinite: true,
-          }
-        },
-        {
-          breakpoint: 800,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            initialSlide: 2
-          }
-        },
-        {
-          breakpoint: 480,
-          settings: {
-            slidesToShow: 1,
-            slidesToScroll: 1
-          }
-        }
-      ]
-}
+
+export default function Footer( { data }) {
+ 
+  const igFeed = data
+  const images = igFeed.filter(igFeed => igFeed.media_type == 'IMAGE' || igFeed.media_type == 'CAROUSEL_ALBUM')
+  const firstTwo = images.slice(0,2)
+  
   const scrollUp = () => {
       window.scrollTo({
           top: 0, //can add the height of the nav bar
@@ -62,71 +27,83 @@ export default function Footer() {
     <div>
       <div className='p-5 bg-white '>
         <div className='footer row'>
-           <div className='col-xxl-3 col-xl-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
+          <div className='col-xxl-3 col-md-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
             <div className='row'>
-              <div className='footerHeader col-12'>
-                <span className=''>Instagram</span>
+              <div className='footerHeader col-12 px-0'>
+                <span className=''>SOCIALS</span>
               </div>
               <div className='mb-xl-5 mb-lg-5 mb-5 p-0 text-center'>
-                <a href='https://www.instagram.com/arqondesign/'className='mx-1' target='_blank'>
-                  <Slider {...settings}>
-                      <div className='igPost comment1'>
-                          <Image src={vResidence} height={260} width={450}/>
+                <a href='https://www.instagram.com/arqondesign/'className='row arqonIgPost px-0' target='_blank'>
+                  {/* <div className='igPost col-6'>
+                      <Image src={vResidence}/>
+                  </div>
+                  <div className='igPost col-6'>
+                      <Image src={nResidence}/>
+                  </div> */}
+                  {firstTwo && firstTwo.map((image) =>(
+                    image.media_type =='IMAGE' || image.media_type =='CAROUSEL_ALBUM' 
+                    ? 
+                    <div key={image.id} className='col-lg-6 col-md-12 pt-3 col-sm-6'>
+                      <img className ='igPost' key={image.id} src={image.media_url} alt={image.caption} width={219} height={219}/>
+                    </div> 
+                    : <>
+                    {
+                      image.media_type =='VIDEO' 
+                      ?
+                      null
+                    : 
+                      <div className='row arqonIgPost'>
+                        <div key='vResidence' className='igDefaultPost col-6'>
+                          <Image src={vResidence}/>
+                        </div>
+                        <div key='nResidence' className='igDefaultPost col-6'>
+                          <Image src={nResidence}/>
+                        </div>
                       </div>
-                      <div className='igPost comment2'>
-                          <Image src={nResidence} height={260} width={450}/>
-                      </div>
-                      <div className='igPost comment3'>
-                          <Image src={sResidence} height={260} width={450}/>
-                      </div>
-                      <div className='igPost comment4'>
-                          <Image src={dResidence} height={260} width={450}/>
-                      </div>
-                      <div className='igPost comment5'>
-                          <Image src={gResidence} height={260} width={450}/>
-                      </div>
-                      <div className='igPost comment5'>
-                          <Image src={tResidence} height={260} width={450}/>
-                      </div>
-                  </Slider>
+                    }
+                    </>
+                    ))
+                  }
                 </a>
               </div>
               <div className='footerButton position-absolute'>
-                <div className=' row d-flex align-items-center justify-content-between'>
-                  <a href='https://linktr.ee/arqondesign' className='text-center py-2 col-3 footerLink text-white col-4' target='_blank'>
+                <div className='socialsLink row d-flex align-items-center justify-content-end '>
+                  <a href='https://linktr.ee/arqondesign' className='text-center py-2 footerLink text-white col-5' target='_blank'>
                     <button className='followText text-white'>Follow Us</button>
                   </a>
-                  <div className='pt-1 col-8 d-flex align-items-center justify-content-xxl-between'>
-                    <a href='https://www.facebook.com/ARQONdesignandbuild' className='mx-1'  target='_blank'>
-                      <Image src={fb} height={40} width={40} />
+                  <div className='col-7 d-flex align-items-center justify-content-between'>
+                    <a href='https://www.facebook.com/ARQONdesignandbuild' className='mx-1 mx-xxl-1'  target='_blank'>
+                      <Image src={fb} height={55} width={55} />
                     </a>
-                    <a href='https://www.instagram.com/arqondesign/'className='mx-1'  target='_blank'>
-                      <Image src={ig} height={40} width={40}/>
+                    <a href='https://www.instagram.com/arqondesign/'className='mx-1 mx-xxl-1'  target='_blank'>
+                      <Image src={ig} height={55} width={55}/> 
                     </a>
-                    <a href='https://linktr.ee/arqondesign'className='mx-1'  target='_blank'>
-                      <Image src={linkedin} height={40} width={40}/>
+                    <a href='https://www.youtube.com/channel/UCF9eCrL6sMOxFYVTztVtaJg'className='mx-1 mx-xxl-1'  target='_blank'>
+                      <Image src={yt} height={55} width={55}/>
                     </a>
-                    <a href='https://www.tiktok.com/@arqondesign'className='mx-1'  target='_blank'>
-                      <Image src={tiktok} height={40} width={40}/>
-                    </a>
-                    <a href='https://www.youtube.com/channel/UCF9eCrL6sMOxFYVTztVtaJg'className='mx-1'  target='_blank'>
-                      <Image src={yt} height={40} width={40}/>
+                    <a href='https://linktr.ee/arqondesign'className='mx-1 mx-xxl-1'  target='_blank'>
+                      <Image src={linkedin} height={55} width={55}/>
                     </a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          <div className='col-xxl-3 col-xl-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5'>
-            <div className='row'>
-              <div className='footerHeader col-12'>
+          <div className='col-xxl-3 col-md-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5'>
+            <div className='row '>
+              <div className='footerHeader col-12 px-0 px-md-5'>
                 <span className=''>Features</span>
               </div>
-              <div className='pt-3'>
+              <div className='pt-3 px-0 px-md-5'>
                 <ul>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
                     <a href='https://bluprint.onemega.com/arqon-design-conveys-modern-industrial-architecture-through-casa-penafrancia/'>
-                      <span className='listType'>&#62; </span>BluePrint
+                      <span className='listType'>&#62;</span> Bluprint - Arqon Design Conveys Modern Industrial Architecture Through Casa Peñafrancia by 
+                    </a>
+                  </li>
+                  <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
+                    <a href='/'>
+                      <span className='listType'>&#62; </span> Style Rules This Modern Minimalist Industrial Home by Real Living
                     </a>
                   </li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
@@ -136,19 +113,19 @@ export default function Footer() {
                   </li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
                     <a href='/'>
-                      <span className='listType'>&#62; </span>Style Rules This Modern Minimalist Industrial Home by Real Living
+                      <span className='listType'>&#62; </span> Spot.PH  - Breathtaking Country-Style Tagaytay Airbnb Viram Villa
                     </a>
                   </li>
                 </ul>
               </div >
             </div>
           </div>
-          <div className='col-xxl-3 col-xl-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
+          <div className='col-xxl-3 col-md-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
             <div className='row '>
-              <div className='footerHeader col-12'>
-                <span className=''>Sevices</span>
+              <div className='footerHeader col-12 px-0 px-xxl-5 '>
+                <span className=''>SERVICES</span>
               </div>
-              <div className='pt-3 pb-5 pb-xxl-0'>
+              <div className='pt-3 pb-5 pb-xxl-0 px-md-0 px-xxl-5 px-0'>
                 <ul>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Architectural Design</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Design and Build</li>
@@ -159,16 +136,16 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
-            <div className='position-absolute footerButton'>
+            <div className='position-absolute footerButton px-md-0 px-xxl-5'>
               <button className='text-center py-2 col-3 footerLink text-white col-4'>View services</button>
             </div>
           </div>
-          <div className='col-xxl-3 col-xl-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
+          <div className='col-xxl-3 col-md-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
             <div className='row'>
-              <div className='footerHeader col-12'>
+              <div className='footerHeader col-12 px-0 px-md-5'>
                 <span className=''>Contact Us</span>
               </div>
-              <div className='footerDetails pt-3 pb-5 pb-xxl-0'>
+              <div className='footerDetails pt-3 pb-5 pb-xxl-0 px-0 px-md-5'>
                 <ul>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Phone: +632 966 210 2307</span></li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Email: info@arqon.com.ph </span></li>
@@ -178,18 +155,18 @@ export default function Footer() {
                   </li>
                 </ul>
               </div>
-              <div className='position-absolute footerButton'>
+            </div>
+            <div className='position-absolute footerButton px-0 px-md-5'>
               <Link href='/ContactUs'>
                 <button className='text-center py-2 col-3 footerLink text-white col-4'>Contact us</button>
-                </Link>
-              </div>
+              </Link>
             </div>
           </div>
         </div>
       </div>
-      <div className='footerB d-flex justify-content-between align-items-center text-white px-lg-5 px-3'>
+      <div className='footerB d-flex justify-content-between align-items-center text-white px-lg-5 px-3 py-3'>
         <Image src={footerLogo} height={64.85} width={220}/>
-          <span className='d-lg-block d-none'>Copyright &copy; 2022 All Rights Reserved</span>
+          <span className='d-md-block d-none'>&copy; 2022 All Rights Reserved</span>
         <div className='d-flex' onClick={scrollUp}>
           <button className='buttonUp text-white' > Back on top </button>
           <div className='arrowUp'>
@@ -198,8 +175,8 @@ export default function Footer() {
         </div>
       </div>
       <div>
-      <div className='footerB d-flex p-2 justify-content-center text-white d-lg-none py-md-3'>
-            <span className='d-lg-none h6'>Copyright &copy; 2022 All Rights Reserved</span>
+      <div className='footerB d-flex p-2 justify-content-center text-white d-md-none py-md-3'>
+            <span className='d-lg-none h6'>&copy; 2022 All Rights Reserved</span>
         </div>
       </div>
     </div>
