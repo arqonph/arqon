@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 function Services() {
   return (
@@ -75,8 +76,10 @@ function Services() {
                   ARQON is a full-service architectural firm that specializes in streamlined design and build projects. The firm envisions bringing your dreams of having quality and timeless houses to reality. 
                 </p>
               </div>
-              <div className='btnServies mt-4'>
-                <button className='text-center text-white'>View Services</button>
+              <div className='btnServies mt-4' >
+                <Link href='/Services_Main'>
+                  <button className='text-center py-2 col-3 servicesBtn text-white col-4'>View Services</button>
+                </Link>
               </div>
             </div>            
           </div>

@@ -16,7 +16,9 @@ export default function Footer( { data }) {
   const igFeed = data || []
   const images = igFeed ? igFeed.filter(igFeed => igFeed.media_type == 'IMAGE' || igFeed.media_type == 'CAROUSEL_ALBUM') : []
   const firstTwo = images.slice(0,2)
-   
+  if(firstTwo == '') {
+    firstTwo.push({id:'',caption: '',media_url:'',media_type: ''})
+  }
   
   const scrollUp = () => {
       window.scrollTo({
@@ -35,35 +37,37 @@ export default function Footer( { data }) {
               </div>
               <div className='mb-xl-5 mb-lg-5 mb-5 p-0 text-center'>
                 <a href='https://www.instagram.com/arqondesign/'className='row arqonIgPost px-0' target='_blank'>
-                  {/* <div className='igPost col-6'>
-                      <Image src={vResidence}/>
-                  </div>
-                  <div className='igPost col-6'>
-                      <Image src={nResidence}/>
-                  </div> */}
                   {firstTwo && firstTwo.map((image) =>(
-                    image.media_type =='IMAGE' || image.media_type =='CAROUSEL_ALBUM' 
-                    ? 
-                    <div key={image.id} className='col-lg-6 col-md-12 pt-3 col-sm-6'>
-                      <img className ='igPost' key={image.id} src={image.media_url} alt={image.caption} width={219} height={219}/>
-                    </div> 
-                    : <>
-                    {
-                      image.media_type =='VIDEO' 
-                      ?
-                      null
-                    : 
-                      <div className='row arqonIgPost'>
-                        <div key='vResidence' className='igPost col-6'>
-                          <Image src={vResidence}/>
+                      image.media_type =='IMAGE' || image.media_type =='CAROUSEL_ALBUM' 
+                      ? 
+                      <div key={image.id} className='col-lg-6 col-md-12 pt-3 col-sm-6'>
+                        <img className ='igPost' key={image.id} src={image.media_url} alt={image.caption} width={219} height={219}/>
+                      </div> 
+                      : <>
+                      {
+                        image.media_type =='VIDEO' 
+                        ?
+                        <div className='row arqonIgPost'>
+                          <div key='vResidence' className='col-xxl-6 col-lg-6 col-md-12 pt-3 col-sm-6'>
+                            <Image src={vResidence} key='vResidence' className='igDefaultImg' width={350} height={300}/>
+                          </div>
+                          <div key='nResidence' className=' col-xxl-6 col-lg-6 col-md-12 pt-3 col-sm-6'>
+                            <Image src={nResidence} key='nResidence' className='igDefaultImg' width={350} height={300}/>
+                          </div>
                         </div>
-                        <div key='nResidence' className='igPost col-6'>
-                          <Image src={nResidence}/>
+                      : 
+                        <div className='row arqonIgPost'>
+                          <div key='vResidence' className='col-xxl-6 col-lg-6 col-md-12 pt-3 col-sm-6'>
+                            <Image src={vResidence} key='vResidence' className='igDefaultImg' width={350} height={300}/>
+                          </div>
+                          <div key='nResidence' className=' col-xxl-6 col-lg-6 col-md-12 pt-3 col-sm-6'>
+                            <Image src={nResidence} key='nResidence' className='igDefaultImg' width={350} height={300}/>
+                          </div>
                         </div>
-                      </div>
-                    }
-                    </>
-                    ))
+                      }
+                      </>
+                      )
+                    )
                   }
                 </a>
               </div>
@@ -138,7 +142,9 @@ export default function Footer( { data }) {
               </div>
             </div>
             <div className='position-absolute footerButton px-md-0 px-xxl-5'>
-              <button className='text-center py-2 col-3 footerLink text-white col-4'>View services</button>
+              <Link href='/Services_Main'>
+                  <button className='text-center py-2 col-3 footerLink text-white col-4'>View Services</button>
+                </Link>
             </div>
           </div>
           <div className='col-xxl-3 col-md-6 pt-5 pt-xxl-0 pb-xxl-0 pb-xl-5 position-relative'>
