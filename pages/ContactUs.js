@@ -36,54 +36,20 @@ function ContactUs() {
   };
 
   return (
-    <>
+    <div className="contactUs">
       <link
         rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
       ></link>
       <Title />
       <Navbar />
-      <div className="img-fluid img-hero">
+      <div className="cover-container d-flex flex-column position-relative display-box">
         <Image src={arqonTopImg} />
-        <p className="page-title">Contact Us</p>
-      </div>
-
-      <div>
-        <div className="row">
-          <div className="col-md-3">
-            <span>&nbsp;</span>
-          </div>
-          <div className="col-md-6 text-center">
-            <div className="page-desc_border-bottom">
-              <span className="page-desc-black">We value</span>&nbsp;&nbsp;
-              <span className="page-desc-turquoise">INTEGRITY</span>
-            </div>
-          </div>
-          <div className="col-md-3">
-            <span>&nbsp;</span>
-          </div>
-        </div>
-        <div className="row">
-          <div className="page-center">
-            <br />
-            <span>
-              For our brand's personality -- cool, creative, modern,
-              professional,
-            </span>
-          </div>
-        </div>
-        <div className="row">
-          <div className="page-center">
-            <br />
-            <span>
-              contemporary, strong, tasteful, with <b>integrity</b>
-            </span>
-          </div>
-          <br />
+        <div className="card-img-overlay">
+          <h1 className="card-title SRHero-text">Contact Us</h1>
         </div>
       </div>
-      <br />
-      <div className="container">
+      <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
           <div className="col-md-4 text-center">
             <p>
@@ -549,7 +515,7 @@ function ContactUs() {
       <footer>
         <Footer />
       </footer>
-    </>
+    </div>
   );
 }
 export default ContactUs;

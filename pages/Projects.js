@@ -7,7 +7,8 @@ import Footer from "/components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
 import Slider from "react-slick";
 
-function Projects() {
+export default function Projects({ feed }) {
+  const images = feed.data
   const slideRef = useRef();
   // let previous = document.getElementsById('previous')
   let settings = {
@@ -52,55 +53,29 @@ function Projects() {
   };
 
   return (
-    <>
+    <div className="projects">
       <Title />
       <Navbar />
-      <div className="img-fluid img-hero">
+      <div className="cover-container d-flex flex-column position-relative display-box">
         <Image src={arqonTopImg} />
-        <p className="page-title">Projects</p>
+        <div className="card-img-overlay">
+          <h1 className="card-title SRHero-text">Projects</h1>
+        </div>
       </div>
-      <div className="container">
+      <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-          <div className="col-md-8 text-center">
-            <div className="page-desc_border-bottom">
-              <span className="page-desc-black">Our</span>&nbsp;&nbsp;
-              <span className="page-desc-turquoise">EXPERTISE</span>
-              <span className="page-desc-black">&nbsp;from client-tested</span>
-              &nbsp;&nbsp;
-              <span className="page-desc-turquoise">EXPERIENCE.</span>
-            </div>
-          </div>
-          <div className="col-md-2">
-            <span>&nbsp;</span>
+          <div className="col">
+            <h1 className="hr-services">
+              <span className="text-black">
+                OUR EXPERTISE FROM CLIENT TESTED EXPERIENCE
+              </span>
+            </h1>
+            <p>
+            ARQON provides quality service that meets architectural, project management, and design and build needs.<br></br>
+            For more than 16 years, the team has been designing and managing projects for distinguished residential, office, and commercial developments in the country. We value our clients’ vision and the projects they entrust to us.
+            </p>
           </div>
         </div>
-        <div className="row">
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-          <div className="col-md-8 text-center">
-            <div className="mt-2">
-              <p className="small-m">
-                It's not just about our more than
-                <span className="page-desc-turquoise-sm">16 years</span>
-                &nbsp;of design and project management experience we have under
-                our belt. Our credentials include leading the architectural
-                teams responsible for some of the most distinguished
-                <span className="page-desc-black-sm">
-                  &nbsp; residential, office and commercial &nbsp;
-                </span>
-                developments in the country.
-              </p>
-            </div>
-          </div>
-          <div className="col-md-2">
-            <span>&nbsp;</span>
-          </div>
-        </div>
-        <br></br>
       </div>
 
       {/* */}
@@ -576,10 +551,28 @@ function Projects() {
       {/* End Clients Say */}
 
       <footer>
-        <Footer />
+        <Footer data={images}/>
       </footer>
-    </>
+    </div>
   );
 }
 
-export default Projects;
+
+
+export const getStaticProps = async (context) => {
+
+  const longLiveToken = `https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=${process.env.IG_APP_SECRET}&access_token=${process.env.INSTAGRAM_KEY}`
+  const longLiveData = await fetch(longLiveToken)
+  const longLiveAttr = await longLiveData.json()
+  // console.log(longLiveAttr)
+
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${process.env.INSTAGRAM_KEY}`
+  const data = await fetch(url)
+  const feed = await data.json()
+  // console.log(feed)
+  return {
+    props: {
+      feed
+    }
+  }
+}
