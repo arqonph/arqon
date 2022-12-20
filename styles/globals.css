@@ -1631,10 +1631,12 @@ model-viewer {
   .contactUsLine h1 {
     font-size: 44px;
   }
+
   .igPost {
     width: 170px;
     height: 250px;
   }
+ 
 }
 @media (max-width: 1400px) {
   .archiImage,
