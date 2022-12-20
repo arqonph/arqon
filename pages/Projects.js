@@ -23,6 +23,8 @@ import nResidence09 from '../assets/ARQON_Nicolas Residence_09.jpg'
 import nResidence10 from '../assets/ARQON_Nicolas Residence_10.jpg'
 import nResidence11 from '../assets/ARQON_Nicolas Residence_11.jpg'
 
+import sResidence03 from '../assets/01_Arqon_Projects_03.jpg'
+
 import dResidence01 from '../assets/ARQON_Dizon Residence_01.jpg'
 import dResidence02 from '../assets/ARQON_Dizon Residence_02.jpg'
 import dResidence03 from '../assets/ARQON_Dizon Residence_03.jpg'
@@ -30,6 +32,8 @@ import dResidence04 from '../assets/ARQON_Dizon Residence_04.jpg'
 import dResidence05 from '../assets/ARQON_Dizon Residence_05.jpg'
 import dResidence06 from '../assets/ARQON_Dizon Residence_06.jpg'
 import dResidence07 from '../assets/ARQON_Dizon Residence_07.jpg'
+
+import vResidenceTagaytay01 from '../assets/V_Residence_Tagaytay.jpg'
 
 import gResidence01 from '../assets/G_Residence.jpg'
 
@@ -298,12 +302,12 @@ export default function Projects({ feed }) {
 
       {/* S Residence Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative sResidence">
+        <div className='position-relative sResidence' type='button' data-bs-toggle='modal' data-bs-target='#sResidenceModal'>
             {/* <Image src={sResidence} alt='S Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
                 <span className="head d-block">S Residence</span>
-                <span className="address"> Park Estate, Antipolo, Rizal </span>
+                <span className="address">Park Estate, Antipolo, Rizal </span>
               </p>
             </div>
             <div className="projectsOverlay">
@@ -311,49 +315,131 @@ export default function Projects({ feed }) {
                 <div className=" residenceTitle py-0 py-md-1 footerOverlay">
                   <p>
                     <span className="head d-block">S Residence</span>
-                    <span className="address">
-                      {" "}
-                      Park Estate, Antipolo, Rizal{" "}
-                    </span>
+                    <span className="address">Park Estate, Antipolo, Rizal</span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      {/* S Residence Start */}
+        {/* S_RESIDENCE MODAL AND CAROUSEL */}
+        <div className='modal fade modal-xl' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered '>
+            <div className='modal-content modalProject'>
+              <div className='modal-header'>
+                <h5 className='modal-title' id='sResidenceModelLabel'>S Residence</h5>
+                Park Estate, Antipolo, Rizal
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='sResidenceCarousel'>
+                  <div id='sResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                      <div className='carousel-item  active'>
+                        <Image src={sResidence03} alt='S_Residence03' />
+                      </div>
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#sResidenceCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#sResidenceCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      {/* S Residence End */}
 
-        <div className="col-lg-6 projectContainer">
-          <div className="position-relative dResidence">
-            {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
-            <div className="residenceTitle py-0 py-md-1">
-              <p>
-                <span className="head d-block">D Residence</span>
-                <span className="address"> BF Homes, Quezon City </span>
-              </p>
+      {/* D Residence Start */}
+      <div className="col-lg-6 projectContainer">
+        <div className='position-relative dResidence' type='button' data-bs-toggle='modal' data-bs-target='#dResidenceModal'>
+          {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
+          <div className="residenceTitle py-0 py-md-1">
+            <p>
+              <span className="head d-block">D Residence</span>
+              <span className="address">BF Homes, Quezon City</span>
+            </p>
+          </div>
+          <div className="projectsOverlay">
+            <div className="projectFooterOverlay">
+              <div className=" residenceTitle py-0 py-md-1 footerOverlay">
+                <p>
+                  <span className="head d-block">D Residence</span>
+                  <span className="address">BF Homes, Quezon City</span>
+                </p>
+              </div>
             </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">D Residence</span>
-                    <span className="address"> BF Homes, Quezon City </span>
-                  </p>
+          </div>
+        </div>
+      </div>
+      {/* D_RESIDENCE MODAL AND CAROUSEL */}
+      <div className='modal fade modal-xl' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
+        <div className='modal-dialog modal-dialog-centered '>
+          <div className='modal-content modalProject'>
+            <div className='modal-header'>
+              <h5 className='modal-title' id='dResidenceModelLabel'>D Residence</h5>
+              BF Homes, Quezon City
+              <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+              </button>
+            </div>
+            <div className='modal-body m-4'>
+              <div className='dResidenceCarousel'>
+                <div id='dResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                  <div className='carousel-inner'>
+                    <div className='carousel-item active'>
+                      <Image src={dResidence01} alt='D_Residence01' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence02} alt='D_Residence02' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence03} alt='D_Residence03' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence04} alt='D_Residence04' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence05} alt='D_Residence05' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence06} alt='D_Residence06' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={dResidence07} alt='D_Residence07' />
+                    </div>
+                  </div>
+                  <button className='carousel-control-prev' type='button' data-bs-target='#dResidenceCarouselControls' data-bs-slide='prev'>
+                    <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                    <span className='visually-hidden'>Previous</span>
+                  </button>
+                  <button className='carousel-control-next' type='button' data-bs-target='#dResidenceCarouselControls' data-bs-slide='next'>
+                    <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                    <span className='visually-hidden'>Next</span>
+                  </button>
                 </div>
               </div>
             </div>
           </div>
         </div>
+      </div>      
+      {/* D Residence End */}
+
+      {/* V Residence Tagaytay Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative vResidenceTagaytay">
+          <div className="position-relative vResidenceTagaytay" type='button' data-bs-toggle='modal' data-bs-target='#vResidenceTagaytayModal'>
             {/* <Image src={vResidenceTagaytay} alt='V Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
                 <span className="head d-block">V Residence</span>
-                <span className="address">
-                  {" "}
-                  Royale Tagaytay Estates, Alfonso, Cavite{" "}
-                </span>
+                <span className="address">Royale Tagaytay Estates, Alfonso, Cavite</span>
               </p>
             </div>
             <div className="projectsOverlay">
@@ -361,16 +447,48 @@ export default function Projects({ feed }) {
                 <div className=" residenceTitle py-0 py-md-1 footerOverlay">
                   <p>
                     <span className="head d-block">V Residence</span>
-                    <span className="address">
-                      {" "}
-                      Royale Tagaytay Estates, Alfonso, Cavite{" "}
-                    </span>
+                    <span className="address">Royale Tagaytay Estates, Alfonso, Cavite</span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* V_RESIDENCE_TAGAYTAY MODAL AND CAROUSEL */}
+        <div className='modal fade modal-xl' id='vResidenceTagaytayModal' tabIndex='-1' aria-labelledby='vResidenceTagaytayModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered '>
+            <div className='modal-content modalProject'>
+              <div className='modal-header'>
+                <h5 className='modal-title' id='vResidenceTagaytayModelLabel'>V Residence</h5>
+                Royale Tagaytay Estates, Alfonso, Cavite
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='vResidenceTagaytayCarousel'>
+                  <div id='vResidenceTagaytayCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                      <div className='carousel-item  active'>
+                        <Image src={vResidenceTagaytay01} alt='V_Residence_Tagaytay_01' />
+                      </div>
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#vResidenceTagaytayCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#vResidenceTagaytayCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>        
+      {/* V Residence Tagaytay End */}
+
         <div className="col-lg-6 projectContainer">
           <div className="position-relative tResidence">
             {/* <Image src={tResidence} alt='T Residence' width={920} height={450} /> */}
