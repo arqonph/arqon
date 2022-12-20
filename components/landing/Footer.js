@@ -12,10 +12,11 @@ import nResidence from '../../assets/N_Residence.jpg'
 
 
 export default function Footer( { data }) {
- 
-  const igFeed = data
-  const images = igFeed.filter(igFeed => igFeed.media_type == 'IMAGE' || igFeed.media_type == 'CAROUSEL_ALBUM')
+
+  const igFeed = data || []
+  const images = igFeed ? igFeed.filter(igFeed => igFeed.media_type == 'IMAGE' || igFeed.media_type == 'CAROUSEL_ALBUM') : []
   const firstTwo = images.slice(0,2)
+   
   
   const scrollUp = () => {
       window.scrollTo({
@@ -53,10 +54,10 @@ export default function Footer( { data }) {
                       null
                     : 
                       <div className='row arqonIgPost'>
-                        <div key='vResidence' className='igDefaultPost col-6'>
+                        <div key='vResidence' className='igPost col-6'>
                           <Image src={vResidence}/>
                         </div>
-                        <div key='nResidence' className='igDefaultPost col-6'>
+                        <div key='nResidence' className='igPost col-6'>
                           <Image src={nResidence}/>
                         </div>
                       </div>
