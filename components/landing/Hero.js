@@ -10,35 +10,24 @@ function Hero() {
   //   const observer = new IntersectionObserver ((entries) =>{
   //     const entry = entries[0]
   //     videoRef.current.play()
-  //     // if(entry.isIntersecting){
-  //     //   videoRef.current.play()
-  //     //   // videoRef.current.volume= 0.3
-  //     // } else{
-  //     //   videoRef.current.pause()
-  //     // }
+  //     if(entry.isIntersecting){
+  //       videoRef.current.play()
+  //       // videoRef.current.volume= 0.3
+  //     } else{
+  //       videoRef.current.pause()
+  //     }
   //   })
   //   observer.observe(videoRef.current)
   // },[])
 
-  const slideRef = useRef()
-    let settings = {
-      dots: false,
-      infinite: true,
-      slidesToShow: 1,
-      slidesToScroll: 1,
-      // autoplay: true,
-      speed: 100,
-      autoplaySpeed: 100,
-      cssEase: "linear"
-    }
   return (
     <div>
-        {/* <Slider ref={slideRef} {...settings}>
-          <div className='arqonImage'>
-            <Image src={arqonHero}/>
-          </div> */}
+
           <div className=''>
             <video className='arqonReels'
+              controls
+              controlsList='nodownload nofullscreen noplaybackrate foobar'
+              disablePictureInPicture
               // ref={videoRef}
               autoPlay 
               loop

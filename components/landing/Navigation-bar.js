@@ -7,7 +7,7 @@ import Link from "next/link";
 function NavigationBar() {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg navbar-light px-5 py-3">
+      <nav className="navbar navbar-expand-lg navbar-light px-3 px-sm-5 py-3">
         <a href="/" className="arqonLogo d-lg-flex d-none">
           <Image src={arqonLogo} width={300} height={59} />
         </a>
@@ -26,7 +26,7 @@ function NavigationBar() {
         <a href="/" className="arqonLogo d-lg-none d-flex">
           <Image src={arqonPrimary} height={60} width={50} />
         </a>
-        <a className="nav-link text-white d-lg-none d-flex ps-5" href="#">
+        <a className="nav-link text-white d-lg-none d-flex ps-0" href="#">
           <span className="letterQ"></span>
         </a>
 
