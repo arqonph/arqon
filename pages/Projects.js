@@ -1,10 +1,57 @@
 import React, { useRef } from "react";
 import Image from "next/image";
+
+import vResidence01 from '../assets/ARQON_Valdehueza Residence-0001.jpg'
+import vResidence02 from '../assets/ARQON_Valdehueza Residence-0002.jpg'
+import vResidence06 from '../assets/ARQON_Valdehueza Residence-0006.jpg'
+import vResidence07 from '../assets/ARQON_Valdehueza Residence-0007.jpg'
+import vResidence08 from '../assets/ARQON_Valdehueza Residence-0008.jpg'
+import vResidence09 from '../assets/ARQON_Valdehueza Residence-0009.jpg'
+import vResidence10 from '../assets/ARQON_Valdehueza Residence-0010.jpg'
+import vResidence11 from '../assets/ARQON_Valdehueza Residence-0011.jpg'
+import vResidence13 from '../assets/ARQON_Valdehueza Residence-0013.jpg'
+
+import nResidence01 from '../assets/ARQON_Nicolas Residence_01.jpg'
+import nResidence02 from '../assets/ARQON_Nicolas Residence_02.jpg'
+import nResidence03 from '../assets/ARQON_Nicolas Residence_03.jpg'
+import nResidence04 from '../assets/ARQON_Nicolas Residence_04.jpg'
+import nResidence05 from '../assets/ARQON_Nicolas Residence_05.jpg'
+import nResidence06 from '../assets/ARQON_Nicolas Residence_06.jpg'
+import nResidence07 from '../assets/ARQON_Nicolas Residence_07.jpg'
+import nResidence08 from '../assets/ARQON_Nicolas Residence_08.jpg'
+import nResidence09 from '../assets/ARQON_Nicolas Residence_09.jpg' 
+import nResidence10 from '../assets/ARQON_Nicolas Residence_10.jpg'
+import nResidence11 from '../assets/ARQON_Nicolas Residence_11.jpg'
+
+import dResidence01 from '../assets/ARQON_Dizon Residence_01.jpg'
+import dResidence02 from '../assets/ARQON_Dizon Residence_02.jpg'
+import dResidence03 from '../assets/ARQON_Dizon Residence_03.jpg'
+import dResidence04 from '../assets/ARQON_Dizon Residence_04.jpg'
+import dResidence05 from '../assets/ARQON_Dizon Residence_05.jpg'
+import dResidence06 from '../assets/ARQON_Dizon Residence_06.jpg'
+import dResidence07 from '../assets/ARQON_Dizon Residence_07.jpg'
+
+import gResidence01 from '../assets/G_Residence.jpg'
+
+import tResidence01 from '../assets/ARQON_T Residence_01.jpg'
+import tResidence02 from '../assets/ARQON_T Residence_02.jpg'
+import tResidence03 from '../assets/ARQON_T Residence_03.jpg'
+import tResidence04 from '../assets/ARQON_T Residence_04.jpg'
+import tResidence05 from '../assets/ARQON_T Residence_05.jpg'
+import tResidence06 from '../assets/ARQON_T Residence_06.jpg'
+import tResidence07 from '../assets/ARQON_T Residence_07.jpg'
+import tResidence08 from '../assets/ARQON_T Residence_08.jpg'
+import tResidence09 from '../assets/ARQON_T Residence_09.jpg'
+import tResidence10 from '../assets/ARQON_T Residence_10.jpg'
+import tResidence11 from '../assets/ARQON_T Residence_11.jpg'
+import tResidence12 from '../assets/ARQON_T Residence_12.jpg'
+import tResidence13 from '../assets/ARQON_T Residence_13.jpg'
+
 import Head from "next/head";
 import Title from "../components/landing/Title";
 import Navbar from "/components/landing/Navigation-bar";
 import Footer from "/components/landing/Footer";
-import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
+import arqonTopImg from "../assets/01_Arqon_top_image.jpg";
 import Slider from "react-slick";
 
 export default function Projects({ feed }) {
@@ -79,18 +126,16 @@ export default function Projects({ feed }) {
       </div>
 
       {/* */}
-
+      
       <div className="row gx-0 residence pt-3 d-flex justify-content-center align-items-center">
-        <div className="col-lg-6 projectContainer">
+        {/* V Residence Start */}
+        <div className="col-lg-6 projectContainer" type='button' data-bs-toggle='modal' data-bs-target='#vResidenceModal'>
           <div className="position-relative vResidence">
             {/* <Image src={vResidence} alt='V Residence' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
                 <span className="head d-block">V Residence</span>
-                <span className="address">
-                  {" "}
-                  Ayala Alabang Village, Muntinlupa{" "}
-                </span>
+                <span className='address'> Ayala Alabang Village, Muntinlupa </span>
               </p>
             </div>
             <div className="projectsOverlay">
@@ -98,18 +143,75 @@ export default function Projects({ feed }) {
                 <div className=" residenceTitle py-0 py-md-1 footerOverlay">
                   <p>
                     <span className="head d-block">V Residence</span>
-                    <span className="address">
-                      {" "}
-                      Ayala Alabang Village, Muntinlupa{" "}
-                    </span>
+                    <span className='address'> Ayala Alabang Village, Muntinlupa </span>
                   </p>
                 </div>
               </div>
             </div>
           </div>
         </div>
+        {/* V_RESIDENCE MODAL AND CAROUSEL */}
+        <div className='modal fade modal-xl' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered'>
+            <div className='modal-content modalProject'>
+               <div className='modal-header'>
+                <h5 className='modal-title' id='vResidenceModelLabel'>V Residence</h5>
+                Ayala Alabang Village, Muntinlupa
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='vResidenceCarousel'>
+                  <div id='vResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                      <div className='carousel-item active'>
+                        <Image src={vResidence01} alt='V_Residence01' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence02} alt='V_Residence02' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence06} alt='V_Residence06' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence07} alt='V_Residence07' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence08} alt='V_Residence08' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence09} alt='V_Residence09' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence10} alt='V_Residence10' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence11} alt='V_Residence11' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidence13} alt='V_Residence13' />
+                      </div>
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#vResidenceCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#vResidenceCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+      {/* V Residence End */}
+
+      {/* N Residence Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative nResidence">
+          <div className='position-relative nResidence' type='button' data-bs-toggle='modal' data-bs-target='#nResidenceModal'>
             {/* <Image src={nResidence} alt='N Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
@@ -129,6 +231,72 @@ export default function Projects({ feed }) {
             </div>
           </div>
         </div>
+      {/* N_RESIDENCE MODAL AND CAROUSEL */}
+      <div className='modal fade modal-xl' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
+        <div className='modal-dialog modal-dialog-centered '>
+          <div className='modal-content modalProject'>
+            <div className='modal-header'>
+              <h5 className='modal-title' id='nResidenceModelLabel'>N Residence</h5>
+              Angono, Rizal
+              <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                <span aria-hidden='true'>&times;</span>
+              </button>
+            </div>
+            <div className='modal-body m-4'>
+              <div className='nResidenceCarousel'>
+                <div id='nResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                  <div className='carousel-inner'>
+                    <div className='carousel-item active'>
+                    <Image src={nResidence01} alt='N_Residence01' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence02} alt='N_Residence02' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence03} alt='N_Residence03' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence04} alt='N_Residence04' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence05} alt='N_Residence05' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence06} alt='N_Residence06' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence07} alt='N_Residence07' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence08} alt='N_Residence08' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence09} alt='N_Residence09' />
+                    </div> 
+                    <div className='carousel-item'>
+                      <Image src={nResidence10} alt='N_Residence10' />
+                    </div>
+                    <div className='carousel-item'>
+                      <Image src={nResidence11} alt='N_Residence11' />
+                    </div>
+                  </div>
+                  <button className='carousel-control-prev' type='button' data-bs-target='#nResidenceCarouselControls' data-bs-slide='prev'>
+                    <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                    <span className='visually-hidden'>Previous</span>
+                  </button>
+                  <button className='carousel-control-next' type='button' data-bs-target='#nResidenceCarouselControls' data-bs-slide='next'>
+                    <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                    <span className='visually-hidden'>Next</span>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>  
+      {/* N Residence End */}
+
+      {/* S Residence Start */}
         <div className="col-lg-6 projectContainer">
           <div className="position-relative sResidence">
             {/* <Image src={sResidence} alt='S Residence' width={920} height={450} /> */}
@@ -153,6 +321,8 @@ export default function Projects({ feed }) {
             </div>
           </div>
         </div>
+      {/* S Residence Start */}
+
         <div className="col-lg-6 projectContainer">
           <div className="position-relative dResidence">
             {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
