@@ -7,7 +7,8 @@ import Footer from "/components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
 import Slider from "react-slick";
 
-function Projects() {
+export default function Projects({ feed }) {
+  const images = feed.data
   const slideRef = useRef();
   // let previous = document.getElementsById('previous')
   let settings = {
@@ -576,10 +577,28 @@ function Projects() {
       {/* End Clients Say */}
 
       <footer>
-        <Footer />
+        <Footer data={images}/>
       </footer>
     </>
   );
 }
 
-export default Projects;
+
+
+export const getStaticProps = async (context) => {
+
+  const longLiveToken = `https://graph.instagram.com/access_token?grant_type=ig_exchange_token&client_secret=${process.env.IG_APP_SECRET}&access_token=${process.env.INSTAGRAM_KEY}`
+  const longLiveData = await fetch(longLiveToken)
+  const longLiveAttr = await longLiveData.json()
+  // console.log(longLiveAttr)
+
+  const url = `https://graph.instagram.com/me/media?fields=id,caption,media_url,media_type&access_token=${process.env.INSTAGRAM_KEY}`
+  const data = await fetch(url)
+  const feed = await data.json()
+  // console.log(feed)
+  return {
+    props: {
+      feed
+    }
+  }
+}
