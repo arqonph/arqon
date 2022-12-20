@@ -33,21 +33,7 @@ import dResidence05 from '../../assets/ARQON_Dizon Residence_05.jpg'
 import dResidence06 from '../../assets/ARQON_Dizon Residence_06.jpg'
 import dResidence07 from '../../assets/ARQON_Dizon Residence_07.jpg'
 
-import gResidence01 from '../../assets/G_Residence.jpg'
 
-import tResidence01 from '../../assets/ARQON_T Residence_01.jpg'
-import tResidence02 from '../../assets/ARQON_T Residence_02.jpg'
-import tResidence03 from '../../assets/ARQON_T Residence_03.jpg'
-import tResidence04 from '../../assets/ARQON_T Residence_04.jpg'
-import tResidence05 from '../../assets/ARQON_T Residence_05.jpg'
-import tResidence06 from '../../assets/ARQON_T Residence_06.jpg'
-import tResidence07 from '../../assets/ARQON_T Residence_07.jpg'
-import tResidence08 from '../../assets/ARQON_T Residence_08.jpg'
-import tResidence09 from '../../assets/ARQON_T Residence_09.jpg'
-import tResidence10 from '../../assets/ARQON_T Residence_10.jpg'
-import tResidence11 from '../../assets/ARQON_T Residence_11.jpg'
-import tResidence12 from '../../assets/ARQON_T Residence_12.jpg'
-import tResidence13 from '../../assets/ARQON_T Residence_13.jpg'
 
 function Projects() {
   return (
