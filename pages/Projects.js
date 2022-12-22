@@ -33,7 +33,15 @@ import dResidence05 from '../assets/ARQON_Dizon Residence_05.jpg'
 import dResidence06 from '../assets/ARQON_Dizon Residence_06.jpg'
 import dResidence07 from '../assets/ARQON_Dizon Residence_07.jpg'
 
-import vResidenceTagaytay01 from '../assets/V_Residence_Tagaytay.jpg'
+import vResidenceTagaytay00 from '../assets/V_Residence_Tagaytay.jpg'
+import vResidenceTagaytay01 from '../assets/ARQON_V Residence_01.jpg'
+import vResidenceTagaytay02 from '../assets/ARQON_V Residence_02.jpg'
+import vResidenceTagaytay03 from '../assets/ARQON_V Residence_03.jpg'
+import vResidenceTagaytay04 from '../assets/ARQON_V Residence_04.jpg'
+import vResidenceTagaytay05 from '../assets/ARQON_V Residence_05.jpg'
+import vResidenceTagaytay06 from '../assets/ARQON_V Residence_06_Perspective.jpg'
+import vResidenceTagaytay07 from '../assets/ARQON_V Residence_07_Vinekar-0004 copy.jpg' //too big
+import vResidenceTagaytay08 from '../assets/ARQON_V Residence_08_Vinekar-0005 copy.jpg' //too small
 
 import gResidence01 from '../assets/G_Residence.jpg'
 
@@ -470,8 +478,28 @@ export default function Projects({ feed }) {
                   <div id='vResidenceTagaytayCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
                       <div className='carousel-item  active'>
+                        <Image src={vResidenceTagaytay00} alt='V_Residence_Tagaytay_00' />
+                      </div>
+                      <div className='carousel-item'>
                         <Image src={vResidenceTagaytay01} alt='V_Residence_Tagaytay_01' />
                       </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidenceTagaytay02} alt='V_Residence_Tagaytay_02' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidenceTagaytay03} alt='V_Residence_Tagaytay_03' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidenceTagaytay04} alt='V_Residence_Tagaytay_04' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidenceTagaytay05} alt='V_Residence_Tagaytay_05' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={vResidenceTagaytay06} alt='V_Residence_Tagaytay_06' />
+                      </div>
+                      
+                    
                     </div>
                     <button className='carousel-control-prev' type='button' data-bs-target='#vResidenceTagaytayCarouselControls' data-bs-slide='prev'>
                       <span className='carousel-control-prev-icon' aria-hidden='true'></span>
