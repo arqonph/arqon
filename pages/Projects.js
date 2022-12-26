@@ -70,6 +70,36 @@ import sResidenceBataan08 from '../assets/ARQON_Casa Penafrancia_08.jpg'
 import sResidenceBataan09 from '../assets/ARQON_Casa Penafrancia_09.jpg'
 import sResidenceBataan10 from '../assets/ARQON_Casa Penafrancia_10.jpg'
 
+import dResidenceAveia01 from '../assets/ARQON_D Residence_01.jpg'
+import dResidenceAveia02 from '../assets/ARQON_D Residence_02.jpg'
+import dResidenceAveia03 from '../assets/ARQON_D Residence_03.jpg'
+import dResidenceAveia04 from '../assets/ARQON_D Residence_04.jpg'
+import dResidenceAveia05 from '../assets/ARQON_D Residence_05.jpg'
+import dResidenceAveia06 from '../assets/ARQON_D Residence_06.jpg'
+import dResidenceAveia07 from '../assets/ARQON_D Residence_07.jpg'
+
+import mResidenceBulacan01 from '../assets/M_Residence_Bulacan.jpg'
+import mResidenceBulacan03 from '../assets/ARQON_Manansala-0003.jpg'
+import mResidenceBulacan04 from '../assets/ARQON_Manansala-0004.jpg'
+import mResidenceBulacan05 from '../assets/ARQON_Manansala-0005.jpg'
+import mResidenceBulacan06 from '../assets/ARQON_Manansala-0006.jpg'
+import mResidenceBulacan07 from '../assets/ARQON_Manansala-0007.jpg'
+import mResidenceBulacan14 from '../assets/ARQON_Manansala-0014.jpg'
+import mResidenceBulacan15 from '../assets/ARQON_Manansala-0015.jpg'
+import mResidenceBulacan16 from '../assets/ARQON_Manansala-0016.jpg'
+import mResidenceBulacan17 from '../assets/ARQON_Manansala-0017.jpg'
+import mResidenceBulacan18 from '../assets/ARQON_Manansala-0018.jpg'
+
+import sResidenceSantos01 from '../assets/ARQON_S Residence_01.jpg'
+import sResidenceSantos02 from '../assets/ARQON_S Residence_02.jpg'
+import sResidenceSantos03 from '../assets/ARQON_S Residence_03.jpg'
+import sResidenceSantos04 from '../assets/ARQON_S Residence_04.jpg'
+import sResidenceSantos05 from '../assets/ARQON_S Residence_05.jpg'
+import sResidenceSantos06 from '../assets/ARQON_S Residence_06.jpg'
+import sResidenceSantos07 from '../assets/ARQON_S Residence_07.jpg'
+import sResidenceSantos08 from '../assets/ARQON_S Residence_08.jpg'
+
+
 import Head from "next/head";
 import Title from "../components/landing/Title";
 import Navbar from "/components/landing/Navigation-bar";
@@ -178,8 +208,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered'>
             <div className='modal-content modalProject'>
                <div className='modal-header'>
-                <h5 className='modal-title' id='vResidenceModelLabel'>V Residence</h5>
-                Ayala Alabang Village, Muntinlupa
+                <h5 className='modal-title' id='vResidenceModelLabel'>V Residence - Ayala Alabang Village, Muntinlupa</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
@@ -259,8 +288,7 @@ export default function Projects({ feed }) {
         <div className='modal-dialog modal-dialog-centered '>
           <div className='modal-content modalProject'>
             <div className='modal-header'>
-              <h5 className='modal-title' id='nResidenceModelLabel'>N Residence</h5>
-              Angono, Rizal
+              <h5 className='modal-title' id='nResidenceModelLabel'>N Residence - Angono, Rizal</h5>
               <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                 <span aria-hidden='true'>&times;</span>
               </button>
@@ -346,8 +374,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
               <div className='modal-header'>
-                <h5 className='modal-title' id='sResidenceModelLabel'>S Residence</h5>
-                Park Estate, Antipolo, Rizal
+                <h5 className='modal-title' id='sResidenceModelLabel'>S Residence - Park Estate, Antipolo, Rizal</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
@@ -403,8 +430,7 @@ export default function Projects({ feed }) {
         <div className='modal-dialog modal-dialog-centered '>
           <div className='modal-content modalProject'>
             <div className='modal-header'>
-              <h5 className='modal-title' id='dResidenceModelLabel'>D Residence</h5>
-              BF Homes, Quezon City
+              <h5 className='modal-title' id='dResidenceModelLabel'>D Residence - BF Homes, Quezon City</h5>
               <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                 <span aria-hidden='true'>&times;</span>
               </button>
@@ -478,8 +504,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
               <div className='modal-header'>
-                <h5 className='modal-title' id='vResidenceTagaytayModelLabel'>V Residence</h5>
-                Royale Tagaytay Estates, Alfonso, Cavite
+                <h5 className='modal-title' id='vResidenceTagaytayModelLabel'>V Residence - Royale Tagaytay Estates, Alfonso, Cavite</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
@@ -554,8 +579,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
               <div className='modal-header'>
-                <h5 className='modal-title' id='tResidenceModalModelLabel'>T Residence</h5>
-                Navotas City
+                <h5 className='modal-title' id='tResidenceModalModelLabel'>T Residence - Navotas City</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
@@ -647,8 +671,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
               <div className='modal-header'>
-                <h5 className='modal-title' id='sResidenceBataanModalModelLabel'>S Residence</h5>
-                Limay, Bataan
+                <h5 className='modal-title' id='sResidenceBataanModalModelLabel'>S Residence - Limay, Bataan</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
@@ -704,8 +727,9 @@ export default function Projects({ feed }) {
           </div>
         </div>         
         {/* S Residence Bataan End */}
+        {/* D Residence Aveia Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative dResidenceAveia">
+          <div className="position-relative dResidenceAveia" type='button' data-bs-toggle='modal' data-bs-target='#dResidenceAveiaModal'>
             {/* <Image src={dResidenceAveia} alt='D Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
@@ -731,8 +755,62 @@ export default function Projects({ feed }) {
             </div>
           </div>
         </div>
+        
+      {/* D_RESIDENCE_AVEIA MODAL AND CAROUSEL */}
+      <div className='modal fade modal-xl' id='dResidenceAveiaModal' tabIndex='-1' aria-labelledby='dResidenceAveiaModalModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered '>
+            <div className='modal-content modalProject'>
+              <div className='modal-header'>
+                <h5 className='modal-title' id='dResidenceAveiaModalModelLabel'>D Residence - Aveia by Alveo Ayala Land, Laguna</h5>
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='dResidenceAveiaCarousel'>
+                  <div id='dResidenceAveiaCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                      <div className='carousel-item  active'>
+                        <Image src={dResidenceAveia01} alt='D_Residence_Aveia_01' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia02} alt='D_Residence_Aveia_02' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia03} alt='D_Residence_Aveia_03' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia04} alt='D_Residence_Aveia_04' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia05} alt='D_Residence_Aveia_05' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia06} alt='D_Residence_Aveia_06' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={dResidenceAveia07} alt='D_Residence_Aveia_07' />
+                      </div>
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#dResidenceAveiaCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#dResidenceAveiaCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>         
+        {/* D Residence Aveia End */}
+
+        {/* M Residence Bulacan Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative mResidence">
+          <div className="position-relative mResidence" type='button' data-bs-toggle='modal' data-bs-target='#mResidenceModal'>
             {/* <Image src={mResidence} alt='M Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
@@ -752,15 +830,81 @@ export default function Projects({ feed }) {
             </div>
           </div>
         </div>
+      {/* M_RESIDENCE MODAL AND CAROUSEL */}
+      <div className='modal fade modal-xl' id='mResidenceModal' tabIndex='-1' aria-labelledby='mResidenceModalModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered '>
+            <div className='modal-content modalProject'>
+              <div className='modal-header'>
+                <h5 className='modal-title' id='mResidenceModalModelLabel'>M Residence - Hagonoy, Bulacan</h5>
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='mResidenceCarousel'>
+                  <div id='mResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                    
+                    <div className='carousel-item  active'>
+                        <Image src={mResidenceBulacan01} alt='M_Residence_01' />
+                      </div>                    
+                      <div className='carousel-item '>
+                        <Image src={mResidenceBulacan03} alt='M_Residence_03' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan04} alt='M_Residence_04' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan05} alt='M_Residence_05' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan06} alt='M_Residence_06' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan07} alt='M_Residence_07' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan14} alt='M_Residence_14' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan15} alt='M_Residence_15' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan16} alt='M_Residence_16' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan17} alt='M_Residence_17' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={mResidenceBulacan18} alt='M_Residence_18' />
+                      </div>                                                                  
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#mResidenceCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#mResidenceCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>                 
+        {/* M Residence Bulacan End */}
+        
+        {/* S Residence  Start */}
         <div className="col-lg-6 projectContainer">
-          <div className="position-relative santosResidence">
+          <div className="position-relative santosResidence" type='button' data-bs-toggle='modal' data-bs-target='#sResidenceSantosModal'>
             {/* <Image src={santosResidence} alt='Santos Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
                 <span className="head d-block">Santos Residence</span>
                 <span className="address">
                   {" "}
-                  Kingville Court, Antipolo, Rizal{" "}
+                  Kingsville Court, Antipolo, Rizal{" "}
                 </span>
               </p>
             </div>
@@ -771,7 +915,7 @@ export default function Projects({ feed }) {
                     <span className="head d-block">Santos Residence</span>
                     <span className="address">
                       {" "}
-                      Kingville Court, Antipolo, Rizal{" "}
+                      Kingsville Court, Antipolo, Rizal{" "}
                     </span>
                   </p>
                 </div>
@@ -779,6 +923,64 @@ export default function Projects({ feed }) {
             </div>
           </div>
         </div>
+      {/* S_RESIDENCE MODAL AND CAROUSEL */}
+      <div className='modal fade modal-xl' id='sResidenceSantosModal' tabIndex='-1' aria-labelledby='sResidenceSantosModalModelLabel' aria-hidden='true'>
+          <div className='modal-dialog modal-dialog-centered '>
+            <div className='modal-content modalProject'>
+              <div className='modal-header'>
+                <h5 className='modal-title' id='sResidenceSantosModalModelLabel'>Santos Residence - Kingsville Court, Antipolo, Rizal</h5>
+                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
+                  <span aria-hidden='true'>&times;</span>
+                </button>
+              </div>
+              <div className='modal-body m-4'>
+                <div className='mResidenceSantosCarousel'>
+                  <div id='mResidenceSantosCarouselControls' className='carousel slide' data-bs-ride='carousel'>
+                    <div className='carousel-inner'>
+                    
+                    <div className='carousel-item  active'>
+                        <Image src={sResidenceSantos01} alt='S_Residence_01' />
+                      </div>     
+                      {/*}               
+                      <div className='carousel-item '>
+                        <Image src={sResidenceSantos02} alt='M_Residence_02' /> too big
+                      </div>
+  */}
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos03} alt='M_Residence_03' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos04} alt='M_Residence_04' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos05} alt='M_Residence_05' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos06} alt='M_Residence_06' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos07} alt='M_Residence_07' />
+                      </div>
+                      <div className='carousel-item'>
+                        <Image src={sResidenceSantos08} alt='M_Residence_08' />
+                      </div>
+                                                                                 
+                    </div>
+                    <button className='carousel-control-prev' type='button' data-bs-target='#mResidenceSantosCarouselControls' data-bs-slide='prev'>
+                      <span className='carousel-control-prev-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Previous</span>
+                    </button>
+                    <button className='carousel-control-next' type='button' data-bs-target='#mResidenceSantosCarouselControls' data-bs-slide='next'>
+                      <span className='carousel-control-next-icon' aria-hidden='true'></span>
+                      <span className='visually-hidden'>Next</span>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>                 
+        {/* S Residence  End */}
       </div>
       {/* End Projects */}
       {/* Start Clients Say */}
