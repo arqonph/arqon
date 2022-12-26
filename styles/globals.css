@@ -1076,14 +1076,14 @@ model-viewer {
   position: relative;
   font-family: 'DinLight', sans-serif;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 10px;
 }
 
 .residenceTitle .address {
   position: absolute;
   font-family: 'DinLight', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
   margin-left: 10px;
 }
 

@@ -354,7 +354,7 @@ export default function Projects({ feed }) {
             <div className="residenceTitle py-0 py-md-1">
               <p>
                 <span className="head d-block">S Residence</span>
-                <span className="address">Park Estate, Antipolo, Rizal </span>
+                <span className="address">Parkridge Estate, Antipolo, Rizal </span>
               </p>
             </div>
             <div className="projectsOverlay">
@@ -362,7 +362,7 @@ export default function Projects({ feed }) {
                 <div className=" residenceTitle py-0 py-md-1 footerOverlay">
                   <p>
                     <span className="head d-block">S Residence</span>
-                    <span className="address">Park Estate, Antipolo, Rizal</span>
+                    <span className="address">Parkridge Estate, Antipolo, Rizal</span>
                   </p>
                 </div>
               </div>
@@ -374,7 +374,7 @@ export default function Projects({ feed }) {
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
               <div className='modal-header'>
-                <h5 className='modal-title' id='sResidenceModelLabel'>S Residence - Park Estate, Antipolo, Rizal</h5>
+                <h5 className='modal-title' id='sResidenceModelLabel'>S Residence - Parkridge Estate, Antipolo, Rizal</h5>
                 <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
                   <span aria-hidden='true'>&times;</span>
                 </button>
