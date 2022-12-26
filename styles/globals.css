@@ -1066,6 +1066,12 @@ model-viewer {
   right: 0;
 }
 
+.modal-title {
+  font-family: 'DinLight', sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 .residenceTitle .head {
   position: relative;
   font-family: 'DinLight', sans-serif;
