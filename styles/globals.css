@@ -1076,14 +1076,14 @@ model-viewer {
   position: relative;
   font-family: 'DinLight', sans-serif;
   font-weight: bold;
-  font-size: 14px;
+  font-size: 18px;
   margin-left: 10px;
 }
 
 .residenceTitle .address {
   position: absolute;
   font-family: 'DinLight', sans-serif;
-  font-size: 12px;
+  font-size: 14px;
   margin-left: 10px;
 }
 
@@ -1175,6 +1175,20 @@ model-viewer {
 .clientName {
   font-family: 'DinBold', sans-serif;
   font-weight: bold;
+}
+
+.clientReviewProjects {
+  border-bottom: 2px solid #7E7D7C;
+  /* width: 90%; */
+  margin-left: 50px;
+}
+
+
+.clientReviewProjectsheader {
+  font-family: 'Adamcg' , sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  color: #F5F5F5;
 }
 
 .controls span {
