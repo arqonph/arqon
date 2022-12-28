@@ -116,6 +116,7 @@ export default function Projects({ feed }) {
     dots: true,
     infinite: true,
     speed: 400,
+    arrows: false,
     slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 1,
@@ -997,10 +998,8 @@ export default function Projects({ feed }) {
         }}
       >
         <div className="clientSlide pb-5 col-xxl-12 col-xl-6">
-          <div
-            className="d-flex justify-content-between align-items-center"
-            style={{ color: "white", borderBlock: "solid", borderTop: 0 }}
-          >
+          <div className="d-flex justify-content-between align-items-center"
+            style={{ color: "white", borderBlock: "solid", borderTop: 0 }}>
             <div className="ps-xxl-2">
               <br />
               <span className='clientReviewProjectsheader'>
@@ -1057,7 +1056,7 @@ export default function Projects({ feed }) {
               <div className='slide-comment comment2'>
                 <div className='row d-flex align-items-start'>
                   <div className='doubleQuotation col-1'>
-                    <Image src={doubleQuotation} alt='Double Quotation'/>
+                    <Image src={doubleQuotation} alt='Double Quotation' className='imgQuot'/>
                   </div>
                   <p className='col-11'>
                     <span>
