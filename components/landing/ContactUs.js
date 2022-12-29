@@ -91,10 +91,10 @@ function ContactUs() {
                   <Slider ref={slideRef} {...settings}>
                       <div className='slide-comment comment1 '>
                         <div className='row d-flex justify-content-center align-items-start'>
-                          <div className='doubleQuotation col-2 col-sm-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation' className='imgQuot'/>
                           </div>
-                          <p className='col-10 col-sm-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             We appoint ARQON because of their aesthetic taste.
                             But we were surprised because they delivered more than what we expected.
@@ -114,10 +114,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment2'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             It was the best decision to hire Arqon to design and build our dream vacation home.
                             We met them in 2019 to kick off the project and amidst the Taal eruption and long pandemic, they managed to pull off a masterpiece that is beyond what we ever imagined!
@@ -135,10 +135,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment3'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             Considering constructing my family’s house was always a stressful thought for me.
                             As the time neared that I needed to pursue building our house, thoughts of what people shared to me, and me witnessing their experiences started to flood my mind.
@@ -162,10 +162,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment4'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                               We absolutely love our new home and have received many compliments on it!
                               It was built with the highest quality and turned out even more beautiful than we ever imagined.
@@ -183,10 +183,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment5'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             ARQON helped me build my dream house from the planning stage to full completion.
                             When I bought a village lot of 235 sqm, I knew I was in for a major challenge because I had big plans that had to fit in a tiny space.
@@ -213,10 +213,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment5'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             When we thought of having our office renovated, I didn’t have a concrete plan of how I wanted it to look like.
                             I knew what we wanted in terms of workflow and layout but the aesthetics, not so much.
@@ -237,10 +237,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment5'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             Arqon Design+Build helped us in many ways in achieving our dream home.
                             They listened to your inputs very well and gave their honest opinions regarding the layout, material and the whole plan.
@@ -257,10 +257,10 @@ function ContactUs() {
                       </div>
                       <div className='slide-comment comment5'>
                         <div className='row d-flex align-items-start'>
-                          <div className='doubleQuotation col-1'>
+                          <div className='doubleQuotation col-xxl-2 ps-xxl-4 col-xl-2 ps-xl-4 col-lg-2 col-md-1 col-2'>
                             <Image src={doubleQuotation} alt='Double Quotation'/>
                           </div>
-                          <p className='col-11'>
+                          <p className='pt-sm-2 col-xxl-10 pt-xxl-1 col-xl-10 col-lg-10 col-md-11 pt-md-1 col-10 pt-1'>
                             <span>
                             Working with them is one of the best decisions we made in planning our place.
                             Everything was designed based on our input and comfort.

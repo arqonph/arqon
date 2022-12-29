@@ -71,15 +71,13 @@ function Projects() {
             </div>
             {/* V_RESIDENCE MODAL AND CAROUSEL */}
             <div className='modal fade modal-xl' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
-              <div className='modal-dialog modal-dialog-centered'>
+              <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
-                  {/* <div className='modal-header'>
-                    <h5 className='modal-title' id='vResidenceModelLabel'>V RESIDENCE</h5>
-                    <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                      <span aria-hidden='true'>&times;</span>
-                    </button>
-                  </div> */}
-                  <div className='modal-body m-4'>
+                  <div className='modal-header projectModalHeader'>
+                    <h5 className='modal-title projectModalTitle' id='vResidenceModelLabel'>V RESIDENCE</h5>
+                    <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
+                  </div>
+                  <div className='modal-body'>
                     <div className='vResidenceCarousel'>
                       <div id='vResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                         <div className='carousel-inner'>
@@ -150,13 +148,11 @@ function Projects() {
             <div className='modal fade modal-xl' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
-                  {/* <div className='modal-header'>
-                    <h5 className='modal-title' id='nResidenceModelLabel'>N RESIDENCE</h5>
-                    <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                      <span aria-hidden='true'>&times;</span>
-                    </button>
-                  </div> */}
-                  <div className='modal-body m-4'>
+                  <div className='modal-header projectModalHeader'>
+                    <h5 className='modal-title projectModalTitle' id='nResidenceModelLabel'>N RESIDENCE</h5>
+                    <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
+                  </div>
+                  <div className='modal-body'>
                     <div className='nResidenceCarousel'>
                       <div id='nResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                         <div className='carousel-inner'>
@@ -233,13 +229,11 @@ function Projects() {
             <div className='modal fade modal-xl' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
-                  {/* <div className='modal-header'>
-                    <h5 className='modal-title' id='sResidenceModelLabel'>N RESIDENCE</h5>
-                    <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                      <span aria-hidden='true'>&times;</span>
-                    </button>
-                  </div> */}
-                  <div className='modal-body m-4'>
+                  <div className='modal-header projectModalHeader'>
+                    <h5 className='modal-title projectModalTitle' id='sResidenceModelLabel'>N RESIDENCE</h5>
+                    <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
+                  </div>
+                  <div className='modal-body'>
                     <div className='sResidenceCarousel'>
                       <div id='sResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                         <div className='carousel-inner'>
@@ -286,13 +280,11 @@ function Projects() {
              <div className='modal fade modal-xl' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
-                  {/* <div className='modal-header'>
-                    <h5 className='modal-title' id='sResidenceModelLabel'>N RESIDENCE</h5>
-                    <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                      <span aria-hidden='true'>&times;</span>
-                    </button>
-                  </div> */}
-                  <div className='modal-body m-4'>
+                  <div className='modal-header projectModalHeader'>
+                    <h5 className='modal-title projectModalTitle' id='sResidenceModelLabel'>N RESIDENCE</h5>
+                    <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
+                  </div>
+                  <div className='modal-body'>
                     <div className='dResidenceCarousel'>
                       <div id='dResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                         <div className='carousel-inner'>

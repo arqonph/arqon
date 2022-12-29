@@ -27,16 +27,15 @@ a {
 
 /* =========== SCROLL BAR ===========*/
 /* width */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
   width: 10px;
-}
+} */
 
 /* Handle */
-::-webkit-scrollbar-thumb {
+/* ::-webkit-scrollbar-thumb {
   background: #3E3D3F;
-  /*#76CBC1*/
   border-radius: 10px;
-}
+} */
 
 /* ::-webkit-input-placeholder {
   color:red;
@@ -50,9 +49,9 @@ a {
   color:red;
 } */
 
-::placeholder {
+/* ::placeholder {
   color: red;
-}
+} */
 
 /* =========== NAVIGATION BAR =========== */
 .navbar {
@@ -731,7 +730,7 @@ model-viewer {
 }
 
 .services {
-  padding: 0 50px;
+  padding: 0 30px;
   margin-top: 30px;
 }
 
@@ -805,7 +804,6 @@ model-viewer {
 
 .offerFooterOverlay {
   font-family: 'DinLight', sans-serif;
-  
   position: absolute;
   padding: 10px 0px;
   background-color: #76CBC1;
@@ -1158,12 +1156,19 @@ model-viewer {
   border-radius: 0px !important;
 }
 
+.projectModalTitle {
+  font-family: 'DinBold', sans-serif;
+}
+
+.projectModalHeader .modalClose {
+  background: #fff
+}
+
 .clientReview {
   border-bottom: 2px solid #7E7D7C;
   /* width: 90%; */
   margin-left: 50px;
 }
-
 
 .clientReview .header {
   font-family: 'Adamcg' , sans-serif;
@@ -1228,12 +1233,14 @@ model-viewer {
   overflow-x: hidden; /* Hide horizontal scrollbar */
   overflow-y: scroll; /* Add vertical scrollbar */
 }
-
+.doubleQuotation {
+  top: -30px;
+}
 .imgQuot {
   width: 27px;
   height: 19px;
 }
-.slide-comment::-webkit-scrollbar-track {
+/* .slide-comment::-webkit-scrollbar-track {
   border-radius: 1px;
   background-color: #76CBC1
 }
@@ -1246,7 +1253,7 @@ model-viewer {
 .slide-comment::-webkit-scrollbar-thumb {
   border-radius: 1px;
   background-color: #76CBC1
-}
+} */
 
 .contactUsForm {
   width: 80%;
@@ -1656,6 +1663,8 @@ model-viewer {
     width: 170px;
     height: 250px;
   }
+
+  
  
 }
 @media (max-width: 1400px) {
@@ -1779,7 +1788,7 @@ model-viewer {
 @media (max-width: 1024px) {
   .contact {
     /* background-color: #76CBC1; */
-    background: linear-gradient(0deg, #76CBC1 77%, #fff 23%);
+    background: linear-gradient(0deg, #76CBC1 76%, #fff 23%);
   }
 
   .arqon,
@@ -1794,6 +1803,11 @@ model-viewer {
     font-size: calc(5px + 1.5vw);
     border-bottom: 2px solid #fff;
     top: 70px;
+  }
+
+  .services {
+    padding: 0 20px;
+    margin-top: 30px;
   }
 
   .igPost {
@@ -1990,6 +2004,11 @@ model-viewer {
     width: 330px;
     height: 260px;
   }
+
+  .contact {
+    /* background-color: #76CBC1; */
+    background: linear-gradient(0deg, #76CBC1 76%, #fff 23%);
+  }
 }
 
 @media (max-width: 526px) {
@@ -2032,7 +2051,6 @@ model-viewer {
 }
 
 @media (max-width: 425px) {
-
   .arqon,
   .heroImage2,
   .heroImage {
@@ -2085,7 +2103,7 @@ model-viewer {
   .contactUs-img1,
   .contactUs-img2,
   .modelingImage {
-    height: 250px;
+    height: 350px;
   }
 
   /* .headLine span, */
@@ -2100,14 +2118,18 @@ model-viewer {
     line-height: 25px;
     font-size: calc(5px + 3vw);
   }
-  .offerFooterOverlay,
-  .offerFooter {
+  .offerFooter,
+  .offerFooterOverlay span  {
     font-size: calc(1.5px + 3vw);
     padding: 1px 0px;
   }
 
-  .overlay span{
-    font-size: 12px;
+  .offerFooterOverlay {
+    padding: 0px 0px;
+  }
+
+  .text span{
+    font-size: 13px;
   }
   .bodyPage {
     padding: 20px 50px;
@@ -2120,6 +2142,12 @@ model-viewer {
   .residenceTitle .head,
   .residenceTitle .address {
     font-size: calc(1px + 2vw);
+  }
+
+  .contactUsForm {
+    /* padding-left: 50px; */
+    padding-left: 10px;
+    width: 100%;
   }
 
   p.small-m {
