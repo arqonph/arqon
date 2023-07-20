@@ -6,6 +6,7 @@ import Head from "next/head";
 import Navbar from "/components/landing/Navigation-bar";
 import Footer from "/components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
+import phoneIcon from "/assets/phone.png";
 
 function ContactUs() {
   const {
@@ -51,9 +52,9 @@ function ContactUs() {
       </div>
       <div className="container section-1 text-center pt-5 pb-5 ">
         <div className="row">
-          <div className="col-md-4 text-center">
+          <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <i className="fa-solid fa-phone fa-2xl contactUs-icon"></i>
+              <Image  src={phoneIcon} width={64} height={64} />
             </p>
             <span className="phone-email-home">+63 917 817 4612</span>
             <br />
@@ -64,8 +65,7 @@ function ContactUs() {
             </span>
             <br />
           </div>
-
-          <div className="col-md-4 text-center">
+          <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
               <i className="fa-regular fa-envelope fa-2xl contactUs-icon"></i>
             </p>
@@ -78,7 +78,7 @@ function ContactUs() {
             </span>
             <br />
           </div>
-          <div className="col-md-4 text-center">
+          <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
               <i className="fa-solid fa-house fa-2xl contactUs-icon"></i>
             </p>
