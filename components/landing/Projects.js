@@ -49,7 +49,7 @@ function Projects() {
             </div>
           </div>
           <div className='row gx-0 residence pt-3 d-flex justify-content-center align-items-center'>
-            <div className='col-lg-6 projectContainer' type='button' data-bs-toggle='modal' data-bs-target='#vResidenceModal'>
+            <div className='col-lg-6 mb-2 projectContainer' type='button' data-bs-toggle='modal' data-bs-target='#vResidenceModal'>
               <div className='position-relative vResidence'>
                 <div className='residenceTitle py-0 py-md-1'>
                   <p>
@@ -123,7 +123,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-6 projectContainer'>
+            <div className='col-lg-6 mb-2 projectContainer'>
               <div className='position-relative nResidence' type='button' data-bs-toggle='modal' data-bs-target='#nResidenceModal'>
               {/* <Image src={nResidence} alt='N Residence' width={920} height={450} /> */}
                 <div className='residenceTitle py-0 py-md-1'>
@@ -204,7 +204,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-6 projectContainer'>
+            <div className='col-lg-6 mb-2 projectContainer'>
               <div className='position-relative sResidence' type='button' data-bs-toggle='modal' data-bs-target='#sResidenceModal'>
               {/* <Image src={sResidence} alt='S Residence' width={920} height={450} /> */}
                 <div className='residenceTitle py-0 py-md-1'>
@@ -255,7 +255,7 @@ function Projects() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-6 projectContainer'>
+            <div className='col-lg-6 mb-2 projectContainer'>
               <div className='position-relative dResidence' type='button' data-bs-toggle='modal' data-bs-target='#dResidenceModal'>
               {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
                 <div className='residenceTitle py-0 py-md-1'>
