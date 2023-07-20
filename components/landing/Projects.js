@@ -70,11 +70,11 @@ function Projects() {
               </div>
             </div>
             {/* V_RESIDENCE MODAL AND CAROUSEL */}
-            <div className='modal fade modal-xl' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
+            <div className='modal fade modal-lg' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
-                  <div className='modal-header projectModalHeader'>
-                    <h5 className='modal-title projectModalTitle' id='vResidenceModelLabel'>V RESIDENCE</h5>
+                  <div className='modal-header'>
+                    <h5 className='modal-title ' id='vResidenceModelLabel'>V Residence - Ayala Alabang Village, Muntinlupa</h5>
                     <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
                   </div>
                   <div className='modal-body'>
@@ -145,11 +145,11 @@ function Projects() {
               </div>
             </div>
             {/* N_RESIDENCE MODAL AND CAROUSEL */}
-            <div className='modal fade modal-xl' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
+            <div className='modal fade modal-lg' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
                   <div className='modal-header projectModalHeader'>
-                    <h5 className='modal-title projectModalTitle' id='nResidenceModelLabel'>N RESIDENCE</h5>
+                    <h5 className='modal-title' id='nResidenceModelLabel'>N Residence - Angono, Rizal</h5>
                     <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
                   </div>
                   <div className='modal-body'>
@@ -226,11 +226,11 @@ function Projects() {
               </div>
             </div>
             {/* S_RESIDENCE MODAL AND CAROUSEL */}
-            <div className='modal fade modal-xl' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
+            <div className='modal fade modal-lg' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
                   <div className='modal-header projectModalHeader'>
-                    <h5 className='modal-title projectModalTitle' id='sResidenceModelLabel'>N RESIDENCE</h5>
+                    <h5 className='modal-title' id='sResidenceModelLabel'>S Residence - Parkridge Estate, Antipolo, Rizal</h5>
                     <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
                   </div>
                   <div className='modal-body'>
@@ -277,11 +277,11 @@ function Projects() {
               </div>
             </div>
              {/* D_RESIDENCE MODAL AND CAROUSEL */}
-             <div className='modal fade modal-xl' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
+             <div className='modal fade modal-lg' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
               <div className='modal-dialog modal-dialog-centered '>
                 <div className='modal-content modalProject'>
                   <div className='modal-header projectModalHeader'>
-                    <h5 className='modal-title projectModalTitle' id='sResidenceModelLabel'>N RESIDENCE</h5>
+                    <h5 className='modal-title' id='dResidenceModelLabel'>D Residence - BF Homes, Quezon City</h5>
                     <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
                   </div>
                   <div className='modal-body'>
