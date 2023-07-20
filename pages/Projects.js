@@ -209,16 +209,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
         {/* V_RESIDENCE MODAL AND CAROUSEL */}
-        <div className='modal fade modal-xl' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
+        <div className='modal fade modal-lg' id='vResidenceModal' tabIndex='-1' aria-labelledby='vResidenceModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered'>
             <div className='modal-content modalProject'>
-               <div className='modal-header'>
+               <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='vResidenceModelLabel'>V Residence - Ayala Alabang Village, Muntinlupa</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='vResidenceCarousel'>
                   <div id='vResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -289,16 +287,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
       {/* N_RESIDENCE MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='nResidenceModal' tabIndex='-1' aria-labelledby='nResidenceModelLabel' aria-hidden='true'>
         <div className='modal-dialog modal-dialog-centered '>
           <div className='modal-content modalProject'>
-            <div className='modal-header'>
+            <div className='modal-header projectModalHeader'>
               <h5 className='modal-title' id='nResidenceModelLabel'>N Residence - Angono, Rizal</h5>
-              <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                <span aria-hidden='true'>&times;</span>
-              </button>
+              <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
             </div>
-            <div className='modal-body m-4'>
+            <div className='modal-body'>
               <div className='nResidenceCarousel'>
                 <div id='nResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                   <div className='carousel-inner'>
@@ -375,16 +371,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
         {/* S_RESIDENCE MODAL AND CAROUSEL */}
-        <div className='modal fade modal-xl' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
+        <div className='modal fade modal-lg' id='sResidenceModal' tabIndex='-1' aria-labelledby='sResidenceModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='sResidenceModelLabel'>S Residence - Parkridge Estate, Antipolo, Rizal</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='sResidenceCarousel'>
                   <div id='sResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -431,16 +425,14 @@ export default function Projects({ feed }) {
         </div>
       </div>
       {/* D_RESIDENCE MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='dResidenceModal' tabIndex='-1' aria-labelledby='dResidenceModelLabel' aria-hidden='true'>
         <div className='modal-dialog modal-dialog-centered '>
           <div className='modal-content modalProject'>
-            <div className='modal-header'>
+            <div className='modal-header projectModalHeader'>
               <h5 className='modal-title' id='dResidenceModelLabel'>D Residence - BF Homes, Quezon City</h5>
-              <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                <span aria-hidden='true'>&times;</span>
-              </button>
+              <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
             </div>
-            <div className='modal-body m-4'>
+            <div className='modal-body'>
               <div className='dResidenceCarousel'>
                 <div id='dResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                   <div className='carousel-inner'>
@@ -505,16 +497,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
         {/* V_RESIDENCE_TAGAYTAY MODAL AND CAROUSEL */}
-        <div className='modal fade modal-xl' id='vResidenceTagaytayModal' tabIndex='-1' aria-labelledby='vResidenceTagaytayModelLabel' aria-hidden='true'>
+        <div className='modal fade modal-lg' id='vResidenceTagaytayModal' tabIndex='-1' aria-labelledby='vResidenceTagaytayModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='vResidenceTagaytayModelLabel'>V Residence - Royale Tagaytay Estates, Alfonso, Cavite</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='vResidenceTagaytayCarousel'>
                   <div id='vResidenceTagaytayCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -580,16 +570,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
       {/* T_RESIDENCE_Navotas MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='tResidenceModal' tabIndex='-1' aria-labelledby='tResidenceModalModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='tResidenceModal' tabIndex='-1' aria-labelledby='tResidenceModalModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='tResidenceModalModelLabel'>T Residence - Navotas City</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='tResidenceCarousel'>
                   <div id='tResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -672,16 +660,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
       {/* S_RESIDENCE_Bataan MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='sResidenceBataanModal' tabIndex='-1' aria-labelledby='sResidenceBataanModalModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='sResidenceBataanModal' tabIndex='-1' aria-labelledby='sResidenceBataanModalModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='sResidenceBataanModalModelLabel'>S Residence - Limay, Bataan</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='sResidenceBataanCarousel'>
                   <div id='sResidenceBataanCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -762,16 +748,14 @@ export default function Projects({ feed }) {
         </div>
         
       {/* D_RESIDENCE_AVEIA MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='dResidenceAveiaModal' tabIndex='-1' aria-labelledby='dResidenceAveiaModalModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='dResidenceAveiaModal' tabIndex='-1' aria-labelledby='dResidenceAveiaModalModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='dResidenceAveiaModalModelLabel'>D Residence - Aveia by Alveo Ayala Land, Laguna</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='dResidenceAveiaCarousel'>
                   <div id='dResidenceAveiaCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -836,16 +820,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
       {/* M_RESIDENCE MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='mResidenceModal' tabIndex='-1' aria-labelledby='mResidenceModalModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='mResidenceModal' tabIndex='-1' aria-labelledby='mResidenceModalModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='mResidenceModalModelLabel'>M Residence - Hagonoy, Bulacan</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='mResidenceCarousel'>
                   <div id='mResidenceCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
@@ -929,16 +911,14 @@ export default function Projects({ feed }) {
           </div>
         </div>
       {/* S_RESIDENCE MODAL AND CAROUSEL */}
-      <div className='modal fade modal-xl' id='sResidenceSantosModal' tabIndex='-1' aria-labelledby='sResidenceSantosModalModelLabel' aria-hidden='true'>
+      <div className='modal fade modal-lg' id='sResidenceSantosModal' tabIndex='-1' aria-labelledby='sResidenceSantosModalModelLabel' aria-hidden='true'>
           <div className='modal-dialog modal-dialog-centered '>
             <div className='modal-content modalProject'>
-              <div className='modal-header'>
+              <div className='modal-header projectModalHeader'>
                 <h5 className='modal-title' id='sResidenceSantosModalModelLabel'>Santos Residence - Kingsville Court, Antipolo, Rizal</h5>
-                <button type='button' className='close' data-bs-dismiss='modal' aria-label='Close'>
-                  <span aria-hidden='true'>&times;</span>
-                </button>
+                <button type='button' className='modalClose border border-0' data-bs-dismiss='modal' aria-label='Close'>&times;</button>
               </div>
-              <div className='modal-body m-4'>
+              <div className='modal-body'>
                 <div className='mResidenceSantosCarousel'>
                   <div id='mResidenceSantosCarouselControls' className='carousel slide' data-bs-ride='carousel'>
                     <div className='carousel-inner'>
