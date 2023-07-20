@@ -1306,6 +1306,7 @@ model-viewer {
 
 .textArea {
   height: 141px;
+  resize: none;
 }
 
 .formFields span {

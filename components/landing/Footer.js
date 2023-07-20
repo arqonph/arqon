@@ -102,22 +102,22 @@ export default function Footer( { data }) {
               <div className='pt-3 px-0 px-md-5'>
                 <ul>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
-                    <a href='https://bluprint.onemega.com/arqon-design-conveys-modern-industrial-architecture-through-casa-penafrancia/'>
+                    <a href='https://bluprint.onemega.com/arqon-design-conveys-modern-industrial-architecture-through-casa-penafrancia/' target='_blank'>
                       <span className='listType'>&#62;</span> Bluprint - Arqon Design Conveys Modern Industrial Architecture Through Casa Peñafrancia by 
                     </a>
                   </li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
-                    <a href='/'>
+                    <a href='/' target='_blank'>
                       <span className='listType'>&#62; </span> Style Rules This Modern Minimalist Industrial Home by Real Living
                     </a>
                   </li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
-                    <a href='/'>
+                    <a href='/' target='_blank'>
                       <span className='listType'>&#62; </span>10 Most Beautiful Real Homes in 2017
                     </a>
                   </li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'>
-                    <a href='/'>
+                    <a href='/' target='_blank'>
                       <span className='listType'>&#62; </span> Spot.PH  - Breathtaking Country-Style Tagaytay Airbnb Viram Villa
                     </a>
                   </li>
@@ -134,7 +134,7 @@ export default function Footer( { data }) {
                 <ul>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Architectural Design</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Design and Build</li>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Building Information Modelling (BIM)</li>
+                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Building Information Modeling (BIM)</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Architectural Interiors</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Project Management</li>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span className='listType'>&#62; </span>Design Consultancy</li>
@@ -155,7 +155,11 @@ export default function Footer( { data }) {
               <div className='footerDetails pt-3 pb-5 pb-xxl-0 px-0 px-md-5'>
                 <ul>
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Phone: +632 966 210 2307</span></li>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Email: info@arqon.com.ph </span></li>
+                  <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Email: 
+                    <a href='mailto:info@arqon.com.ph?subject=Enquiry' >info@arqon.com.ph </a>
+                  </span>
+                  </li>
+
                   <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Suite 1706 Atlanta Centre Building,
                     31 Annapolis St., Greenhills, San Juan City,
                     Metro Manila, Philippines 1552</span> 
@@ -175,7 +179,7 @@ export default function Footer( { data }) {
         <Image src={footerLogo} height={64.85} width={220}/>
           <span className='d-md-block d-none'>&copy; 2022 All Rights Reserved</span>
         <div className='d-flex' onClick={scrollUp}>
-          <button className='buttonUp text-white' > Back on top </button>
+          <button className='buttonUp text-white' > Back to top </button>
           <div className='arrowUp'>
           <span > &#62; </span>
           </div>
