@@ -325,20 +325,6 @@ li {
   transition: .3s ease;
 }
 
-.info span {
-  font-family: 'DinLight', sans-serif;
-  color: rgb(85, 83, 83);
-  font-size: 12px;
-  position: relative;
-  top: 50%;
-  left: 45%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  width: 50%;
-}
-
 .infoHorizontal span {
   font-family: 'DinLight', sans-serif;
   color:rgb(0, 0, 0);
@@ -378,17 +364,31 @@ li {
   transition: .3s ease;
 }
 
-.info {
+.info-team span {
+  font-family: 'DinLight', sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 15px;
+  position: relative;
+  top: 50%;
+  left: 45%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  width: 50%;
+}
+
+.info-team {
   color: rgb(85, 83, 83);
   font-size: 20px;
   position: absolute;
   top: 45%;
-  left: 20%;
+  left: 19%;
   -webkit-transform: translate(-40%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center; 
-  line-height: 15px;
+  line-height: 22px;
   width: 80%;
 }
 
@@ -1492,6 +1492,8 @@ model-viewer {
   transition: .3s ease;
 }
 
+
+
 .info span {
   font-family: 'DinLight', sans-serif;
   color: white;
@@ -1505,6 +1507,7 @@ model-viewer {
   text-align: center;
   width: 50%;
   line-height: 2vh;
+  letter-spacing: 0.03em
   /* white-space: center; */
 }
 
@@ -1545,7 +1548,7 @@ model-viewer {
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
-  text-align: center;
+  text-align: left;
   width: 80%;
   line-height: 25px;
 
@@ -1733,13 +1736,18 @@ model-viewer {
   .pmImg,
   .dcImg {
     height: 485px;
-    width: 350px;
+    width: 100%;
     margin: auto;
   }
   .igPost {
     width: 300px;
     height: 260px;
   }
+
+    .infoHorizontal span {
+      color: rgb(255, 255, 255);
+
+    }
 }
 
 @media(max-width: 1280px) {
@@ -1765,7 +1773,7 @@ model-viewer {
     padding-left: 50px;
     width: 75%;
   }
-
+/* 
   .arDImg,
   .dbImg,
   .bimImg,
@@ -1773,9 +1781,9 @@ model-viewer {
   .pmImg,
   .dcImg {
     height: 485px;
-    width: 300px;
+    width: 100%;
     margin: auto;
-  }
+  } */
 
   .igPost {
     width: 280px;
@@ -1884,7 +1892,7 @@ model-viewer {
   .pmImg,
   .dcImg {
     height: 485px;
-    width: 300px;
+    width: 100%;
     margin: auto;
   }
 

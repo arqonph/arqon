@@ -1,5 +1,3 @@
-
-
 export default function team() {
   return (
     <div className="story">
@@ -145,17 +143,30 @@ export default function team() {
       </div> */}
       <div className="container pb-5">
         <div className="row">
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 paoEng">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 paoEng">
             <div className="paoloImg position-relative">
               <div className="contentBox">
                 <span className="">Engr. Paolo Manlapaz</span>
               </div>
               <div className="descriptionOverlay">
-                <div className="info">
+                <div className="info-team">
                   <span>
                     <br></br>
                     <br></br>
-                    <nbspan></nbspan>
+                    <nbspan>
+                      Paolo is a Rizal Technological University graduate,
+                      trained in Construction Occupational Safety and Health
+                      (COSH) and holds certificates in reinforcing concrete
+                      works (rebar works, formworks, and concrete/masonry
+                      works). As a licensed civil engineer, he maintains high
+                      standards in quality and reliability for every project.
+                      His work with Sy Squared + Associates Inc., one of the top
+                      structural firms in the Philippines, has been a testament
+                      to his exceptional work ethic and his diligence in
+                      adhering to technical specifications and scope of work. He
+                      makes sure that everything is according to plan and
+                      compliant with the standards and methodology.
+                    </nbspan>
                     <br className="pt-5"></br>
                     <a className="linkedin" href="https://www.linkedin.com/">
                       LinkedIn:
@@ -173,17 +184,26 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 joshArc">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 joshArc">
             <div className="joshImg position-relative">
               <div className="contentBox">
                 <span className="">Arch. Joshua Aquino</span>
               </div>
               <div className="descriptionOverlay">
-                <div className="info">
+                <div className="info-team">
                   <span>
                     <br></br>
                     <br></br>
-                    <nbspan></nbspan>
+                    <nbspan>
+                      Joshua is a persistent learner, so much so that it has
+                      taken him out of the University of the East and straight
+                      into ARQON and recently passed his licensure examination.
+                      He has since been training under Manny’s supervision to
+                      specialize in preparation of construction drawings, 3D
+                      modeling and visualization, and site supervision. He is
+                      passionate and work-oriented, gaining the trust and
+                      admiration of his colleagues and clients.{' '}
+                    </nbspan>
                     <br className="pt-5"></br>
                     <a className="linkedin" href="https://www.linkedin.com/">
                       LinkedIn:
@@ -201,17 +221,26 @@ export default function team() {
               </ul>
             </div>
           </div>
-          <div className="container col-xxl-4 col-lg-4 col-md-6 mb-5 koeAc">
+          <div className="container col-xxl-4 col-lg-6 col-md-8 mb-5 koeAc">
             <div className="koebeeImg position-relative">
               <div className="contentBox">
                 <span className="">Koebee Cabigao</span>
               </div>
               <div className="descriptionOverlay">
-                <div className="info">
+                <div className="info-team">
                   <span>
                     <br></br>
                     <br></br>
-                    <nbspan></nbspan>
+                    <nbspan>
+                      Koebee has a strong background in finance, graduating cum
+                      laude with a degree in Business Administration Major in
+                      Financial Management from the Polytechnic University of
+                      the Philippines (PUP). He possesses solid knowledge of
+                      financial and accounting procedures, as well as attention
+                      to detail and strong ethics. As the finance officer of
+                      ARQON, Koebee is responsible for providing financial and
+                      administrative support.{' '}
+                    </nbspan>
                     <br className="pt-5"></br>
                     <a className="linkedin" href="https://www.linkedin.com/">
                       LinkedIn:

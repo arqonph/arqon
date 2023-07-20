@@ -1,8 +1,8 @@
-import React, { useState } from "react";
-import Image from "next/image";
-import arqonLogo from "../../assets/headerArqonLogo.jpg";
-import arqonPrimary from "../../assets/Arqon-Primary.jpg";
-import Link from "next/link";
+import React, { useState } from 'react';
+import Image from 'next/image';
+import arqonLogo from '../../assets/headerArqonLogo.png';
+import arqonPrimary from '../../assets/Arqon-Primary.jpg';
+import Link from 'next/link';
 
 function NavigationBar() {
   return (
