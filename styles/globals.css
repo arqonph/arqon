@@ -601,9 +601,7 @@ model-viewer {
   font-size: 14px;
 }
 
-.contactUs-icon {
-  color: #76CBC1;
-}
+
 
 .google-maps {
   width: 100vw;
@@ -1192,7 +1190,7 @@ model-viewer {
 .clientReviewProjectsheader {
   font-family: 'Adamcg' , sans-serif;
   font-weight: 700;
-  font-size: 30px;
+  font-size: 4vh;
   color: #F5F5F5;
 }
 
@@ -1306,6 +1304,7 @@ model-viewer {
 
 .textArea {
   height: 141px;
+  resize: none;
 }
 
 .formFields span {
