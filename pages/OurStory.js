@@ -22,15 +22,17 @@ export default function story() {
         <div className="row">
           <div className="col">
             <h1 className="hr-story">
-              <span className="text-grey">
+              <span className="story-headings">
                 IT ALL STARTED WITH OUR PASSION FOR TRAVEL AND DESIGN
               </span>
             </h1>
+            <br></br>
+            <br></br>
             <p>
               Somewhere between touring the centuries-old building in Quebec and
-              driving through the plains of Arizona and steel skyscrapers of New
+              driving through the plains of Arizona and <br></br>steel skyscrapers of New
               York City, three architects on the trip of their lifetime found
-              themselves enthralled by the structural marvels and innovative
+              themselves enthralled by <br></br>the structural marvels and innovative
               structures of the modern world.
             </p>
             <p className="mt-2">
@@ -51,7 +53,7 @@ export default function story() {
               <p>
                 <span className="text-story">
                   Real friendships and honest relationships, along with the
-                  collection of skills from individual experiences, build the
+                  collection of skills <br></br>from individual experiences, build the
                   strong foundation of our company.
                   <br></br>
                   We’re motivated to be rock stars of the built environment.
@@ -65,8 +67,8 @@ export default function story() {
       <Team />
       <div className="cover-container section-3">
         <div className="container text-left pt-5 pb-5 ">
-          <h3 className="text-white"> COLLEAGUE’S TESTIMONIALS</h3>
-          <hr className="bg-white border-4 border-top border-white"></hr>
+          <h2 className="heading-colleagus">WHAT OUR COLLEAGUES SAY</h2>
+          <hr className="bg-white border-5 border-top border-white"></hr>
           <div className="row">
             <div className="col-lg-4 col-md-6 col-sm-3">
               <div className="testimonials">

@@ -5,7 +5,7 @@ import ig from '../../assets/Icon_ig.png'
 import linkedin from '../../assets/Icon_in.png'
 import tiktok from '../../assets/Icon_tiktok.png'
 import yt from '../../assets/Icon_youtube.png'
-import footerLogo from '../../assets/footerArqonLogo.jpg'
+import footerLogo from '../../assets/footerArqonLogo.png'
 import Link from 'next/link'
 import vResidence from '../../assets/V_Residence.jpg'
 import nResidence from '../../assets/N_Residence.jpg'
@@ -176,7 +176,7 @@ export default function Footer( { data }) {
         </div>
       </div>
       <div className='footerB d-flex justify-content-between align-items-center text-white px-lg-5 px-3 py-3'>
-        <Image src={footerLogo} height={64.85} width={220}/>
+        <Image src={footerLogo} height={64.85} width={243}/>
           <span className='d-md-block d-none'>&copy; 2022 All Rights Reserved</span>
         <div className='d-flex' onClick={scrollUp}>
           <button className='buttonUp text-white' > Back to top </button>
