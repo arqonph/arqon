@@ -2032,6 +2032,13 @@ model-viewer {
   }
 }
 
+@media screen and (max-width: 667px) {
+  .contact-us-welcome {
+    font-weight: 700;
+    font-size: 3vh;
+  }
+}
+
 @media (max-width: 526px) {
   .hr-services:after {
     width: 80%;

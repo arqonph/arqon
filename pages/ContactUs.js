@@ -56,7 +56,7 @@ function ContactUs() {
         <div className="row">
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <Image  src={phoneIcon} width={64} height={64} />
+              <Image  src={phoneIcon} width={60} height={60} />
             </p>
             <div className="phone-email-home">+632 7502 7185</div>
             <div className="phone-email-home-desc">Call us anytime from</div>            
@@ -64,7 +64,7 @@ function ContactUs() {
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-            <Image  src={emailIcon} width={64} height={64} />
+            <Image  src={emailIcon} width={62} height={62} />
             </p>
             <div className="phone-email-home">info@arqon.com.ph</div>
             <div className="phone-email-home-desc">Email us anytime,</div>
@@ -72,7 +72,7 @@ function ContactUs() {
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-            <Image  src={homeIcon} width={68} height={68} />
+            <Image  src={homeIcon} width={70} height={70} />
             </p>
             <div className="phone-email-home">Arqon Headquarters</div>
             <div className="phone-email-home-desc">Suite 1706 Atlanta Centre Building,</div>
@@ -131,117 +131,8 @@ function ContactUs() {
 
       <div className="container-fluid">
         <div className="row contactUs-faq-row pt-4 pb-4 dinlight-black">
-          <div className="col-md-4 ">
-            <span className="contactUs-vision">
-              LET'S BRING YOUR VISION TO LIFE
-            </span>
-            <br />
-            <span className="contactUs-header">Contact us</span>
 
-            <div className="col-xxl-6 col-xl-6">
-              <form
-                className="contactUsForm pt-3"
-                onSubmit={handleSubmit(sendMessage)}
-              >
-                <div className="formFields ">
-                  <div className="py-2 contactField">
-                    <input
-                      id="name"
-                      type="text"
-                      style={{ width: 350 }}
-                      className="form-control rounded-0"
-                      placeholder="Full Name"
-                      {...register("name", {
-                        required: "Your name is required",
-                        minLength: {
-                          value: 4,
-                          message: "Minimum length is 4",
-                        },
-                        maxLength: {
-                          value: 20,
-                          message: "Maximum length is 20",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.name?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <input
-                      id="email"
-                      type="email"
-                      style={{ width: 350 }}
-                      className=" form-control rounded-0"
-                      placeholder="Email"
-                      {...register("email", {
-                        required: "Email Address Required",
-                        pattern: {
-                          value:
-                            /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-                          message: "Invalid Email Address",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.email?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <input
-                      id="number"
-                      type="text"
-                      style={{ width: 350 }}
-                      className=" form-control rounded-0"
-                      placeholder="Contact Number"
-                      {...register("number", {
-                        required: "Phone Number Required",
-                        pattern: {
-                          value:
-                            /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im,
-                          message: "Please enter a valid phone number",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.number?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <textarea
-                      id="message"
-                      type="field area"
-                      style={{ width: 350 }}
-                      className="textArea form-control rounded-0"
-                      placeholder="Hello, I am interested in..."
-                      {...register("message", {
-                        required: "You need to enter your message.",
-                        minLength: {
-                          value: 20,
-                          message: "Minimum length is 20",
-                        },
-                        maxLength: {
-                          value: 1000,
-                          message: "Maximum length is 1000",
-                        },
-                      })}
-                    ></textarea>
-                    <span>{errors.message?.message}</span>
-                  </div>
-                  <div className="pb-xxl-0 pb-xl-3">
-                    <button
-                      className="contactSubmitBtn"
-                      type="submit"
-                      id="submit"
-                    >
-                      {" "}
-                      Send{" "}
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <div className="col-md-1">
-            <span>&nbsp;</span>
-          </div>
-
-          <div className="col-md-7">
+        <div className="col-md-7">
             <span className="contactUs-vision">DO YOU HAVE QUESTIONS ?</span>
             <br />
             <span className="contactUs-header">Read our F.A.Q.</span>
@@ -427,6 +318,120 @@ function ContactUs() {
               </div>
             </div>
           </div>
+
+          <div className="col-md-1">
+            <span>&nbsp;</span>
+          </div>
+
+          <div className="col-md-4 ">
+            <span className="contactUs-vision">
+              LET'S BRING YOUR VISION TO LIFE
+            </span>
+            <br />
+            <span className="contactUs-header">Contact us</span>
+
+            <div className="col-xxl-6 col-xl-6">
+              <form
+                className="contactUsForm pt-3"
+                onSubmit={handleSubmit(sendMessage)}
+              >
+                <div className="formFields ">
+                  <div className="py-2 contactField">
+                    <input
+                      id="name"
+                      type="text"
+                      style={{ width: 350 }}
+                      className="form-control rounded-0"
+                      placeholder="Full Name"
+                      {...register("name", {
+                        required: "Your name is required",
+                        minLength: {
+                          value: 4,
+                          message: "Minimum length is 4",
+                        },
+                        maxLength: {
+                          value: 20,
+                          message: "Maximum length is 20",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.name?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <input
+                      id="email"
+                      type="email"
+                      style={{ width: 350 }}
+                      className=" form-control rounded-0"
+                      placeholder="Email"
+                      {...register("email", {
+                        required: "Email Address Required",
+                        pattern: {
+                          value:
+                            /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+                          message: "Invalid Email Address",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.email?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <input
+                      id="number"
+                      type="text"
+                      style={{ width: 350 }}
+                      className=" form-control rounded-0"
+                      placeholder="Contact Number"
+                      {...register("number", {
+                        required: "Phone Number Required",
+                        pattern: {
+                          value:
+                            /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im,
+                          message: "Please enter a valid phone number",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.number?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <textarea
+                      id="message"
+                      type="field area"
+                      style={{ width: 350 }}
+                      className="textArea form-control rounded-0"
+                      placeholder="Hello, I am interested in..."
+                      {...register("message", {
+                        required: "You need to enter your message.",
+                        minLength: {
+                          value: 20,
+                          message: "Minimum length is 20",
+                        },
+                        maxLength: {
+                          value: 1000,
+                          message: "Maximum length is 1000",
+                        },
+                      })}
+                    ></textarea>
+                    <span>{errors.message?.message}</span>
+                  </div>
+                  <div className="pb-xxl-0 pb-xl-3">
+                    <button
+                      className="contactSubmitBtn"
+                      type="submit"
+                      id="submit"
+                    >
+                      {" "}
+                      Send{" "}
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+
+          
         </div>
       </div>
 
