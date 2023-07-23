@@ -6,7 +6,9 @@ import Head from "next/head";
 import Navbar from "/components/landing/Navigation-bar";
 import Footer from "/components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
-import phoneIcon from "/assets/phone.png";
+import phoneIcon from "/assets/Icon_phone.png";
+import emailIcon from "/assets/Icon_mail.png";
+import homeIcon from "/assets/Icon_house.png";
 
 function ContactUs() {
   const {
@@ -56,97 +58,51 @@ function ContactUs() {
             <p>
               <Image  src={phoneIcon} width={64} height={64} />
             </p>
-            <span className="phone-email-home">+63 917 817 4612</span>
-            <br />
-            <span className="phone-email-home-desc">Call us anytime from</span>
-            <br />
-            <span className="phone-email-home-desc">
-              Monday to Friday, 8am to 5pm.
-            </span>
-            <br />
+            <div className="phone-email-home">+632 7502 7185</div>
+            <div className="phone-email-home-desc">Call us anytime from</div>            
+            <div className="phone-email-home-desc">Monday to Friday, 8am to 5pm.</div>
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <i className="fa-regular fa-envelope fa-2xl contactUs-icon"></i>
+            <Image  src={emailIcon} width={64} height={64} />
             </p>
-            <span className="phone-email-home">info@arqon.com.ph</span>
-            <br />
-            <span className="phone-email-home-desc">Email us anytime,</span>
-            <br />
-            <span className="phone-email-home-desc">
-              we usually reply within 24 hours.
-            </span>
-            <br />
+            <div className="phone-email-home">info@arqon.com.ph</div>
+            <div className="phone-email-home-desc">Email us anytime,</div>
+            <div className="phone-email-home-desc">we usually reply within 24 hours.</div>
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <i className="fa-solid fa-house fa-2xl contactUs-icon"></i>
+            <Image  src={homeIcon} width={68} height={68} />
             </p>
-            <span className="phone-email-home">Arqon Headquarters</span>
-            <br />
-            <span className="phone-email-home-desc">
-              Suite 1706 Atlanta Centre Building,
-            </span>
-            <br />
-            <span className="phone-email-home-desc">
-              31 Annapolis St., Greenhills, San Juan City,
-            </span>
-            <br />
-            <span className="phone-email-home-desc">
-              Metro Manila, Philippines 1552 (By Appointment Only)
-            </span>
-            <br />
+            <div className="phone-email-home">Arqon Headquarters</div>
+            <div className="phone-email-home-desc">Suite 1706 Atlanta Centre Building,</div>
+            <div className="phone-email-home-desc">31 Annapolis St., Greenhills, San Juan City,</div>
+            <div className="phone-email-home-desc">Metro Manila, Philippines 1552 (By Appointment Only)</div>
           </div>
         </div>
       </div>
-      <br />
-
-      <div className="background-turquoise">
-        <p className="page-desc-across">
-          We can't wait to welcome you in our headquarters!
-        </p>
+      <div className="contact-us-welcome">
+        We can't wait to welcome you in our headquarters!
       </div>
 
       <div className="row gx-0 residence pt-0 d-flex justify-content-center align-items-center">
-        <div className="col-lg-6 projectContainer">
-          <div className="position-relative contactUs-img1">
-            {/* <Image src={contactUs-img1} alt='' width={920} height={455} /> */}
-            <div className="residenceTitle py-0 py-md-1">
-              <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp; </span>
-              </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address">&nbsp;</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="col-lg-6 projectContainer">
           <div className="position-relative contactUs-img2">
             {/* <Image src={contactUs-img2} alt='' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp;</span>
+                <span className="head d-block">Reception Area</span>
               </p>
             </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address"> &nbsp;</span>
-                  </p>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div className="col-lg-6 projectContainer">
+          <div className="position-relative contactUs-img4">
+            {/* <Image src={contactUs-img4} alt='' width={920} height={450} /> */}
+            <div className="residenceTitle py-0 py-md-1">
+              <p>
+                <span className="head d-block">Conference Room</span>
+              </p>
             </div>
           </div>
         </div>
@@ -156,40 +112,18 @@ function ContactUs() {
             {/* <Image src={contactUs-img3} alt='' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp; </span>
+                <span className="head d-block">Staff Area</span>
               </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address">&nbsp;</span>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
         <div className="col-lg-6 projectContainer">
           <div className="position-relative contactUs-img4">
-            {/* <Image src={contactUs-img4} alt='' width={920} height={450} /> */}
+            {/* <Image src={contactUs-img3} alt='' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp;</span>
+                <span className="head d-block">Director's Office</span>
               </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address"> &nbsp;</span>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>

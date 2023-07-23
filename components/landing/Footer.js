@@ -154,7 +154,7 @@ export default function Footer( { data }) {
               </div>
               <div className='footerDetails pt-3 pb-5 pb-xxl-0 px-0 px-md-5'>
                 <ul>
-                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Phone: +632 966 210 2307</span></li>
+                  <li className='mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Phone: +632 7502 7185</span></li>
                   <li className='featuresLink mb-xxl-3 mb-xl-2 mb-md-1 md-0'><span>Email: 
                     <a href='mailto:info@arqon.com.ph?subject=Enquiry' >info@arqon.com.ph </a>
                   </span>
