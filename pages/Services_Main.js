@@ -27,11 +27,13 @@ export default function services() {
                 WE PROVIDE END-TO-END SOLUTIONS
               </span>
             </h1>
+            <br></br>
+            <br></br>
             <p>
               ARQON is a full-service architectural firm that specializes in
               streamlined design and build projects.<br></br>
               We will help you through every step of the project’s full life
-              cycle by providing the following services to fulfill your needs:
+              cycle by providing the following services<br></br> to fulfill your needs:
             </p>
           </div>
         </div>
@@ -43,7 +45,7 @@ export default function services() {
             <div className="col">
               <p>
                 <span className="text-service">
-                  At ARQON, we keep our word and do what we say. We are a
+                  At ARQON, we keep our word and do what we say. We are a<br></br>
                   collaborative one-stop shop—with emphasis on client
                   collaboration.
                   <br></br>
