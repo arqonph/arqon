@@ -6,7 +6,9 @@ import Head from "next/head";
 import Navbar from "/components/landing/Navigation-bar";
 import Footer from "/components/landing/Footer";
 import arqonTopImg from "/assets/01_Arqon_top_image.jpg";
-import phoneIcon from "/assets/phone.png";
+import phoneIcon from "/assets/Icon_phone.png";
+import emailIcon from "/assets/Icon_mail.png";
+import homeIcon from "/assets/Icon_house.png";
 
 function ContactUs() {
   const {
@@ -54,99 +56,53 @@ function ContactUs() {
         <div className="row">
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <Image  src={phoneIcon} width={64} height={64} />
+              <Image  src={phoneIcon} width={60} height={60} />
             </p>
-            <span className="phone-email-home">+63 917 817 4612</span>
-            <br />
-            <span className="phone-email-home-desc">Call us anytime from</span>
-            <br />
-            <span className="phone-email-home-desc">
-              Monday to Friday, 8am to 5pm.
-            </span>
-            <br />
+            <div className="phone-email-home">+632 7502 7185</div>
+            <div className="phone-email-home-desc">Call us anytime from</div>            
+            <div className="phone-email-home-desc">Monday to Friday, 8am to 5pm.</div>
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <i className="fa-regular fa-envelope fa-2xl contactUs-icon"></i>
+            <Image  src={emailIcon} width={62} height={62} />
             </p>
-            <span className="phone-email-home">info@arqon.com.ph</span>
-            <br />
-            <span className="phone-email-home-desc">Email us anytime,</span>
-            <br />
-            <span className="phone-email-home-desc">
-              we usually reply within 24 hours.
-            </span>
-            <br />
+            <div className="phone-email-home">info@arqon.com.ph</div>
+            <div className="phone-email-home-desc">Email us anytime,</div>
+            <div className="phone-email-home-desc">we usually reply within 24 hours.</div>
           </div>
           <div className="text-center col-xxl-4 col-lg-4 col-md-2 mb-5">
             <p>
-              <i className="fa-solid fa-house fa-2xl contactUs-icon"></i>
+            <Image  src={homeIcon} width={70} height={70} />
             </p>
-            <span className="phone-email-home">Arqon Headquarters</span>
-            <br />
-            <span className="phone-email-home-desc">
-              Suite 1706 Atlanta Centre Building,
-            </span>
-            <br />
-            <span className="phone-email-home-desc">
-              31 Annapolis St., Greenhills, San Juan City,
-            </span>
-            <br />
-            <span className="phone-email-home-desc">
-              Metro Manila, Philippines 1552 (By Appointment Only)
-            </span>
-            <br />
+            <div className="phone-email-home">Arqon Headquarters</div>
+            <div className="phone-email-home-desc">Suite 1706 Atlanta Centre Building,</div>
+            <div className="phone-email-home-desc">31 Annapolis St., Greenhills, San Juan City,</div>
+            <div className="phone-email-home-desc">Metro Manila, Philippines 1552 (By Appointment Only)</div>
           </div>
         </div>
       </div>
-      <br />
-
-      <div className="background-turquoise">
-        <p className="page-desc-across">
-          We can't wait to welcome you in our headquarters!
-        </p>
+      <div className="contact-us-welcome">
+        We can't wait to welcome you in our headquarters!
       </div>
 
       <div className="row gx-0 residence pt-0 d-flex justify-content-center align-items-center">
-        <div className="col-lg-6 projectContainer">
-          <div className="position-relative contactUs-img1">
-            {/* <Image src={contactUs-img1} alt='' width={920} height={455} /> */}
-            <div className="residenceTitle py-0 py-md-1">
-              <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp; </span>
-              </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address">&nbsp;</span>
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="col-lg-6 projectContainer">
           <div className="position-relative contactUs-img2">
             {/* <Image src={contactUs-img2} alt='' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp;</span>
+                <span className="head d-block">Reception Area</span>
               </p>
             </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address"> &nbsp;</span>
-                  </p>
-                </div>
-              </div>
+          </div>
+        </div>
+        <div className="col-lg-6 projectContainer">
+          <div className="position-relative contactUs-img4">
+            {/* <Image src={contactUs-img4} alt='' width={920} height={450} /> */}
+            <div className="residenceTitle py-0 py-md-1">
+              <p>
+                <span className="head d-block">Conference Room</span>
+              </p>
             </div>
           </div>
         </div>
@@ -156,40 +112,18 @@ function ContactUs() {
             {/* <Image src={contactUs-img3} alt='' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp; </span>
+                <span className="head d-block">Staff Area</span>
               </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address">&nbsp;</span>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
         <div className="col-lg-6 projectContainer">
           <div className="position-relative contactUs-img4">
-            {/* <Image src={contactUs-img4} alt='' width={920} height={450} /> */}
+            {/* <Image src={contactUs-img3} alt='' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
               <p>
-                <span className="head d-block">&nbsp;</span>
-                <span className="address"> &nbsp;</span>
+                <span className="head d-block">Director's Office</span>
               </p>
-            </div>
-            <div className="projectsOverlay">
-              <div className="projectFooterOverlay">
-                <div className=" residenceTitle py-0 py-md-1 footerOverlay">
-                  <p>
-                    <span className="head d-block">&nbsp;</span>
-                    <span className="address"> &nbsp;</span>
-                  </p>
-                </div>
-              </div>
             </div>
           </div>
         </div>
@@ -197,117 +131,8 @@ function ContactUs() {
 
       <div className="container-fluid">
         <div className="row contactUs-faq-row pt-4 pb-4 dinlight-black">
-          <div className="col-md-4 ">
-            <span className="contactUs-vision">
-              LET'S BRING YOUR VISION TO LIFE
-            </span>
-            <br />
-            <span className="contactUs-header">Contact us</span>
 
-            <div className="col-xxl-6 col-xl-6">
-              <form
-                className="contactUsForm pt-3"
-                onSubmit={handleSubmit(sendMessage)}
-              >
-                <div className="formFields ">
-                  <div className="py-2 contactField">
-                    <input
-                      id="name"
-                      type="text"
-                      style={{ width: 350 }}
-                      className="form-control rounded-0"
-                      placeholder="Full Name"
-                      {...register("name", {
-                        required: "Your name is required",
-                        minLength: {
-                          value: 4,
-                          message: "Minimum length is 4",
-                        },
-                        maxLength: {
-                          value: 20,
-                          message: "Maximum length is 20",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.name?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <input
-                      id="email"
-                      type="email"
-                      style={{ width: 350 }}
-                      className=" form-control rounded-0"
-                      placeholder="Email"
-                      {...register("email", {
-                        required: "Email Address Required",
-                        pattern: {
-                          value:
-                            /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
-                          message: "Invalid Email Address",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.email?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <input
-                      id="number"
-                      type="text"
-                      style={{ width: 350 }}
-                      className=" form-control rounded-0"
-                      placeholder="Contact Number"
-                      {...register("number", {
-                        required: "Phone Number Required",
-                        pattern: {
-                          value:
-                            /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im,
-                          message: "Please enter a valid phone number",
-                        },
-                      })}
-                    ></input>
-                    <span>{errors.number?.message}</span>
-                  </div>
-                  <div className="py-2 contactField">
-                    <textarea
-                      id="message"
-                      type="field area"
-                      style={{ width: 350 }}
-                      className="textArea form-control rounded-0"
-                      placeholder="Hello, I am interested in..."
-                      {...register("message", {
-                        required: "You need to enter your message.",
-                        minLength: {
-                          value: 20,
-                          message: "Minimum length is 20",
-                        },
-                        maxLength: {
-                          value: 1000,
-                          message: "Maximum length is 1000",
-                        },
-                      })}
-                    ></textarea>
-                    <span>{errors.message?.message}</span>
-                  </div>
-                  <div className="pb-xxl-0 pb-xl-3">
-                    <button
-                      className="contactSubmitBtn"
-                      type="submit"
-                      id="submit"
-                    >
-                      {" "}
-                      Send{" "}
-                    </button>
-                  </div>
-                </div>
-              </form>
-            </div>
-          </div>
-
-          <div className="col-md-1">
-            <span>&nbsp;</span>
-          </div>
-
-          <div className="col-md-7">
+        <div className="col-md-7">
             <span className="contactUs-vision">DO YOU HAVE QUESTIONS ?</span>
             <br />
             <span className="contactUs-header">Read our F.A.Q.</span>
@@ -493,6 +318,120 @@ function ContactUs() {
               </div>
             </div>
           </div>
+
+          <div className="col-md-1">
+            <span>&nbsp;</span>
+          </div>
+
+          <div className="col-md-4 ">
+            <span className="contactUs-vision">
+              LET'S BRING YOUR VISION TO LIFE
+            </span>
+            <br />
+            <span className="contactUs-header">Contact us</span>
+
+            <div className="col-xxl-6 col-xl-6">
+              <form
+                className="contactUsForm pt-3"
+                onSubmit={handleSubmit(sendMessage)}
+              >
+                <div className="formFields ">
+                  <div className="py-2 contactField">
+                    <input
+                      id="name"
+                      type="text"
+                      style={{ width: 350 }}
+                      className="form-control rounded-0"
+                      placeholder="Full Name"
+                      {...register("name", {
+                        required: "Your name is required",
+                        minLength: {
+                          value: 4,
+                          message: "Minimum length is 4",
+                        },
+                        maxLength: {
+                          value: 20,
+                          message: "Maximum length is 20",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.name?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <input
+                      id="email"
+                      type="email"
+                      style={{ width: 350 }}
+                      className=" form-control rounded-0"
+                      placeholder="Email"
+                      {...register("email", {
+                        required: "Email Address Required",
+                        pattern: {
+                          value:
+                            /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-z0-9.-]+\.[a-z]{2,4}$/,
+                          message: "Invalid Email Address",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.email?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <input
+                      id="number"
+                      type="text"
+                      style={{ width: 350 }}
+                      className=" form-control rounded-0"
+                      placeholder="Contact Number"
+                      {...register("number", {
+                        required: "Phone Number Required",
+                        pattern: {
+                          value:
+                            /^[\+]?[(]?[0-9]{3}[)]?[-\s\.]?[0-9]{3}[-\s\.]?[0-9]{4,6}$/im,
+                          message: "Please enter a valid phone number",
+                        },
+                      })}
+                    ></input>
+                    <span>{errors.number?.message}</span>
+                  </div>
+                  <div className="py-2 contactField">
+                    <textarea
+                      id="message"
+                      type="field area"
+                      style={{ width: 350 }}
+                      className="textArea form-control rounded-0"
+                      placeholder="Hello, I am interested in..."
+                      {...register("message", {
+                        required: "You need to enter your message.",
+                        minLength: {
+                          value: 20,
+                          message: "Minimum length is 20",
+                        },
+                        maxLength: {
+                          value: 1000,
+                          message: "Maximum length is 1000",
+                        },
+                      })}
+                    ></textarea>
+                    <span>{errors.message?.message}</span>
+                  </div>
+                  <div className="pb-xxl-0 pb-xl-3">
+                    <button
+                      className="contactSubmitBtn"
+                      type="submit"
+                      id="submit"
+                    >
+                      {" "}
+                      Send{" "}
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+
+
+
+          
         </div>
       </div>
 

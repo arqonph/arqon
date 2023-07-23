@@ -553,13 +553,6 @@ model-viewer {
   border-bottom: 3px solid #76CBC1;
 }
 
-.page-desc-across {
-  font-size: 30px;
-  font-family: 'DinLight', sans-serif;
-  color: white;
-  font-weight: bold;
-}
-
 .faq-body {
   font-family: 'DinLight', sans-serif;
   color: white;
@@ -571,12 +564,21 @@ model-viewer {
   color: black;
 }
 
-.background-turquoise {
+.contact-us-welcome {
+  width: 100%;
+  height: 120px;
+  vertical-align: middle;
+  line-height: 120px;
+  text-align: center;
+  word-wrap: normal;
+  word-break: normal;
   border: none;
   background-color: #76CBC1;
-  height: 120px;
-  text-align: center;
-  padding: 32px 0;
+  font-weight: 700;
+  font-size: 5vh;
+  font-family: 'DinLight', sans-serif;
+  color: white;
+  font-weight: bold;
 }
 
 .textarea-contact {
@@ -620,10 +622,14 @@ model-viewer {
 .phone-email-home {
   font-family: 'DinBold', sans-serif;
   font-size: 20px;
+  padding-bottom: 15px;
 }
 
 .phone-email-home-desc {
-  font-family: 'DinLight', sans-serif;
+  font-family: 'DinBold', sans-serif;
+  font-size: 15px;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
 }
 
 .img-card {
@@ -2023,6 +2029,13 @@ model-viewer {
   .contact {
     /* background-color: #76CBC1; */
     background: linear-gradient(0deg, #76CBC1 76%, #fff 23%);
+  }
+}
+
+@media screen and (max-width: 667px) {
+  .contact-us-welcome {
+    font-weight: 700;
+    font-size: 3vh;
   }
 }
 
