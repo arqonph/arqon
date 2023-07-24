@@ -182,6 +182,10 @@ li {
   margin-bottom: 0px;
 }
 
+.architect-card {
+  position: relative;
+}
+
 .vertical-box {
   list-style-type: none;
   margin: 0;
@@ -305,6 +309,7 @@ li {
   background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
+  pointer-events: none;
 }
 
 .descriptionOverlayHrzManny {
@@ -318,6 +323,7 @@ li {
   background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
+  pointer-events: none;
 }
 
 .descriptionOverlayHrzChino {
@@ -331,6 +337,7 @@ li {
   background-color: rgba(0, 0, 0, 0.25);
   overflow: hidden;
   transition: .3s ease;
+  pointer-events: none;
 }
 
 .infoHorizontal span {
@@ -417,14 +424,17 @@ li {
 
 .aprilMD:hover .descriptionOverlayHrzApril {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .mannyBIM:hover .descriptionOverlayHrzManny {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .chinoPM:hover .descriptionOverlayHrzChino {
   opacity: 1;
+  pointer-events: auto;
 }
 
 .paoEng:hover .descriptionOverlay {
@@ -1351,7 +1361,7 @@ model-viewer {
   font-size: 4.2vw;
   font-weight: bold;
   letter-spacing: 3px;
-  color: #76CBC1;
+  color: #76CBC1 !important;
 }
 
 .hr-services {
