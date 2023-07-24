@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Image from 'next/image';
 import arqonLogo from '../../assets/headerArqonLogo.png';
-import arqonPrimary from '../../assets/Arqon-Primary.jpg';
+import arqonPrimary from '../../assets/Arqon-Primary.png';
 import Link from 'next/link';
 
 function NavigationBar() {
