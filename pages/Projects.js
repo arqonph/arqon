@@ -117,7 +117,7 @@ export default function Projects({ feed }) {
     infinite: true,
     speed: 400,
     arrows: false,
-    slidesToShow: 2,
+    slidesToShow: 3,
     slidesToScroll: 1,
     initialSlide: 1,
     responsive: [
@@ -125,26 +125,27 @@ export default function Projects({ feed }) {
         breakpoint: 1200,
         innerHeight: 450,
         settings: {
-          slidesToShow: 2,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
         },
       },
       {
-        breakpoint: 800,
+        breakpoint: 1024,
         innerHeight: 300,
         settings: {
-          slidesToShow: 1,
+          slidesToShow: 2,
           slidesToScroll: 1,
           initialSlide: 2,
         },
       },
       {
-        breakpoint: 480,
+        breakpoint: 700,
         innerHeight: 200,
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          initialSlide: 1,
         },
       },
     ],
