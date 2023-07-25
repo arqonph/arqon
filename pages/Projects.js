@@ -187,7 +187,7 @@ export default function Projects({ feed }) {
       
       <div className="row gx-0 residence pt-3 d-flex justify-content-center align-items-center">
         {/* V Residence Start */}
-        <div className="col-lg-6 projectContainer" type='button' data-bs-toggle='modal' data-bs-target='#vResidenceModal'>
+        <div className="col-lg-6 mb-2 projectContainer" type='button' data-bs-toggle='modal' data-bs-target='#vResidenceModal'>
           <div className="position-relative vResidence">
             {/* <Image src={vResidence} alt='V Residence' width={920} height={455} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -265,7 +265,7 @@ export default function Projects({ feed }) {
       {/* V Residence End */}
 
       {/* N Residence Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className='position-relative nResidence' type='button' data-bs-toggle='modal' data-bs-target='#nResidenceModal'>
             {/* <Image src={nResidence} alt='N Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -349,7 +349,7 @@ export default function Projects({ feed }) {
       {/* N Residence End */}
 
       {/* S Residence Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
         <div className='position-relative sResidence' type='button' data-bs-toggle='modal' data-bs-target='#sResidenceModal'>
             {/* <Image src={sResidence} alt='S Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -403,7 +403,7 @@ export default function Projects({ feed }) {
       {/* S Residence End */}
 
       {/* D Residence Start */}
-      <div className="col-lg-6 projectContainer">
+      <div className="col-lg-6 mb-2 projectContainer">
         <div className='position-relative dResidence' type='button' data-bs-toggle='modal' data-bs-target='#dResidenceModal'>
           {/* <Image src={dResidence} alt='D Residence' width={920} height={450} /> */}
           <div className="residenceTitle py-0 py-md-1">
@@ -475,7 +475,7 @@ export default function Projects({ feed }) {
       {/* D Residence End */}
 
       {/* V Residence Tagaytay Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative vResidenceTagaytay" type='button' data-bs-toggle='modal' data-bs-target='#vResidenceTagaytayModal'>
             {/* <Image src={vResidenceTagaytay} alt='V Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -548,7 +548,7 @@ export default function Projects({ feed }) {
         </div>        
       {/* V Residence Tagaytay End */}
       {/* T Residence Navotas Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative tResidence" type='button' data-bs-toggle='modal' data-bs-target='#tResidenceModal'>
             {/* <Image src={tResidence} alt='T Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -638,7 +638,7 @@ export default function Projects({ feed }) {
       {/* T Residence Navotas End */}
       
       {/* S Residence Bataan Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative sResidenceLimay" type='button' data-bs-toggle='modal' data-bs-target='#sResidenceBataanModal'>
             {/* <Image src={sResidenceLimay} alt='S Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -719,7 +719,7 @@ export default function Projects({ feed }) {
         </div>         
         {/* S Residence Bataan End */}
         {/* D Residence Aveia Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative dResidenceAveia" type='button' data-bs-toggle='modal' data-bs-target='#dResidenceAveiaModal'>
             {/* <Image src={dResidenceAveia} alt='D Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -798,7 +798,7 @@ export default function Projects({ feed }) {
         {/* D Residence Aveia End */}
 
         {/* M Residence Bulacan Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative mResidence" type='button' data-bs-toggle='modal' data-bs-target='#mResidenceModal'>
             {/* <Image src={mResidence} alt='M Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
@@ -883,7 +883,7 @@ export default function Projects({ feed }) {
         {/* M Residence Bulacan End */}
         
         {/* S Residence  Start */}
-        <div className="col-lg-6 projectContainer">
+        <div className="col-lg-6 mb-2 projectContainer">
           <div className="position-relative santosResidence" type='button' data-bs-toggle='modal' data-bs-target='#sResidenceSantosModal'>
             {/* <Image src={santosResidence} alt='Santos Residence' width={920} height={450} /> */}
             <div className="residenceTitle py-0 py-md-1">
