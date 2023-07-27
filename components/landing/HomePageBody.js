@@ -16,7 +16,7 @@ function HomePageBody() {
               <p className='header'>
                 <span className='highlight'>Excellence is our culture </span>
                 <br />
-                <span>Our Commitment</span>
+                <span className='highlight'>Our Commitment</span>
                 <br />
               </p>
               <p className='sentence'>

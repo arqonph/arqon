@@ -57,7 +57,9 @@ a {
 .navbar {
   background-color: #3E3D3F;
 }
-
+.letterQ {
+  opacity: 0;
+}
 li {
   font-family: 'DinLight', sans-serif;
   list-style: none;
@@ -873,6 +875,8 @@ model-viewer {
   position: absolute;
   font-size: 35px;
   font-weight: bold;
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
 
 .end2end_dbserv {
@@ -911,14 +915,13 @@ model-viewer {
 }
 
 .bodyPage {
-  font-family: 'Adamcg', sans-serif;
+  font-family: 'DinLight', sans-serif;
   color: #fff;
-  font-size: 40px;
 }
 
 .bodyPage span {
-  font-family: 'DinLight', sans-serif;
-  font-weight: bolder; 
+  font-family: 'Dinbold', sans-serif;
+  /* font-weight: bolder;  */
 }
 .sampleProject p,
 .bodyPage .sentence {
@@ -927,9 +930,11 @@ model-viewer {
   font-size: 20px;
   line-height: 35px;
   letter-spacing: 1.3px;
+  /* text-align: justify;
+  text-justify: inter-word; */
 }
  .sampleProjHead {
-  font-family: 'Adamcg', sans-serif;
+  font-family: 'DinLight', sans-serif;
   /* font-family: 'Dinbold', sans-serif; */
   font-weight: 700;
   /* color: #76CBC1; */
@@ -1857,7 +1862,9 @@ model-viewer {
   .vission {
     font-size: calc(3px + 3vw);
   }
-
+  .bodyPage {
+    padding: 50px 50px;
+  }
   .sampleProject p{
     width: 90%;
   }
@@ -1865,9 +1872,8 @@ model-viewer {
   /* .paragraph, */
   .bodyPage .sentence {
     line-height: 35px;
-    font-size: calc(1.5px + 1.5vw);
+    font-size: 20px;
   }
-
 
   .descriptionOverlayHrzApril {
     top: 0% !important;
@@ -2065,7 +2071,13 @@ model-viewer {
     width: 389px;
     margin: auto;
   }
+  .bodyPage {
+    padding: 30px 30px;
+  }
 
+  .bodyPage .highlight {
+    font-size: 29px;
+  }
   .hr-story:after {
     width: 85%;
     margin-left: 35px;
@@ -2101,9 +2113,16 @@ model-viewer {
     top: 30px;
   }
 
-  .contactusHead h1,
-  .bodyPage {
+  .contactusHead h1{
     font-size: calc(3px + 4.5vw);
+  }
+
+  .bodyPage {
+    padding: 3px 30px;
+  }
+
+  .bodyPage .highlight {
+    font-size: 29px;
   }
 
   .clientReview {
@@ -2170,7 +2189,7 @@ model-viewer {
     font-size: 13px;
   }
   .bodyPage {
-    padding: 20px 50px;
+    padding: 10px 20px;
   }
 
   .residenceTitle {

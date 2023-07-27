@@ -27,7 +27,7 @@ function NavigationBar() {
           <Image src={arqonPrimary} height={60} width={50} />
         </a>
         <a className="nav-link text-white d-lg-none d-flex ps-0" href="#">
-          <span className="letterQ"></span>
+          <span className="letterQ" > 'ARQON!'</span>
         </a>
 
         <div className="collapse navbar-collapse" id="toggleMobileMenu">
@@ -76,6 +76,7 @@ function NavigationBar() {
             </ul>
           </div>
         </div>
+        
       </nav>
     </div>
   );
